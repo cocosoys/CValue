@@ -1,0 +1,12 @@
+{
+  "package": "soys.dragoncore.cvalue.core.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [
+    "MixinJRMCoreLevel"
+  ],
+  "client": [
+  ],
+  "plugin": "soys.dragoncore.cvalue.core.MixinConfigPlugin"
+}

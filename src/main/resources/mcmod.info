@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "re_cvalue",
+    "name": "RE-CValue",
+    "description": "This mod provides an API for obtaining DragonCore data",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["cocosoys"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      "jinryuujrmcore"
+    ]
+  }
+]
