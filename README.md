@@ -1,5 +1,5 @@
 # CValue
-为JRMCore提供API，并有一部分修改。
+为JRMCore提供API，并有一部分修改，目前尚未完工。
 
 依赖并未上传，请自行获取。
 
