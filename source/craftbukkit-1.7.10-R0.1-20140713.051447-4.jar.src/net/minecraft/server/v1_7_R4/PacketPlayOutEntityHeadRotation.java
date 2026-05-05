@@ -1,0 +1,51 @@
+/*    */ package net.minecraft.server.v1_7_R4;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ public class PacketPlayOutEntityHeadRotation
+/*    */   extends Packet
+/*    */ {
+/*    */   private int a;
+/*    */   private byte b;
+/*    */   
+/*    */   public PacketPlayOutEntityHeadRotation() {}
+/*    */   
+/*    */   public PacketPlayOutEntityHeadRotation(Entity paramEntity, byte paramByte) {
+/* 20 */     this.a = paramEntity.getId();
+/* 21 */     this.b = paramByte;
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public void a(PacketDataSerializer paramPacketDataSerializer) {
+/* 26 */     this.a = paramPacketDataSerializer.readInt();
+/* 27 */     this.b = paramPacketDataSerializer.readByte();
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public void b(PacketDataSerializer paramPacketDataSerializer) {
+/* 32 */     paramPacketDataSerializer.writeInt(this.a);
+/* 33 */     paramPacketDataSerializer.writeByte(this.b);
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public void a(PacketPlayOutListener paramPacketPlayOutListener) {
+/* 38 */     paramPacketPlayOutListener.a(this);
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public String b() {
+/* 43 */     return String.format("id=%d, rot=%d", new Object[] { Integer.valueOf(this.a), Byte.valueOf(this.b) });
+/*    */   }
+/*    */ }
+
+
+/* Location:              D:\WorkTools\Project\Minecraft\plugins\craftbukkit\1.7.10\CValue\libs\core\craftbukkit-1.7.10-R0.1-20140713.051447-4.jar!\net\minecraft\server\v1_7_R4\PacketPlayOutEntityHeadRotation.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

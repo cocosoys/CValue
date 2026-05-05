@@ -1,0 +1,1094 @@
+itemGroup.JRMCore=Jin Ryuu的mod核心
+itemGroup.jrhc=Jin Ryuu的发型C
+jinryuujrmcore.RemoveHair=移除自定义的头发
+
+jinryuujrmcore.Help=帮助
+jinryuujrmcore.News=新闻
+jinryuujrmcore.Update=升级
+jinryuujrmcore.Server=服务器
+
+jinryuujrmcore.Main=主线
+jinryuujrmcore.Side=支线
+jinryuujrmcore.Group=组队
+
+jinryuujrmcore.CoreServerConfigurations=核心服务器配置
+jinryuujrmcore.Disabled=禁用
+jinryuujrmcore.Enabled=启用
+jinryuujrmcore.EnergyRegeneration=控制
+jinryuujrmcore.HealthRegeneration=控制
+jinryuujrmcore.PowerRelease=控制
+jinryuujrmcore.EnergyCharge=控制
+jinryuujrmcore.ExpirienceGain=控制
+jinryuujrmcore.TrainingPointGain=控制
+jinryuujrmcore.AttributeUpgradeType=属性升级类型
+jinryuujrmcore.AttributeBasedSizeChange=控制
+jinryuujrmcore.Explosions=控制
+jinryuujrmcore.Speed=速度
+jinryuujrmcore.Off=关闭
+jinryuujrmcore.selectpwratcreator=在角色创建时选择力量类型
+jinryuujrmcore.On=反对
+jinryuujrmcore.OK=同意
+jinryuujrmcore.Select=选择
+jinryuujrmcore.Planet=行星
+jinryuujrmcore.Destinations=目的地
+
+jinryuujrmcore.OnDynamic=动力
+jinryuujrmcore.OnSimple=简单
+
+jinryuujrmcore.Human=人类
+jinryuujrmcore.Saiyan=赛亚人
+jinryuujrmcore.Half-Saiyan=混血赛亚人
+jinryuujrmcore.Namekian=那美克星人
+jinryuujrmcore.Arcosian=冰冻恶魔
+
+jinryuujrmcore.Race=种族
+jinryuujrmcore.Gender=性别
+jinryuujrmcore.Hair=头发
+jinryuujrmcore.Style=风格
+jinryuujrmcore.Color=颜色
+jinryuujrmcore.Tail=尾巴
+jinryuujrmcore.PowerType=力量类型
+jinryuujrmcore.Years=年龄
+jinryuujrmcore.Child=孩子
+jinryuujrmcore.Teen=幼年
+jinryuujrmcore.YoungAdult=青年
+jinryuujrmcore.Adult=成年
+jinryuujrmcore.MiddleAged=中年
+jinryuujrmcore.Senior=老年
+
+jinryuujrmcore.Appearance=外貌
+jinryuujrmcore.Enable=开启
+jinryuujrmcore.Disable=关闭
+jinryuujrmcore.DefaultSkin=默认皮肤
+jinryuujrmcore.CustomSkin=自定义皮肤
+jinryuujrmcore.BodyType=体格
+jinryuujrmcore.Nose=鼻子
+jinryuujrmcore.Mouth=嘴巴
+jinryuujrmcore.Eyes=眼睛
+jinryuujrmcore.Match=匹配
+jinryuujrmcore.CustomHair=自定义头发
+jinryuujrmcore.BaseHair=基础发型
+jinryuujrmcore.Reset=重置
+jinryuujrmcore.Yaw=左右旋转
+jinryuujrmcore.Pitch=上下旋转
+jinryuujrmcore.Share=分配
+jinryuujrmcore.Copy=复制
+jinryuujrmcore.Paste=粘贴
+jinryuujrmcore.Done=完成
+jinryuujrmcore.Revert=复原
+jinryuujrmcore.FrontHead=前
+jinryuujrmcore.RightHead=右
+jinryuujrmcore.LeftHead=左
+jinryuujrmcore.BackHead=后
+jinryuujrmcore.TopHead=上
+jinryuujrmcore.Preset=预设
+jinryuujrmcore.SavePreset=存为预设
+jinryuujrmcore.DelPreset=删除预设
+jinryuujrmcore.hairRotations=旋转
+jinryuujrmcore.hairXaxis=X-轴
+jinryuujrmcore.hairYaxis=Y-轴
+jinryuujrmcore.hairZaxis=Z-轴
+jinryuujrmcore.hairLength=发长
+jinryuujrmcore.hairBend=弯曲
+jinryuujrmcore.hairBendpoint=弯曲点
+jinryuujrmcore.hairTransf=DBC形状变化强度
+jinryuujrmcore.hairTier=级
+jinryuujrmcore.hairTierDesc=一级选项是旋转和长度，二级选项的弯曲性能和DBC形状变化
+jinryuujrmcore.hairHide=隐藏头发组
+jinryuujrmcore.hairShow=显示头发组
+jinryuujrmcore.hairReset=重置
+jinryuujrmcore.hairDoAllOn=重置模式开启
+jinryuujrmcore.hairDoAllDesc=将这些改变复制到每一个页面
+jinryuujrmcore.hairDoAllOff=重置模式关闭
+jinryuujrmcore.Preview=预览
+jinryuujrmcore.HairSalon=发廊
+jinryuujrmcore.HairSalonDesc=It will open the HairSalon site where you can browse hairstyles from other users at http://HairSalon.jingames.net
+jinryuujrmcore.HairShareDesc=It will copy your current hairstyle code to clipboard to share with others, mainly meant for the http://HairSalon.jingames.net site
+jinryuujrmcore.HairPasteDesc=It will paste a hairstyle code from clipboard
+jinryuujrmcore.HairResetDesc=It will reset the current hairstyle to the hairstyle preset currently selected
+
+jinryuujrmcore.Male=男
+jinryuujrmcore.Female=女
+
+jinryuujrmcore.SwordArt=剑的艺术
+
+jinryuujrmcore.Natural=一般
+jinryuujrmcore.Ki=气
+jinryuujrmcore.Chakra=查克拉
+jinryuujrmcore.NaturalDesc=无能力
+jinryuujrmcore.KiDesc=龙珠能力
+jinryuujrmcore.ChakraDesc=火影能力
+
+jinryuujrmcore.Survival=生存
+jinryuujrmcore.SurvivalDesc=原版生存
+jinryuujrmcore.MartialArtist=武道家
+jinryuujrmcore.Spiritualist=气功师
+jinryuujrmcore.Warrior=格斗家
+jinryuujrmcore.MartialArtistDesc=平衡 §c攻击 §8和 §9气功 §8修炼
+jinryuujrmcore.SpiritualistDesc=偏向§9气功 §8威力
+jinryuujrmcore.WarriorDesc=偏向§c近身 §8威力
+
+jinryuujrmcore.Clanless=其他
+jinryuujrmcore.Hyuuga=日向
+jinryuujrmcore.Uchiha=宇智波
+jinryuujrmcore.ClanlessDesc=其他家族
+jinryuujrmcore.HyuugaDesc=日向家族
+jinryuujrmcore.UchihaDesc=宇智波家族
+
+jinryuujrmcore.Class=职业
+jinryuujrmcore.Clan=家族
+jinryuujrmcore.Super=超级赛亚人
+jinryuujrmcore.Normal=普通
+jinryuujrmcore.Hard=困难
+jinryuujrmcore.Insane=疯狂
+jinryuujrmcore.NormalDesc=死亡不会受到惩罚,训练点增益是 is %1$s
+jinryuujrmcore.HardDesc=死亡惩罚 (随机一个属性失去1点), %1$s 训练点收益
+jinryuujrmcore.InsaneDesc=死亡惩罚 (随机两个属性失去1点), %1$s 训练点收益
+
+jinryuujrmcore.TRState=目前形态
+jinryuujrmcore.Base=原形态
+jinryuujrmcore.HForm1=潜力释放
+jinryuujrmcore.HForm2=肌肉强化
+jinryuujrmcore.HFormG=神形态
+jinryuujrmcore.Super=超级赛亚人
+jinryuujrmcore.SuperG2=超级赛亚人1:2阶
+jinryuujrmcore.SuperG3=超级赛亚人1:3阶
+jinryuujrmcore.SuperFP=超级赛亚人1全功率
+jinryuujrmcore.Super2=超级赛亚人2
+jinryuujrmcore.Super3=超级赛亚人3
+jinryuujrmcore.Super4=超级赛亚人4
+jinryuujrmcore.NForm1=潜力释放
+jinryuujrmcore.NForm2=巨人
+jinryuujrmcore.NFormG=神形态
+jinryuujrmcore.Form0=最低形态
+jinryuujrmcore.Form1=第一形态
+jinryuujrmcore.Form2=第二形态
+jinryuujrmcore.Form3=第三形态
+jinryuujrmcore.Form5=超级形态
+jinryuujrmcore.Form6=最终形态
+jinryuujrmcore.FormG=神形态
+jinryuujrmcore.Oozaru=赛亚巨猿
+jinryuujrmcore.OozaruS=黄金巨猿
+jinryuujrmcore.SuperG=超级赛亚人之神
+jinryuujrmcore.SuperGR=神仪式
+jinryuujrmcore.SuperB=超级赛亚人蓝
+jinryuujrmcore.SuperR=超级赛亚人桃红
+jinryuujrmcore.PotUnleashed=潜力释放
+jinryuujrmcore.SuperL=超级赛亚人绿
+jinryuujrmcore.SuperLB=超级赛亚人绿满功率
+jinryuujrmcore.SuperBS=超级赛亚人蓝2
+jinryuujrmcore.SuperRS=超级赛亚人桃红2
+jinryuujrmcore.UInstinct=自在极意功
+
+jinryuujrmcore.ArcosianUltimateColor=Arcosian最终形成的 颜色
+
+jinryuujrmcore.UCnam=属性升级费用
+
+jinryuujrmcore.Modified=增强
+jinryuujrmcore.Original=原来
+jinryuujrmcore.Strength=力量
+jinryuujrmcore.Dexterity=灵巧
+jinryuujrmcore.Constitution=体魄
+jinryuujrmcore.WillPower=意志
+jinryuujrmcore.Mind=心灵
+jinryuujrmcore.Spirit=精神
+jinryuujrmcore.Concentration=专注
+
+jinryuujrmcore.StrMC=增加近战伤害
+jinryuujrmcore.DexMC=增加移动速度
+jinryuujrmcore.ConMC=增加生命上限
+
+jinryuujrmcore.StrDB=增加近战伤害
+jinryuujrmcore.DexDB=增加防御和移动速度
+jinryuujrmcore.ConDB=增加体力和耐力
+jinryuujrmcore.WilDB=增加气(能量)伤害
+jinryuujrmcore.MndDB=提高飞行速度和增加技能槽,增加训练点收益
+jinryuujrmcore.SpiDB=提高气(能量)的上限
+
+jinryuujrmcore.StrNC=体术伤害
+jinryuujrmcore.DexNC=体术速度
+jinryuujrmcore.ConNC=身体极限,速度和体形
+jinryuujrmcore.WilNC=忍术的控制与输出
+jinryuujrmcore.MndNC=提升查克拉量
+jinryuujrmcore.SpiNC=增加技能槽
+
+jinryuujrmcore.Stats1Body=身体
+jinryuujrmcore.Stats2Speed=速度
+jinryuujrmcore.Stats3Stamina=耐力
+jinryuujrmcore.Stats4Max=气的上限
+jinryuujrmcore.Stats5Control=气的控制
+jinryuujrmcore.Stats6Regen=气的恢复速度
+jinryuujrmcore.Stats7Defense=防御
+jinryuujrmcore.Stats8Melee=近战伤害
+
+jinryuujrmcore.NCStats1Body=体力
+jinryuujrmcore.NCStats2Speed=速度
+jinryuujrmcore.NCStats3Stamina=毅力
+jinryuujrmcore.NCStats4Max=查克拉量
+jinryuujrmcore.NCStats5Control=查克拉控制
+jinryuujrmcore.NCStats6Regen=查克拉恢复速度
+
+jinryuujrmcore.Level=等级
+jinryuujrmcore.LevelNext=再增加 %1$s 次属性升级
+jinryuujrmcore.LevelMax=到达了最高等级!
+jinryuujrmcore.Alignment=善恶
+jinryuujrmcore.AlignmentDesc=你有 %1$s 善念 /n更多内容即将推出
+jinryuujrmcore.SkillSysNext=属性 %1$s 需要学习或提高技能!/n技能学习: %2$s
+jinryuujrmcore.SkillSysMax=你的心灵已达到极限!/n技能学习: %1$s
+
+jinryuujrmcore.needRacialSkillMax=你需要把你的种族技能升到满级!
+jinryuujrmcore.cantLearnThis=你不能学习这个!
+jinryuujrmcore.Good=善良
+jinryuujrmcore.Neutral=中立
+jinryuujrmcore.Evil=邪恶
+jinryuujrmcore.Max=Max
+jinryuujrmcore.Current=当前
+jinryuujrmcore.PunchDamage=穿透伤害
+jinryuujrmcore.meleeDamage=近战伤害
+jinryuujrmcore.NeedToBeGood=需要 100%% 善念! 
+
+jinryuujrmcore.skilldisabled=技能被禁用!
+jinryuujrmcore.specskilldisabled=技能 %1$s 被禁用!
+
+jinryuujrmcore.mleMC=近战伤害
+jinryuujrmcore.DefMC=防御
+jinryuujrmcore.heltMC=体力
+
+jinryuujrmcore.mleNC=近战伤害
+jinryuujrmcore.DefNC=防御
+jinryuujrmcore.BdNC=体力
+jinryuujrmcore.StNC=耐力
+jinryuujrmcore.EnPwNC=查克拉输出
+jinryuujrmcore.EnPlNC=查克拉量
+jinryuujrmcore.MxSkNC=最大技能
+jinryuujrmcore.SpNC=速度
+jinryuujrmcore.RBNC=身体恢复率
+jinryuujrmcore.RSNC=体力恢复率
+jinryuujrmcore.RENC=查克拉恢复率
+
+jinryuujrmcore.mleDB=近战伤害
+jinryuujrmcore.DefDB=身体强度
+jinryuujrmcore.BdDB=血量
+jinryuujrmcore.StDB=耐力
+jinryuujrmcore.EnPwDB=气的伤害
+jinryuujrmcore.EnPlDB=气的上限
+jinryuujrmcore.MxSkDB=最大技能
+jinryuujrmcore.SpDB=奔跑
+jinryuujrmcore.RBDB=身体恢复速度
+jinryuujrmcore.RSDB=体力恢复速度
+jinryuujrmcore.REDB=气的回复速度
+jinryuujrmcore.FSDB=飞行
+jinryuujrmcore.Stats=统计
+jinryuujrmcore.StatIncreaseDesc=§8增加 §c%1$s §8属性 将 增加这一属性的 §9%2$s
+jinryuujrmcore.StatIncreaseDesc2=/n§8在释放最大状态 §c%3$s §8
+jinryuujrmcore.StatIncreaseDesc3=/n§8被动输出 %4$s
+jinryuujrmcore.StatIncreaseDesc4=/n§8额外输出 §5+%5$s §8
+jinryuujrmcore.StatIncreaseDesc5=/n§8伤害减少 §5%3$s%% §8
+jinryuujrmcore.SpDBDesc=最大速度可达到 %1$s 块/分钟 /升级 %2$s 属性和 %3$s 技能会提高速度
+jinryuujrmcore.FSDBDesc=最大飞行速度可达到 %1$s 块/分钟 /升级 %2$s 属性和 %3$s 技能会提高
+jinryuujrmcore.Attributes=属性
+jinryuujrmcore.StartAttr=启动属性
+jinryuujrmcore.TP=技能点
+jinryuujrmcore.TrainingPoints=当前技能点
+jinryuujrmcore.RequiredTP=所需 %1$s 技能点升级
+jinryuujrmcore.AttributeMaxed=这个属性已经满级!
+jinryuujrmcore.AttributeAllMaxed=所有的属性都满了！
+jinryuujrmcore.LimitReached=达到了极限！
+jinryuujrmcore.cantupgrade=你无法升级！
+
+jinryuujrmcore.youSlainBy=你被 %1$s! 杀了
+jinryuujrmcore.youDied=你死亡了!
+jinryuujrmcore.slainBy=%1$s 被 %2$s 杀死了
+jinryuujrmcore.pDied=%1$s 死亡!
+jinryuujrmcore.pDied2=%1$s 死了!最后一次攻击是在 %2$s 秒前,由 %3$s 发起的
+
+death.attack.OutOfBodyHealth.player=%1$s 被 %2$s 击杀了。
+death.attack.OutOfBodyHealth=%1$s 死于生命力干涸。
+death.attack.OutOfBodyHealth.player=%1$s 被 %2$s 击杀了。
+death.attack.NotAlive=%1$s 是阴间的人。
+death.attack.causeExplosion=%1$s 被炸死
+
+jinryuujrmcore.recivedinv=收到组队邀请:
+jinryuujrmcore.form=来自新的队伍
+jinryuujrmcore.invite=邀请
+jinryuujrmcore.setleader=设置队长
+jinryuujrmcore.kick=踢出
+jinryuujrmcore.disband=解除
+jinryuujrmcore.leave=离开
+jinryuujrmcore.leader=队长
+jinryuujrmcore.Next=下一个
+jinryuujrmcore.Back=返回
+jinryuujrmcore.Prev=上一个
+jinryuujrmcore.Accept=接受
+jinryuujrmcore.Yes=是
+jinryuujrmcore.No=否
+
+jinryuujrmcore.delskillconfirm=你想要删除技能吗 %1$s? ?
+
+jinryuujrmcore.reward=你准备怎么做？
+jinryuujrmcore.accept=接受
+jinryuujrmcore.decline=拒绝
+jinryuujrmcore.abandon=放弃
+
+jinryuujrmcore.Fight=战斗
+jinryuujrmcore.Skip=跳过
+jinryuujrmcore.Restart=重新开始
+jinryuujrmcore.start=开始
+jinryuujrmcore.Continue=继续
+
+jinryuujrmcore.Update=升级
+jinryuujrmcore.noOneToTeach=没有可以教学的人！
+jinryuujrmcore.teachingOffer=%1$s 已经教给了 
+jinryuujrmcore.teachingOfferAccepted=%1$s 接受了你的 
+jinryuujrmcore.teachingOfferDeclined=%1$s's 
+jinryuujrmcore.teachingOfDeclByYou=你拒绝了 %1$s's 
+jinryuujrmcore.teachingOfDeclByPlayr=%1$s 不接受你的招式传授!
+jinryuujrmcore.nothingtoaccept=没有什么可以接受的请求!
+jinryuujrmcore.notenoughtp=训练点不够!
+jinryuujrmcore.typedWrong=你输入的命令参数是错误的!
+
+jinryuujrmcore.noslotleft=没有空闲招式槽!
+jinryuujrmcore.nomindleft=已经没有心灵了!
+jinryuujrmcore.alreadyhaveskill=你已经有了那个技能!
+jinryuujrmcore.skilladded=技能 %1$s 已添加!
+jinryuujrmcore.skillupped=技能 %1$s 已经升级成等级 %2$s!
+jinryuujrmcore.skillallremoved=所有技能都被删除!
+jinryuujrmcore.techadded=技能 %1$s 已经被你学会!
+jinryuujrmcore.skillnameinvalid=技能名称无效!
+
+jinryuujrmcore.SelectedDifficulty=选择难度
+jinryuujrmcore.KaioDiffRedLine=去界王哪里降低难度
+jinryuujrmcore.TailMode=尾巴模式
+jinryuujrmcore.ArcMask=5种形态面具
+jinryuujrmcore.ArcMaskOn=面具 开
+jinryuujrmcore.ArcMaskOff=面具 关
+jinryuujrmcore.Difficulty=难度
+jinryuujrmcore.MainAttributes=主属性
+jinryuujrmcore.CharSheet=角色表
+jinryuujrmcore.Skills=技能
+jinryuujrmcore.KiTechniques=气技能
+jinryuujrmcore.Jutsu=忍术
+jinryuujrmcore.Learn=学习
+jinryuujrmcore.Maxed=最大
+jinryuujrmcore.NoUpgrade=没有升级
+jinryuujrmcore.AvailableSkillSlot=可用的技能槽
+jinryuujrmcore.AvailableMind=可用的心灵
+jinryuujrmcore.Unlearn=忘记技能
+jinryuujrmcore.Teach=指导
+jinryuujrmcore.Create=设置技能
+jinryuujrmcore.tooPowerful=这个技能太过强大
+jinryuujrmcore.Changesomestats=改变部分属性
+jinryuujrmcore.Owned=已有
+jinryuujrmcore.Voice=声音
+jinryuujrmcore.AuraColor=气的颜色
+
+jinryuujrmcore.Learned=学会
+jinryuujrmcore.Selfmade=自制
+jinryuujrmcore.Slow=慢
+jinryuujrmcore.Average=正常
+jinryuujrmcore.Fast=快
+jinryuujrmcore.VeryFast=很快
+jinryuujrmcore.AlignmentBased=基于善恶
+jinryuujrmcore.white=白
+jinryuujrmcore.blue=蓝
+jinryuujrmcore.purple=紫
+jinryuujrmcore.red=红
+jinryuujrmcore.black=黑
+jinryuujrmcore.green=绿
+jinryuujrmcore.yellow=黄
+jinryuujrmcore.orange=橙
+
+jinryuujrmcore.brown=棕
+jinryuujrmcore.cyan=青
+jinryuujrmcore.silver=浅灰
+jinryuujrmcore.gray=灰
+jinryuujrmcore.pink=粉红
+jinryuujrmcore.lime=柠檬绿
+jinryuujrmcore.lightBlue=浅蓝
+
+jinryuujrmcore.BodysuitColor=颜色
+
+jinryuujrmcore.Vanity=Vanity item
+
+item.ItemFabric.name=面料
+item.jrmc_vanity_0.name=苦力怕毛衣
+item.jrmc_vanity_1.name=末影人毛衣
+item.jrmc_vanity_2.name=圣诞帽
+item.jrmc_vanity_3.name=圣诞毛衣
+item.jrmc_vanity_4.name=圣诞长袖毛衣
+item.jrmc_vanity_5.name=圣诞裤
+item.jrmc_vanity_6.name=圣诞靴
+
+
+
+jinryuujrmcore.GroupManager=组队管理
+jinryuujrmcore.ServerConfig=服务器设置
+jinryuujrmcore.Calendar=日历
+jinryuujrmcore.Family=家庭状况管理
+
+
+jinryuujrmcore.BarberMenu=理发菜单
+jinryuujrmcore.NoHairToEdit=这个种族没有头发
+jinryuujrmcore.BarberSnC.line1=让你随时随地修改你的发型
+
+item.ItemBarberSnC.name=理发剪刀和梳子
+
+entity.jinryuufamilyc.Child.name=一个孩子
+
+jinryuujrmcore.ExtraSlots=额外的装备栏
+jinryuujrmcore.WeightSlot=重量
+jinryuujrmcore.trainingweightworn=目前体重
+jinryuujrmcore.weightreduction=属性简约
+jinryuujrmcore.trainingweight=重置训练
+jinryuujrmcore.trainingweightno=你需要北界王或者是神仙来帮你训练
+
+jinryuujrmcore.Start=启动
+jinryuujrmcore.shadowdummy=影子模型
+jinryuujrmcore.concentration=浓度
+jinryuujrmcore.shadowdummyDesc=打败你的影子，只有所有者可以使用它，击败他可以获得训练点
+jinryuujrmcore.concentrationDesc=集中度训练每日小游戏可获得训练点。/n点击蓝色的球获得分数。/n点击红色的球失去分数。/n黑色也能得分但需要付出代价。/n分数低于零或者你死了，游戏结束。/n分数会被转换成训练点。
+jinryuujrmcore.Change=改变
+jinryuujrmcore.BPswap=战斗力
+jinryuujrmcore.BPswapDesc=你可以将战斗力更改为正常或高。/n正常表示当前最准确的功率范围，用于玩家之间的比较。/n高只是为了娱乐，根本是不准确的。/n(客户端)当前的战斗力： %1$s 
+jinryuujrmcore.BPHigh=高
+jinryuujrmcore.BPNormal=正常
+jinryuujrmcore.msnshare=任务共享
+
+entity.jinryuujrmcore.TrainingShadowDummy.name=影子模型
+jinryuujrmcore.Training=训练
+jinryuujrmcore.TrainingDesc=训练
+jinryuujrmcore.MediSkillCategory=冥想的范围
+jinryuujrmcore.Active=活跃
+jinryuujrmcore.Passive=被动
+jinryuujrmcore.Rate=速度
+jinryuujrmcore.CltSettings=客户端设置
+jinryuujrmcore.CltSettingsDesc=客户端设置可能会对游戏产生影响，但大多数设置只是视觉的效果。
+
+jinryuujrmcore.BodySlot=身体
+jinryuujrmcore.HeadSlot=头部
+
+
+jinryuujrmcore.restart=重新开始
+jinryuujrmcore.missionSys.Protect=为了正义
+jinryuujrmcore.missionSys.Myself=为了自己
+jinryuujrmcore.missionSys.Evil=为了邪恶
+
+jinryuujrmcore.missionObjType.completed=- 完成
+jinryuujrmcore.missionObjType.defeated=- 打败了
+jinryuujrmcore.missionObjType.nothinh=没有目标
+jinryuujrmcore.missionObjType.kill=杀死 %1$s %2$s
+jinryuujrmcore.missionObjType.killsame=杀死 %1$s %2$s 
+jinryuujrmcore.missionObjType.item=收集 %1$s %2$s 
+jinryuujrmcore.missionObjType.biome=去生物群系 %1$s %2$s
+jinryuujrmcore.missionObjType.dim=去目标地点 %1$s %2$s 
+jinryuujrmcore.missionObjType.biome2=在生物群系 %1$s %2$s 
+jinryuujrmcore.missionObjType.dim2=在目标地点 %1$s %2$s 
+jinryuujrmcore.missionObjType.state=提升状态 %1$s %2$s 
+jinryuujrmcore.missionObjType.talk=和 %1$s %2$s 对话
+jinryuujrmcore.missionObjType.lvl=达到等级 %1$s %2$s
+jinryuujrmcore.missionObjType.anywilldo=(接受所有)
+
+jinryuujrmcore.missionRepeat.wait=在这之后你可以重复这个剧情 %4$sd %3$s:%2$s:%1$s
+jinryuujrmcore.missionRepeat.not=这个剧情不可重复!
+jinryuujrmcore.missionUnlock=至少完成以下剧情:
+
+
+tile.stoneSingleSlab.name=灰色石板
+tile.BlockColoredStone.black.name=黑色石头
+tile.BlockColoredStone.red.name=红色石头
+tile.BlockColoredStone.green.name=绿色石头
+tile.BlockColoredStone.brown.name=褐色石头
+tile.BlockColoredStone.blue.name=蓝色石头
+tile.BlockColoredStone.purple.name=紫色石头
+tile.BlockColoredStone.cyan.name=青色石头
+tile.BlockColoredStone.silver.name=银色石头
+tile.BlockColoredStone.gray.name=灰色石头
+tile.BlockColoredStone.pink.name=粉色石头
+tile.BlockColoredStone.lime.name=石灰色石头
+tile.BlockColoredStone.yellow.name=黄色石头
+tile.BlockColoredStone.lightBlue.name=浅蓝色石头
+tile.BlockColoredStone.magenta.name=品红色石头
+tile.BlockColoredStone.orange.name=橙色石头
+tile.BlockColoredStone.white.name=白色石头
+tile.BlockFence.name=不可破坏的白色栅栏
+tile.BlockStairs.name=不可破坏的白色楼梯
+
+tile.stoneSingleSlab2.name=灰色石板2
+tile.BlockColoredStone2.black.name=黑色石板2
+tile.BlockColoredStone2.red.name=红色石头2
+tile.BlockColoredStone2.green.name=绿色石头2
+tile.BlockColoredStone2.brown.name=褐色石头2
+tile.BlockColoredStone2.blue.name=蓝色石头2
+tile.BlockColoredStone2.purple.name=紫色石头2
+tile.BlockColoredStone2.cyan.name=青色石头2
+tile.BlockColoredStone2.silver.name=银色石头2
+tile.BlockColoredStone2.gray.name=灰色石头2
+tile.BlockColoredStone2.pink.name=粉色石头2
+tile.BlockColoredStone2.lime.name=石灰色石头2
+tile.BlockColoredStone2.yellow.name=黄色石头2
+tile.BlockColoredStone2.lightBlue.name=浅蓝色石头2
+tile.BlockColoredStone2.magenta.name=品红色石头2
+tile.BlockColoredStone2.orange.name=橙色石头2
+tile.BlockColoredStone2.white.name=白色石头2
+tile.BlockFence2.name=不可破坏的白色栅栏2
+tile.BlockStairs2.name=不可破坏的白色楼梯2
+
+
+
+
+tile.Colorable Stone Pattern1_0.name=白石 石纹1
+tile.Colorable Stone Pattern1_1.name=橙石 石纹 1
+tile.Colorable Stone Pattern1_2.name=品红石 石纹 1
+tile.Colorable Stone Pattern1_3.name=浅蓝石 石纹 1
+tile.Colorable Stone Pattern1_4.name=黄石 石纹 1
+tile.Colorable Stone Pattern1_5.name=石灰石 石纹 1
+tile.Colorable Stone Pattern1_6.name=粉石 石纹 1
+tile.Colorable Stone Pattern1_7.name=深灰石 石纹 1
+tile.Colorable Stone Pattern1_8.name=灰石 石纹 1
+tile.Colorable Stone Pattern1_9.name=青石 石纹 1
+tile.Colorable Stone Pattern1_10.name=紫石 石纹 1
+tile.Colorable Stone Pattern1_11.name=蓝石 石纹 1
+tile.Colorable Stone Pattern1_12.name=棕石 石纹 1
+tile.Colorable Stone Pattern1_13.name=绿石 石纹 1
+tile.Colorable Stone Pattern1_14.name=红石 石纹 1
+tile.Colorable Stone Pattern1_15.name=黑石 石纹 1
+
+tile.Colorable Stone Pattern1_0Fence.name=白石 石纹1栅栏
+tile.Colorable Stone Pattern1_1Fence.name=橙石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_2Fence.name=品红石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_3Fence.name=浅蓝石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_4Fence.name=黄石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_5Fence.name=石灰石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_6Fence.name=粉石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_7Fence.name=深灰石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_8Fence.name=灰石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_9Fence.name=青石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_10Fence.name=紫石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_11Fence.name=蓝石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_12Fence.name=棕石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_13Fence.name=绿石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_14Fence.name=红石 石纹 1 栅栏
+tile.Colorable Stone Pattern1_15Fence.name=黑石 石纹 1 栅栏
+
+tile.Colorable Stone Pattern1_0Slab.name=白石 石纹1石板
+tile.Colorable Stone Pattern1_1Slab.name=橙石 石纹 1 石板
+tile.Colorable Stone Pattern1_2Slab.name=品红石 石纹 1 石板
+tile.Colorable Stone Pattern1_3Slab.name=浅蓝石 石纹 1 石板
+tile.Colorable Stone Pattern1_4Slab.name=黄石 石纹 1 石板
+tile.Colorable Stone Pattern1_5Slab.name=石灰石 石纹 1 石板
+tile.Colorable Stone Pattern1_6Slab.name=粉石 石纹 1 石板
+tile.Colorable Stone Pattern1_7Slab.name=深灰石 石纹 1 石板
+tile.Colorable Stone Pattern1_8Slab.name=灰石 石纹 1 石板
+tile.Colorable Stone Pattern1_9Slab.name=青石 石纹 1 石板
+tile.Colorable Stone Pattern1_10Slab.name=紫石 石纹 1 石板
+tile.Colorable Stone Pattern1_11Slab.name=蓝石 石纹 1 石板
+tile.Colorable Stone Pattern1_12Slab.name=棕石 石纹 1 石板
+tile.Colorable Stone Pattern1_13Slab.name=绿石 石纹 1 石板
+tile.Colorable Stone Pattern1_14Slab.name=红石 石纹 1 石板
+tile.Colorable Stone Pattern1_15Slab.name=黑石 石纹 1 石板
+
+tile.Colorable Stone Pattern1_0Stairs.name=白石 石纹1楼梯
+tile.Colorable Stone Pattern1_1Stairs.name=橙石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_2Stairs.name=品红石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_3Stairs.name=浅蓝石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_4Stairs.name=黄石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_5Stairs.name=石灰石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_6Stairs.name=粉石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_7Stairs.name=深灰石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_8Stairs.name=灰石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_9Stairs.name=青石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_10Stairs.name=紫石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_11Stairs.name=蓝石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_12Stairs.name=棕石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_13Stairs.name=绿石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_14Stairs.name=红石 石纹 1 楼梯
+tile.Colorable Stone Pattern1_15Stairs.name=黑石 石纹 1 楼梯
+
+
+
+
+
+
+
+
+tile.Colorable Stone Pattern2_0.name=白石 石纹 2
+tile.Colorable Stone Pattern2_1.name=橙石 石纹 2
+tile.Colorable Stone Pattern2_2.name=品红石 石纹 2
+tile.Colorable Stone Pattern2_3.name=浅蓝石 石纹 2
+tile.Colorable Stone Pattern2_4.name=黄石 石纹 2
+tile.Colorable Stone Pattern2_5.name=石灰石 石纹 2
+tile.Colorable Stone Pattern2_6.name=粉石 石纹 2
+tile.Colorable Stone Pattern2_7.name=深灰石 石纹 2
+tile.Colorable Stone Pattern2_8.name=灰石 石纹 2
+tile.Colorable Stone Pattern2_9.name=青石 石纹 2
+tile.Colorable Stone Pattern2_10.name=紫石 石纹 2
+tile.Colorable Stone Pattern2_11.name=蓝石 石纹 2
+tile.Colorable Stone Pattern2_12.name=棕石 石纹 2
+tile.Colorable Stone Pattern2_13.name=绿石 石纹 2
+tile.Colorable Stone Pattern2_14.name=红石 石纹 2
+tile.Colorable Stone Pattern2_15.name=黑石 石纹 2
+
+tile.Colorable Stone Pattern2_0Fence.name=白石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_1Fence.name=橙石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_2Fence.name=品红石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_3Fence.name=浅蓝石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_4Fence.name=黄石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_5Fence.name=石灰石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_6Fence.name=粉石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_7Fence.name=深灰石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_8Fence.name=灰石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_9Fence.name=青石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_10Fence.name=紫石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_11Fence.name=蓝石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_12Fence.name=棕石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_13Fence.name=绿石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_14Fence.name=红石 石纹 2 栅栏
+tile.Colorable Stone Pattern2_15Fence.name=黑石 石纹 2 栅栏
+
+tile.Colorable Stone Pattern2_0Slab.name=白石 石纹 2 石板
+tile.Colorable Stone Pattern2_1Slab.name=橙石 石纹 2 石板
+tile.Colorable Stone Pattern2_2Slab.name=品红石 石纹 2 石板
+tile.Colorable Stone Pattern2_3Slab.name=浅蓝石 石纹 2 石板
+tile.Colorable Stone Pattern2_4Slab.name=黄石 石纹 2 石板
+tile.Colorable Stone Pattern2_5Slab.name=石灰石 石纹 2 石板
+tile.Colorable Stone Pattern2_6Slab.name=粉石 石纹 2 石板
+tile.Colorable Stone Pattern2_7Slab.name=深灰石 石纹 2 石板
+tile.Colorable Stone Pattern2_8Slab.name=灰石 石纹 2 石板
+tile.Colorable Stone Pattern2_9Slab.name=青石 石纹 2 石板
+tile.Colorable Stone Pattern2_10Slab.name=紫石 石纹 2 石板
+tile.Colorable Stone Pattern2_11Slab.name=蓝石 石纹 2 石板
+tile.Colorable Stone Pattern2_12Slab.name=棕石 石纹 2 石板
+tile.Colorable Stone Pattern2_13Slab.name=绿石 石纹 2 石板
+tile.Colorable Stone Pattern2_14Slab.name=红石 石纹 2 石板
+tile.Colorable Stone Pattern2_15Slab.name=黑石 石纹 2 石板
+
+tile.Colorable Stone Pattern2_0Stairs.name=白石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_1Stairs.name=橙石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_2Stairs.name=品红石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_3Stairs.name=浅蓝石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_4Stairs.name=黄石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_5Stairs.name=石灰石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_6Stairs.name=粉石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_7Stairs.name=深灰石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_8Stairs.name=灰石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_9Stairs.name=青石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_10Stairs.name=紫石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_11Stairs.name=蓝石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_12Stairs.name=棕石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_13Stairs.name=绿石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_14Stairs.name=红石 石纹 2 楼梯
+tile.Colorable Stone Pattern2_15Stairs.name=黑石 石纹 2 楼梯
+
+
+
+
+
+
+
+tile.Colorable Stone Pattern3_0.name=白石 石纹 3
+tile.Colorable Stone Pattern3_1.name=橙石 石纹 3
+tile.Colorable Stone Pattern3_2.name=品红石 石纹 3
+tile.Colorable Stone Pattern3_3.name=浅蓝石 石纹 3
+tile.Colorable Stone Pattern3_4.name=黄石 石纹 3
+tile.Colorable Stone Pattern3_5.name=石灰石 石纹 3
+tile.Colorable Stone Pattern3_6.name=粉石 石纹 3
+tile.Colorable Stone Pattern3_7.name=深灰石 石纹 3
+tile.Colorable Stone Pattern3_8.name=灰石 石纹 3
+tile.Colorable Stone Pattern3_9.name=青石 石纹 3
+tile.Colorable Stone Pattern3_10.name=紫石 石纹 3
+tile.Colorable Stone Pattern3_11.name=蓝石 石纹 3
+tile.Colorable Stone Pattern3_12.name=棕石 石纹 3
+tile.Colorable Stone Pattern3_13.name=绿石 石纹 3
+tile.Colorable Stone Pattern3_14.name=红石 石纹 3
+tile.Colorable Stone Pattern3_15.name=黑石 石纹 3
+
+tile.Colorable Stone Pattern3_0Fence.name=白石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_1Fence.name=橙石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_2Fence.name=品红石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_3Fence.name=浅蓝石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_4Fence.name=黄石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_5Fence.name=石灰石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_6Fence.name=粉石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_7Fence.name=深灰石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_8Fence.name=灰石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_9Fence.name=青石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_10Fence.name=紫石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_11Fence.name=蓝石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_12Fence.name=棕石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_13Fence.name=绿石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_14Fence.name=红石 石纹 3 栅栏
+tile.Colorable Stone Pattern3_15Fence.name=黑石 石纹 3 栅栏
+
+tile.Colorable Stone Pattern3_0Slab.name=白石 石纹 3 石板
+tile.Colorable Stone Pattern3_1Slab.name=橙石 石纹 3 石板
+tile.Colorable Stone Pattern3_2Slab.name=品红石 石纹 3 石板
+tile.Colorable Stone Pattern3_3Slab.name=浅蓝石 石纹 3 石板
+tile.Colorable Stone Pattern3_4Slab.name=黄石 石纹 3 石板
+tile.Colorable Stone Pattern3_5Slab.name=石灰石 石纹 3 石板
+tile.Colorable Stone Pattern3_6Slab.name=粉石 石纹 3 石板
+tile.Colorable Stone Pattern3_7Slab.name=深灰石 石纹 3 石板
+tile.Colorable Stone Pattern3_8Slab.name=灰石 石纹 3 石板
+tile.Colorable Stone Pattern3_9Slab.name=青石 石纹 3 石板
+tile.Colorable Stone Pattern3_10Slab.name=紫石 石纹 3 石板
+tile.Colorable Stone Pattern3_11Slab.name=蓝石 石纹 3 石板
+tile.Colorable Stone Pattern3_12Slab.name=棕石 石纹 3 石板
+tile.Colorable Stone Pattern3_13Slab.name=绿石 石纹 3 石板
+tile.Colorable Stone Pattern3_14Slab.name=红石 石纹 3 石板
+tile.Colorable Stone Pattern3_15Slab.name=黑石 石纹 3 石板
+
+tile.Colorable Stone Pattern3_0Stairs.name=白石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_1Stairs.name=橙石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_2Stairs.name=品红石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_3Stairs.name=浅蓝石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_4Stairs.name=黄石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_5Stairs.name=石灰石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_6Stairs.name=粉石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_7Stairs.name=深灰石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_8Stairs.name=灰石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_9Stairs.name=青石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_10Stairs.name=紫石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_11Stairs.name=蓝石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_12Stairs.name=棕石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_13Stairs.name=绿石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_14Stairs.name=红石 石纹 3 楼梯
+tile.Colorable Stone Pattern3_15Stairs.name=黑石 石纹 3 楼梯
+
+
+
+
+
+tile.Colorable Stone Pattern4_0.name=白石 石纹 4
+tile.Colorable Stone Pattern4_1.name=橙石 石纹 4
+tile.Colorable Stone Pattern4_2.name=品红石 石纹 4
+tile.Colorable Stone Pattern4_3.name=浅蓝石 石纹 4
+tile.Colorable Stone Pattern4_4.name=黄石 石纹 4
+tile.Colorable Stone Pattern4_5.name=石灰石 石纹 4
+tile.Colorable Stone Pattern4_6.name=粉石 石纹 4
+tile.Colorable Stone Pattern4_7.name=深灰石 石纹 4
+tile.Colorable Stone Pattern4_8.name=灰石 石纹 4
+tile.Colorable Stone Pattern4_9.name=青石 石纹 4
+tile.Colorable Stone Pattern4_10.name=紫石 石纹 4
+tile.Colorable Stone Pattern4_11.name=蓝石 石纹 4
+tile.Colorable Stone Pattern4_12.name=棕石 石纹 4
+tile.Colorable Stone Pattern4_13.name=绿石 石纹 4
+tile.Colorable Stone Pattern4_14.name=红石 石纹 4
+tile.Colorable Stone Pattern4_15.name=黑石 石纹 4
+
+tile.Colorable Stone Pattern4_0Fence.name=白石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_1Fence.name=橙石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_2Fence.name=品红石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_3Fence.name=浅蓝石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_4Fence.name=黄石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_5Fence.name=石灰石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_6Fence.name=粉石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_7Fence.name=深灰石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_8Fence.name=灰石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_9Fence.name=青石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_10Fence.name=紫石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_11Fence.name=蓝石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_12Fence.name=棕石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_13Fence.name=绿石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_14Fence.name=红石 石纹 4 栅栏
+tile.Colorable Stone Pattern4_15Fence.name=黑石 石纹 4 栅栏
+
+tile.Colorable Stone Pattern4_0Slab.name=白石 石纹 4 石板
+tile.Colorable Stone Pattern4_1Slab.name=橙石 石纹 4 石板
+tile.Colorable Stone Pattern4_2Slab.name=品红石 石纹 4 石板
+tile.Colorable Stone Pattern4_3Slab.name=浅蓝石 石纹 4 石板
+tile.Colorable Stone Pattern4_4Slab.name=黄石 石纹 4 石板
+tile.Colorable Stone Pattern4_5Slab.name=石灰石 石纹 4 石板
+tile.Colorable Stone Pattern4_6Slab.name=粉石 石纹 4 石板
+tile.Colorable Stone Pattern4_7Slab.name=深灰石 石纹 4 石板
+tile.Colorable Stone Pattern4_8Slab.name=灰石 石纹 4 石板
+tile.Colorable Stone Pattern4_9Slab.name=青石 石纹 4 石板
+tile.Colorable Stone Pattern4_10Slab.name=紫石 石纹 4 石板
+tile.Colorable Stone Pattern4_11Slab.name=蓝石 石纹 4 石板
+tile.Colorable Stone Pattern4_12Slab.name=棕石 石纹 4 石板
+tile.Colorable Stone Pattern4_13Slab.name=绿石 石纹 4 石板
+tile.Colorable Stone Pattern4_14Slab.name=红石 石纹 4 石板
+tile.Colorable Stone Pattern4_15Slab.name=黑石 石纹 4 石板
+
+tile.Colorable Stone Pattern4_0Stairs.name=白石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_1Stairs.name=橙石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_2Stairs.name=品红石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_3Stairs.name=浅蓝石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_4Stairs.name=黄石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_5Stairs.name=石灰石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_6Stairs.name=粉石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_7Stairs.name=深灰石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_8Stairs.name=灰石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_9Stairs.name=青石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_10Stairs.name=紫石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_11Stairs.name=蓝石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_12Stairs.name=棕石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_13Stairs.name=绿石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_14Stairs.name=红石 石纹 4 楼梯
+tile.Colorable Stone Pattern4_15Stairs.name=黑石 石纹 4 楼梯
+
+
+
+
+
+
+tile.Colorable Stone Pattern5_0.name=白石 石纹 5
+tile.Colorable Stone Pattern5_1.name=橙石 石纹 5
+tile.Colorable Stone Pattern5_2.name=品红石 石纹 5
+tile.Colorable Stone Pattern5_3.name=浅蓝石 石纹 5
+tile.Colorable Stone Pattern5_4.name=黄石 石纹 5
+tile.Colorable Stone Pattern5_5.name=石灰石 石纹 5
+tile.Colorable Stone Pattern5_6.name=粉石 石纹 5
+tile.Colorable Stone Pattern5_7.name=深灰石 石纹 5
+tile.Colorable Stone Pattern5_8.name=灰石 石纹 5
+tile.Colorable Stone Pattern5_9.name=青石 石纹 5
+tile.Colorable Stone Pattern5_10.name=紫石 石纹 5
+tile.Colorable Stone Pattern5_11.name=蓝石 石纹 5
+tile.Colorable Stone Pattern5_12.name=棕石 石纹 5
+tile.Colorable Stone Pattern5_13.name=绿石 石纹 5
+tile.Colorable Stone Pattern5_14.name=红石 石纹 5
+tile.Colorable Stone Pattern5_15.name=黑石 石纹 5
+
+tile.Colorable Stone Pattern5_0Fence.name=白石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_1Fence.name=橙石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_2Fence.name=品红石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_3Fence.name=浅蓝石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_4Fence.name=黄石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_5Fence.name=石灰石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_6Fence.name=粉石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_7Fence.name=深灰石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_8Fence.name=灰石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_9Fence.name=青石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_10Fence.name=紫石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_11Fence.name=蓝石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_12Fence.name=棕石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_13Fence.name=绿石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_14Fence.name=红石 石纹 5 栅栏
+tile.Colorable Stone Pattern5_15Fence.name=黑石 石纹 5 栅栏
+
+tile.Colorable Stone Pattern5_0Slab.name=白石 石纹 5 石板
+tile.Colorable Stone Pattern5_1Slab.name=橙石 石纹 5 石板
+tile.Colorable Stone Pattern5_2Slab.name=品红石 石纹 5 石板
+tile.Colorable Stone Pattern5_3Slab.name=浅蓝石 石纹 5 石板
+tile.Colorable Stone Pattern5_4Slab.name=黄石 石纹 5 石板
+tile.Colorable Stone Pattern5_5Slab.name=石灰石 石纹 5 石板
+tile.Colorable Stone Pattern5_6Slab.name=粉石 石纹 5 石板
+tile.Colorable Stone Pattern5_7Slab.name=深灰石 石纹 5 石板
+tile.Colorable Stone Pattern5_8Slab.name=灰石 石纹 5 石板
+tile.Colorable Stone Pattern5_9Slab.name=青石 石纹 5 石板
+tile.Colorable Stone Pattern5_10Slab.name=紫石 石纹 5 石板
+tile.Colorable Stone Pattern5_11Slab.name=蓝石 石纹 5 石板
+tile.Colorable Stone Pattern5_12Slab.name=棕石 石纹 5 石板
+tile.Colorable Stone Pattern5_13Slab.name=绿石 石纹 5 石板
+tile.Colorable Stone Pattern5_14Slab.name=红石 石纹 5 石板
+tile.Colorable Stone Pattern5_15Slab.name=黑石 石纹 5 石板
+
+tile.Colorable Stone Pattern5_0Stairs.name=白石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_1Stairs.name=橙石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_2Stairs.name=品红石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_3Stairs.name=浅蓝石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_4Stairs.name=黄石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_5Stairs.name=石灰石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_6Stairs.name=粉石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_7Stairs.name=深灰石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_8Stairs.name=灰石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_9Stairs.name=青石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_10Stairs.name=紫石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_11Stairs.name=蓝石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_12Stairs.name=棕石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_13Stairs.name=绿石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_14Stairs.name=红石 石纹 5 楼梯
+tile.Colorable Stone Pattern5_15Stairs.name=黑石 石纹 5 楼梯
+
+
+
+
+jinryuujrmcore.help_main=选择一种模式
+jinryuujrmcore.help_main1_1=在这里你可以了解到关于
+jinryuujrmcore.help_main1_2=龙珠和火影忍者的指南
+jinryuujrmcore.help_main2_1=在这里你可以查询到合成
+jinryuujrmcore.help_main2_2=目前为止并未全部添加
+jinryuujrmcore.help_main2_3=但是你可以在JinGames网站上找到更多
+
+jinryuujrmcore.Guides=指南
+jinryuujrmcore.Receipts=合成
+jinryuujrmcore.help_core=核心
+jinryuujrmcore.help_nc=火影忍者
+jinryuujrmcore.help_dbc=龙珠
+
+jinryuujrmcore.Back2=返回
+jinryuujrmcore.Exit=离开
+
+jinryuujrmcore.Client Settings=客户端设置
+jinryuujrmcore.Graphic Settings=图像设置
+jinryuujrmcore.User Interface=用户界面
+
+jinryuujrmcore.Client Hud X=气条位置 X
+jinryuujrmcore.Client Hud Y=气条位置 Y
+jinryuujrmcore.Client Hud Style=气条样式
+jinryuujrmcore.Client Lockon Style=锁定样式
+jinryuujrmcore.Client Hud 1 X=生命/血条X
+jinryuujrmcore.Client Hud 1 Y=生命/血条 Y
+jinryuujrmcore.Client Hud 1 Style=生命/血条样式
+jinryuujrmcore.Client Hud 1 Rot=生命/血条样式旋转
+jinryuujrmcore.Client Particles0=神模式气粒子
+jinryuujrmcore.Client Particles1=气粒子
+
+jinryuujrmcore.Client Particles2=火球粒子
+jinryuujrmcore.Client Particles3=爆炸粒子
+jinryuujrmcore.Client Health bar text style=血条信息百分比
+jinryuujrmcore.Client Health bar rotated=旋转血条
+
+jinryuujrmcore.Client Image0=俯冲效果
+jinryuujrmcore.Add more=添加更多
+jinryuujrmcore.Save=保存
+
+
+jinryuujrmcore.descvanityColorable1="可染色" vanity 物品可以染色
+jinryuujrmcore.descvanityColorable2=在工作台上用颜料围绕"可染色" vanity 物品
+
+
+jinryuujrmcore.help_guide_1_title=基础按键
+jinryuujrmcore.help_guide_1_desc1=C-释放你的气(聚气)
+jinryuujrmcore.help_guide_1_desc2=R-加速(飞行，奔跑)
+jinryuujrmcore.help_guide_1_desc3=G-改变形态(龙珠)/改变血统(火影忍者)
+jinryuujrmcore.help_guide_1_desc4=H-降低形态(解除变身状态)
+jinryuujrmcore.help_guide_1_desc5=F-飞行模式(需要学习舞空术)
+jinryuujrmcore.help_guide_1_desc6=X-操作菜单:可以启用和关闭你的技能或形态
+jinryuujrmcore.help_guide_1_desc7=移动或点击鼠标来执行
+jinryuujrmcore.help_guide_1_desc8= 
+
+jinryuujrmcore.help_guide_2_title=额外的装备栏
+jinryuujrmcore.help_guide_2_desc1=打开: 使用第二个功能和库存
+jinryuujrmcore.help_guide_2_desc2=(如果不知道怎么打开界面,初始按键为CTRL+E)
+jinryuujrmcore.help_guide_2_desc3=这些有头部,身体,重量三个插槽
+jinryuujrmcore.help_guide_2_desc4=右边的插槽,可以装备vanity物品
+jinryuujrmcore.help_guide_2_desc5= 
+
+jinryuujrmcore.help_guide_3_title=释放等级
+jinryuujrmcore.help_guide_3_desc1=需要释放你的气才可以收获到技能点
+jinryuujrmcore.help_guide_3_desc2=来提升属性和技能
+jinryuujrmcore.help_guide_3_desc3=每个玩家左上角都有释放级别
+jinryuujrmcore.help_guide_3_desc4=%符号显示你的释放等级
+jinryuujrmcore.help_guide_3_desc5=通过使用'C'键开始聚气
+jinryuujrmcore.help_guide_3_desc6=你开始可以达到50%,你只能通过
+jinryuujrmcore.help_guide_3_desc7=学习'极限解锁'来突破50%
+jinryuujrmcore.help_guide_3_desc8=你可以在地球神仙学习此技能
+jinryuujrmcore.help_guide_3_desc9=你可以使用'H'来降低你的释放等级
+jinryuujrmcore.help_guide_3_desc10=战斗力会随着释放等级而变化
+
+jinryuujrmcore.help_guide_4_title=提升属性和技能
+jinryuujrmcore.help_guide_4_desc1=为了变得更加强大你需要获得技能点
+jinryuujrmcore.help_guide_4_desc2=如果你的释放等级高于0%
+jinryuujrmcore.help_guide_4_desc3=那么在击中实体生物后则会获得技能点
+jinryuujrmcore.help_guide_4_desc4=浏览这些属性
+jinryuujrmcore.help_guide_4_desc5=你可以了解到从中获得的收益
+jinryuujrmcore.help_guide_4_desc6=为了提升属性和技能
+jinryuujrmcore.help_guide_4_desc7=你将需要技能点,并且需要升级'心灵'属性
+jinryuujrmcore.help_guide_4_desc8=技能表中'C'等于技能点'M'等于心灵点
+jinryuujrmcore.help_guide_4_desc9=移动到某项属性上即可看到收益
+
+jinryuujrmcore.help_guide_5_title=气技能
+jinryuujrmcore.help_guide_5_desc1=你可以使用技能点'C'或者心灵点'M'来提升技能
+jinryuujrmcore.help_guide_5_desc2=一些掌握的气技能将在你
+jinryuujrmcore.help_guide_5_desc3=拥有的技能栏中
+jinryuujrmcore.help_guide_5_desc4=在气技能栏中,你可以使用
+jinryuujrmcore.help_guide_5_desc5='CTRL'+'鼠标滚轮'在气技能之间滚动
+jinryuujrmcore.help_guide_5_desc6=使用某一项气技能时
+jinryuujrmcore.help_guide_5_desc7=你可以使用'CTRL'+'鼠标右键'
+jinryuujrmcore.help_guide_5_desc8= 
+jinryuujrmcore.help_guide_5_desc9= 
+
+jinryuujrmcore.help_guide_6_title=操作菜单
+jinryuujrmcore.help_guide_6_desc1=你有一个操作菜单
+jinryuujrmcore.help_guide_6_desc2=可以使用 'X' 来打开
+jinryuujrmcore.help_guide_6_desc3=它是用来选择功能的或
+jinryuujrmcore.help_guide_6_desc4=启用或禁用某些选项
+jinryuujrmcore.help_guide_6_desc5=请记住如果上面写着'关闭'
+jinryuujrmcore.help_guide_6_desc6=说明此时还是开启状态
+jinryuujrmcore.help_guide_6_desc7=需要单击使它成为'开启'才会使其关闭
+
+jinryuujrmcore.help_guide_7_title=形态
+jinryuujrmcore.help_guide_7_desc1=玩家拥有着各种形态,其中一些取决于
+jinryuujrmcore.help_guide_7_desc2=他们的种族.你可以在'技能'选项中升级
+jinryuujrmcore.help_guide_7_desc3=主要的种族天赋,但还可以学习
+jinryuujrmcore.help_guide_7_desc4=其他的技能.一些NPC可以教授
+jinryuujrmcore.help_guide_7_desc5=你学习其他技能. 例如
+jinryuujrmcore.help_guide_7_desc6=界王可以教授你潜能释放
+jinryuujrmcore.help_guide_7_desc7=这些形态你可以使用'X'
+jinryuujrmcore.help_guide_7_desc8=打开操作菜单进行操作
+jinryuujrmcore.help_guide_7_desc9=你使用'G'进行变换形态
+jinryuujrmcore.help_guide_7_desc10=然后使用'H'进行下降形态
+jinryuujrmcore.help_guide_7_desc11=如果你在操作菜单启用
+jinryuujrmcore.help_guide_7_desc12=你将可以使用他们
+
+jinryuujrmcore.help_guide_8_title=动作
+jinryuujrmcore.help_guide_8_desc1=加速: 你可以通过按'R'
+jinryuujrmcore.help_guide_8_desc2=使用加速模式更快地移动
+jinryuujrmcore.help_guide_8_desc3=飞行: 你可以通过按'F'
+jinryuujrmcore.help_guide_8_desc4=进入飞行模式,但是你需要
+jinryuujrmcore.help_guide_8_desc5=先向NPC学习技能'舞空术'
+jinryuujrmcore.help_guide_8_desc6=俯冲: 一旦学会了你可以
+jinryuujrmcore.help_guide_8_desc7=快速的飞行
+jinryuujrmcore.help_guide_8_desc8=你可以使用'X'打开
+jinryuujrmcore.help_guide_8_desc9=操作菜单并启用
+jinryuujrmcore.help_guide_8_desc10=使用方法为'CTRL+W'
+jinryuujrmcore.help_guide_8_desc11=冲刺: 使用方法为
+jinryuujrmcore.help_guide_8_desc12='CTRL+S/A/D'可瞬移一小段
+
+jinryuujrmcore.help_guide_9_title=建筑与NPC
+jinryuujrmcore.help_guide_9_desc1=在你们的世界里,有新的建筑物生成
+jinryuujrmcore.help_guide_9_desc2=在里面或附近有它们的主人
+jinryuujrmcore.help_guide_9_desc3=有些建筑物有固定的位置
+jinryuujrmcore.help_guide_9_desc4=(例如 卡林塔 天神殿 等)
+jinryuujrmcore.help_guide_9_desc5=而有些建筑物仅在靠近它们时
+jinryuujrmcore.help_guide_9_desc6=在特定的生物群系中才会生成
+jinryuujrmcore.help_guide_9_desc7=(例如 悟空的家 需要靠近平原才会生成)
+jinryuujrmcore.help_guide_9_desc8= 
+jinryuujrmcore.help_guide_9_desc9= 
+jinryuujrmcore.help_guide_9_desc10= 
+jinryuujrmcore.help_guide_9_desc11= 
+jinryuujrmcore.help_guide_9_desc12= 
+
+jinryuujrmcore.help_guide_10_title=安全区域
+jinryuujrmcore.help_guide_10_desc1=安全区域指随NPC一起生成的区域
+jinryuujrmcore.help_guide_10_desc2=安全区域包围着它们
+jinryuujrmcore.help_guide_10_desc3=进入区域的玩家无法使用技能
+jinryuujrmcore.help_guide_10_desc4=敌人也无法存在于安全区域
+jinryuujrmcore.help_guide_10_desc5= 
+jinryuujrmcore.help_guide_10_desc6= 
+
+jinryuujrmcore.help_guide_11_title=龙珠
+jinryuujrmcore.help_guide_11_desc1=龙珠有两种类型
+jinryuujrmcore.help_guide_11_desc2=地球龙珠和那美克星龙珠
+jinryuujrmcore.help_guide_11_desc3=它们会不时的刷新在世界里
+jinryuujrmcore.help_guide_11_desc4=通过摆出一个'H'型
+jinryuujrmcore.help_guide_11_desc5=使用右击中间的一个
+jinryuujrmcore.help_guide_11_desc6=即可召唤出神龙
+jinryuujrmcore.help_guide_11_desc7=右击神龙即可许愿
+jinryuujrmcore.help_guide_11_desc8=注意如果使用地球龙珠和
+jinryuujrmcore.help_guide_11_desc9=那美克星龙珠一起摆'H'将无法召唤神龙
+
+jinryuujrmcore.help_guide_12_title=空间和太空舱
+jinryuujrmcore.help_guide_12_desc1=行星和其他世界有多个新的空间
+jinryuujrmcore.help_guide_12_desc2=你可以使用太空舱前往
+jinryuujrmcore.help_guide_12_desc3=那美克星或贝吉塔星,并返回主世界
+jinryuujrmcore.help_guide_12_desc4=也就是地球.死亡后
+jinryuujrmcore.help_guide_12_desc5=你将会被带到另一个世界
+jinryuujrmcore.help_guide_12_desc6=在那里你可以看见阎王或界王
+jinryuujrmcore.help_guide_12_desc7=或者和阎王对话使自己复活
+jinryuujrmcore.help_guide_12_desc8= 
+jinryuujrmcore.help_guide_12_desc9= 
+
+jinryuujrmcore.help_guide_13_title=可学习的形态
+jinryuujrmcore.help_guide_13_desc1=潜能释放:你可以在界王那学习又称'老界王的仪式'
+jinryuujrmcore.help_guide_13_desc2=随着时间的流逝,你将失去它应有的水平
+jinryuujrmcore.help_guide_13_desc3=魔人:任何邪恶的人都可以向巴比迪学习
+jinryuujrmcore.help_guide_13_desc4=你只有死了才能失去它
+jinryuujrmcore.help_guide_13_desc5=界王拳:可以向界王学习
+jinryuujrmcore.help_guide_13_desc6=你可以多次使用从而提高水平,但是会
+jinryuujrmcore.help_guide_13_desc7=伤害你的身体,使用后会受到一个debuff
+jinryuujrmcore.help_guide_13_desc8=超级赛亚人绿:随机分配给玩家,它会为你提高绿色的图标
+jinryuujrmcore.help_guide_13_desc9=并在提升形态中将你的头发变成绿色
+jinryuujrmcore.help_guide_13_desc10= 
+jinryuujrmcore.help_guide_13_desc11= 
+jinryuujrmcore.help_guide_13_desc12= 
+jinryuujrmcore.help_guide_13_desc13= 

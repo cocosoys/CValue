@@ -1,0 +1,44 @@
+/*    */ package com.google.common.collect;
+/*    */ 
+/*    */ import com.google.common.annotations.GwtCompatible;
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ @GwtCompatible(serializable = true)
+/*    */ class EmptyImmutableSetMultimap
+/*    */   extends ImmutableSetMultimap<Object, Object>
+/*    */ {
+/* 28 */   static final EmptyImmutableSetMultimap INSTANCE = new EmptyImmutableSetMultimap();
+/*    */   private static final long serialVersionUID = 0L;
+/*    */   
+/*    */   private EmptyImmutableSetMultimap() {
+/* 32 */     super(ImmutableMap.of(), 0, null);
+/*    */   }
+/*    */   
+/*    */   private Object readResolve() {
+/* 36 */     return INSTANCE;
+/*    */   }
+/*    */ }
+
+
+/* Location:              D:\WorkTools\Project\Minecraft\plugins\craftbukkit\1.7.10\CValue\libs\core\craftbukkit-1.7.10-R0.1-20140713.051447-4.jar!\com\google\common\collect\EmptyImmutableSetMultimap.class
+ * Java compiler version: 5 (49.0)
+ * JD-Core Version:       1.1.3
+ */

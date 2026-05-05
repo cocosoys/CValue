@@ -1,0 +1,40 @@
+/*    */ package org.bukkit.event.server;
+/*    */ 
+/*    */ import org.bukkit.event.HandlerList;
+/*    */ import org.bukkit.map.MapView;
+/*    */ 
+/*    */ 
+/*    */ public class MapInitializeEvent
+/*    */   extends ServerEvent
+/*    */ {
+/* 10 */   private static final HandlerList handlers = new HandlerList();
+/*    */   private final MapView mapView;
+/*    */   
+/*    */   public MapInitializeEvent(MapView mapView) {
+/* 14 */     this.mapView = mapView;
+/*    */   }
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */ 
+/*    */   
+/*    */   public MapView getMap() {
+/* 23 */     return this.mapView;
+/*    */   }
+/*    */ 
+/*    */   
+/*    */   public HandlerList getHandlers() {
+/* 28 */     return handlers;
+/*    */   }
+/*    */   
+/*    */   public static HandlerList getHandlerList() {
+/* 32 */     return handlers;
+/*    */   }
+/*    */ }
+
+
+/* Location:              D:\WorkTools\Project\Minecraft\plugins\craftbukkit\1.7.10\CValue\libs\core\craftbukkit-1.7.10-R0.1-20140713.051447-4.jar!\org\bukkit\event\server\MapInitializeEvent.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

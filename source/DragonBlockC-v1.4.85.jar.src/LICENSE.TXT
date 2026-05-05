@@ -1,0 +1,62 @@
+See updated License at http://main.jingames.net/license/
+
+
+
+LEGAL NOTICE: PLEASE READ THESE TERMS BEFORE CONTINUING OR OTHERWISE USING THE MINECRAFT MODS OR/AND SOFTWARES. ALL USE OF THE MINECRAFT MODS AND/OR SOFTWARES IS SUBJECT TO THE LICENSE TERMS SET FORTH BELOW. “SOFTWARE” MEANS ONE OR MORE MINECRAFT MODIFICATIONS, COMPUTER PROGRAMS IN EXECUTABLE FORMAT, WHETHER STAND-ALONE OR BUNDLED WITH OTHER PRODUCTS, RELATED DOCUMENTATION AND BROWSER GAMES ON DOMAINS MARKED BELOW.
+
+NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS NOTICE, INSTALLING OR OTHERWISE USING THE SOFTWARE INDICATES YOUR ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE LICENSE TERMS, DO NOT INSTALL OR USE THE SOFTWARE.
+
+LICENSE TERMS
+The following License Terms govern your use of the Software unless you have a separate written agreement with JinRyuu, in which case, that written agreement will control and take precedence.
+
+the domains: http://jingames.net and http://ryugujo.hu including all subdomains
+the software: Every Software, Minecraft Modification on this domain and browser game (Dragon Artifact)
+the copyright holders: Copyright © 2012-2016, Tamás “JinRyuu” Nagy
+All rights reserved.
+
+Contact:
+E-Mail: jinryuu.nagy@gmail.com
+Skype: ryoutenma (i prefer english language but I am familiar with Hungarian, German and Japanese too)
+Twitter: JinRyuu_Nagy
+Facebook: https://www.facebook.com/JinRyuuNagy
+
+Note:
+Due to the copyright notation of Mojang AB, the copyright holders of minecraft, any modification is the intellectual property of the authors of the modification, as long as you don´t mark original modified or non modified minecraft files as your own.
+
+See also: https://minecraft.net/terms
+
+Terms:
+“Decompilation” means the translation of binary forms of the software into source forms of the software with or without the help of programs (including, but not limited to, decompilers).
+
+1. The use of the software in binary forms without any modification is permitted.
+1.1 Copying the software in binary forms without any modification for private purposes is permitted. Do not publish without a written permission of the copyright holders.
+
+2. Redistribution of the software in source or binary forms, with or without modification, is only permitted with a written permission by the copyright holders.
+
+3. Modification of the software in source or binary forms is only permitted with a written permission by the copyright holders.
+
+4. Reading the source code of the software is only permitted with a written permission by the copyright holders or a special permission.
+4.1 A special permission is automatically achieved, when the usage of the source code of the software is only for private, non commercial, reference purposes. (Including, but not limited to, learning, inspiration)
+4.2 Copying the source code of the software is only permitted with a written permission by the copyright holders.
+
+5. Decompilation of the binary files of the software is only permitted with a written permission by the copyright holders or a special permission.
+5.1 A special permission is automatically achieved, when the usage of the decompiled source code is only for private, non commercial, reference purposes. (Including, but not limited to, learning, inspiration)
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+
+Disclaimer:
+Don’t put them in your modpacks, don’t use them as a base of your mods, don’t distribute any mods or resource packs and pretend it’s your own…you get the idea. Not only is doing so stealing from me, it’s also against the law.
+
+That also means you may not take any content/assets (textures, codes, sounds etc) that I have created!
+To be sure on on what I have created ask me through the Contact page.
+
+You CAN, however, use these Mods, Resource Packs and Softwares in your videos and recommend it for your map.  Personal remixes for your own PRIVATE use are, of course, allowed. Have fun.
+
+Also stealing is not cool, and is not allowed, any content I have created, including assets and codes are not allowed to be used
+
+To be clear it is also forbidden to upload these Mods, Resource Packs and Softwares to anywhere else (above License Terms 2. point)
+These must be downloaded from jingames.net, ryugujo.hu domains including subdomains.
+So you may only forward others to our sites for them to download it from us and never upload our files to other domains without written permission!

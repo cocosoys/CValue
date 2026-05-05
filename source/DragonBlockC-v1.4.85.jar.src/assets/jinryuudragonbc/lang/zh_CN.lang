@@ -1,0 +1,1209 @@
+itemGroup.DragonBlockC=龙珠C
+
+jinryuudragonblockc.DBCServerConfigurations=DBC服务器配置
+jinryuudragonblockc.PlanetVegeta=行星贝吉塔
+jinryuudragonblockc.flyneedsskilllevel=飞行需要技能等级
+jinryuudragonblockc.DBSpawn=龙珠生成
+jinryuudragonblockc.SagaSystem=故事系统
+jinryuudragonblockc.DeathSystem=死亡系统
+jinryuudragonblockc.Explosions=爆炸
+jinryuudragonblockc.NPCBuildingSpawnCheck=NPC和建筑生成检查
+jinryuudragonblockc.KamiOutlookSafeZone=安全地区
+jinryuudragonblockc.DeathPenalty=死亡惩罚
+jinryuudragonblockc.Earthrate=地球自转速率
+jinryuudragonblockc.Namekrate=那美克星自转速率
+
+jinryuudragonblockc.TName=名称
+jinryuudragonblockc.TAcquired=目标
+jinryuudragonblockc.TOwner=拥有者
+jinryuudragonblockc.TType=类型
+jinryuudragonblockc.TSpeed=速度
+jinryuudragonblockc.TDamage=杀伤力
+jinryuudragonblockc.TEffect=效果
+jinryuudragonblockc.TEnergyCost=能量消耗
+jinryuudragonblockc.TCasttime=释放时间
+jinryuudragonblockc.TCooldown=冷却时间
+jinryuudragonblockc.TColor=颜色
+jinryuudragonblockc.TDensity=密度
+jinryuudragonblockc.TIncantation=聚气音效
+jinryuudragonblockc.TFire=发射音效
+jinryuudragonblockc.TMove=移动音效
+jinryuudragonblockc.TExp=经验
+jinryuudragonblockc.TLvl=等级
+jinryuudragonblockc.TUpg=升级点数
+jinryuudragonblockc.TStats=统计
+jinryuudragonblockc.Wave=气功波
+jinryuudragonblockc.Blast=气功弹
+jinryuudragonblockc.Disk=气圆斩
+jinryuudragonblockc.Laser=激光
+jinryuudragonblockc.Spiral=螺旋波
+jinryuudragonblockc.BigBlast=能量球
+jinryuudragonblockc.Barrage=弹幕
+jinryuudragonblockc.DefensiveKiai=防守的气
+jinryuudragonblockc.OffensiveKiai=进攻的球
+jinryuudragonblockc.maxDmgDesc=蓄满气是蓝色的，过载后是红色的
+jinryuudragonblockc.potDmg=潜在的基础伤害
+
+jinryuudragonblockc.SpeedInc=速度提升
+jinryuudragonblockc.DamageInc=伤害提升
+jinryuudragonblockc.CostRed=能量消耗减少
+jinryuudragonblockc.CastRed=蓄力时间减少
+jinryuudragonblockc.CoolRed=冷却时间减少
+jinryuudragonblockc.DensityInc=密度提升
+jinryuudragonblockc.SizeInc=大小提升
+
+
+entity.jinryuudragonblockc.KiFakeMoon.name=人造月球
+
+entity.jinryuudragonblockc.Namekian01.name=那美克星人
+entity.jinryuudragonblockc.Namekian03.name=那美克星人
+entity.jinryuudragonblockc.Saiyan01.name=赛亚人
+entity.jinryuudragonblockc.Saiyan02.name=赛亚人
+entity.jinryuudragonblockc.Saibaiman.name=栽培人
+entity.jinryuudragonblockc.Raditz.name=拉蒂兹
+entity.jinryuudragonblockc.Nappa.name=那巴
+entity.jinryuudragonblockc.Vegeta.name=贝吉塔
+entity.jinryuudragonblockc.Goku.name=孙悟空
+
+entity.jinryuudragonblockc.Kiwi.name=邱夷
+entity.jinryuudragonblockc.Dodoria.name=多多利亚
+entity.jinryuudragonblockc.Zarbon.name=萨博
+entity.jinryuudragonblockc.Zarbon2.name=萨博第二形态
+entity.jinryuudragonblockc.Guldo.name=古尔多
+entity.jinryuudragonblockc.Recoome.name=利库姆
+entity.jinryuudragonblockc.Barta.name=巴特
+entity.jinryuudragonblockc.Jeice.name=吉斯
+entity.jinryuudragonblockc.Ginyu.name=基纽
+entity.jinryuudragonblockc.FreezaSoldier1.name=弗利萨的士兵
+entity.jinryuudragonblockc.FreezaSoldier2.name=弗利萨的士兵
+entity.jinryuudragonblockc.FreezaSoldier3.name=弗利萨的士兵
+entity.jinryuudragonblockc.Freeza1.name=弗利萨
+entity.jinryuudragonblockc.Freeza2.name=弗利萨
+entity.jinryuudragonblockc.Freeza3.name=弗利萨
+entity.jinryuudragonblockc.Freeza4.name=弗利萨
+entity.jinryuudragonblockc.Freeza5.name=弗利萨
+entity.jinryuudragonblockc.Freeza6.name=弗利萨
+entity.jinryuudragonblockc.Freeza7.name=黄金弗利萨
+
+entity.jinryuudragonblockc.KingCold.name=库尔德王
+entity.jinryuudragonblockc.MechaFreeza.name=机械弗利萨
+entity.jinryuudragonblockc.Cell1.name=沙鲁
+entity.jinryuudragonblockc.Cell2.name=沙鲁
+entity.jinryuudragonblockc.Cell3.name=沙鲁
+entity.jinryuudragonblockc.Cell4.name=沙鲁
+
+entity.jinryuudragonblockc.Cyborg16.name=人造人16号
+entity.jinryuudragonblockc.Cyborg17.name=人造人17号
+entity.jinryuudragonblockc.Cyborg18.name=人造人18号
+entity.jinryuudragonblockc.Cyborg19.name=人造人19号
+entity.jinryuudragonblockc.Cyborg20.name=人造人20号
+
+entity.jinryuudragonblockc.Puipui.name=普依
+entity.jinryuudragonblockc.Yakon.name=亚昆
+entity.jinryuudragonblockc.Darbura.name=达普拉
+entity.jinryuudragonblockc.BuuFat.name=魔人布欧（胖）
+entity.jinryuudragonblockc.BuuSuper.name=超级魔人布欧
+entity.jinryuudragonblockc.Beerus.name=破坏神
+
+entity.jinryuudragonblockc.enma.name=阎魔王
+entity.jinryuudragonblockc.kami.name=地球神仙
+entity.jinryuudragonblockc.northkaio.name=北界王
+entity.jinryuudragonblockc.karin.name=加林仙人
+entity.jinryuudragonblockc.roshi.name=武天老师
+entity.jinryuudragonblockc.cellmaster.name=人造人沙鲁
+entity.jinryuudragonblockc.Freezamaster.name=宇宙帝王弗利萨
+entity.jinryuudragonblockc.gokumaster.name=武道家孙悟空
+entity.jinryuudragonblockc.masterbabidi.name=魔法师巴比迪
+entity.jinryuudragonblockc.masterpiccolo.name=比克大魔王
+entity.jinryuudragonblockc.mastervegeta.name=贝吉塔
+entity.jinryuudragonblockc.gohanmaster.name=悟饭
+entity.jinryuudragonblockc.trunksfuturemaster.name=特兰克斯
+entity.jinryuudragonblockc.jin.name=Jin Ryuu
+
+entity.jinryuudragonblockc.EntityDino01.name=霸王龙
+entity.jinryuudragonblockc.EntityDino02.name=迅猛龙
+entity.jinryuudragonblockc.EntityDino03.name=三角龙
+entity.jinryuudragonblockc.Kintoun.name=筋斗云
+entity.jinryuudragonblockc.KintounBlack.name=黑筋斗云
+entity.jinryuudragonblockc.SpacePod.name=赛亚人宇宙舱
+entity.jinryuudragonblockc.Dragon.name=神龙
+entity.jinryuudragonblockc.Dragon2.name=神龙
+entity.jinryuudragonblockc.Dragonp.name=波仑伽
+entity.jinryuudragonblockc.Dragonp2.name=波仑伽
+
+entity.jinryuudragonblockc.hell01.name=怪物红
+entity.jinryuudragonblockc.hell02.name=怪物蓝
+
+entity.jinryuudragonblockc.EntityRRMecha.name=红机甲
+entity.jinryuudragonblockc.EntitySabertooth.name=剑齿虎
+
+dbc.itemki.line1=发音“气”
+dbc.itemki.line2=这是一种力量的能力，气
+dbc.itemki.line3=用于一些龙珠的技能
+
+dbc.itemDRadar.line1=一个龙珠雷达.只有
+dbc.itemDRadar.line2=龙珠而不是
+dbc.itemDRadar.line3=石头能被检测
+
+dbc.itemKiAtt.line1=花费
+dbc.itemKiAtt.line2=伤害
+dbc.itemKiAtt.line2.2=HH
+dbc.itemKiAtt.line3=地面爆炸
+dbc.itemKiAtt.line4=基础气功
+
+dbc.itemSaiySaga.line1=赛亚人篇
+dbc.itemSaiySagaRad.line1=拉蒂兹已经到了!
+dbc.itemSaiySagaRad.d.line1=拉蒂兹: 还有另外两个更强的赛亚人马上就回来摧毁地球!
+dbc.itemSaiySagaVeg.line1=那巴: 贝吉塔,他的战斗力是多少?
+dbc.itemSaiySagaVeg.line1=那巴: 贝吉塔,他的战斗力是多少?
+dbc.itemSaiySagaVeg.line2=贝吉塔: 大概 9000!!!
+dbc.itemSaiySagaVeg.d.line1=贝吉塔: 你只是第一个低级战士,这是你最后一次见到我!
+dbc.itemSaiySagaVeg.d.line2=那巴: 不!!!
+
+dbc.itemFreeSaga.line1=那美克星篇
+dbc.itemFreeSagaCui.line1=邱夷：我不会让你挡住弗利萨大王的路的！
+dbc.itemFreeSagaDod.line1=多多利亚：你这垃圾知道地狱是什么样子的么？
+dbc.itemFreeSagaZar.line1=萨博：没有人能骗到我们！你听到了吗？没有人！
+
+dbc.itemFreeSagaGin.1.line1=利库姆！
+dbc.itemFreeSagaGin.2.line1=巴特！
+dbc.itemFreeSagaGin.3.line1=吉斯！
+dbc.itemFreeSagaGin.4.line1=古尔多！
+dbc.itemFreeSagaGin.5.line1=基纽队长！
+dbc.itemFreeSagaGin.6.line1=我们所有人即是基纽特战队！
+dbc.itemFreeSagaGin.d.1.line1=利库姆：我的巧克力....
+dbc.itemFreeSagaGin.d.5.line1=基纽：不可能...我是除了弗利萨大王之外第二强的!!...
+
+dbc.itemFreeSagaFre.1.line1=弗利萨：毕竟你逃不了的！
+dbc.itemFreeSagaFre.2.line1=弗利萨：毕竟你逃不了的！
+dbc.itemFreeSagaFre.d.1.line1=弗利萨: 为什么你....只要我变身了这情况就永远不会发生
+dbc.itemFreeSagaFre.d.2.line1=弗利萨: 这不可能！怎么？...
+dbc.itemFreeSagaFre.d.3.line1=弗利萨: 这不可能！怎么？...
+dbc.itemFreeSagaFre.d.4.line1=弗利萨: 现在你不会看到我真正的力量...
+dbc.itemFreeSagaFre.d.5.line1=弗利萨: 这是不公平的！你为什么不等我最后的变身？
+dbc.itemFreeSagaFre.d.6.line1=弗利萨: 但如何...？
+
+dbc.MainSaga.14.1=机械弗利萨：士兵们给我杀了那些虫子！
+dbc.MainSaga.14.2=库尔德王：你不是不想等待吗
+dbc.MainSaga.15.1=机械弗利萨：想着你对我所做的一切，我会杀掉你的！
+dbc.MainSaga.19.1=人造人20号：我们人造人是很久之前被摧毁掉的红缎带军团制造的。
+dbc.MainSaga.19.2=人造人20号：现在我们是为了复仇！
+dbc.MainSaga.22.1=人造人17号：终于，现在格罗博士死了，没有人能阻止我们了。
+dbc.MainSaga.22.2=人造人18号：我想和我们的客人玩一下。
+dbc.MainSaga.22.3=人造人17号：好吧，直到你找到一辆车，16号。
+dbc.MainSaga.26.1=沙鲁：我只希望你能比上次更好的招待我。
+dbc.MainSaga.26.2=沙鲁：你躲不开我的！
+
+dbc.MainSaga.25.1=人造人17号：18号发生了什么？没有人能打败我们！
+dbc.MainSaga.25.2=人造人16号：我不能让沙鲁带走17号。离开这里！
+dbc.MainSaga.25.3=人造人17号：你认为你是谁？我17号是最强的！
+dbc.MainSaga.29.1=沙鲁：我只希望你能比上一次更好的招待我。
+dbc.MainSaga.29.2=沙鲁：你躲不开我的！
+dbc.MainSaga.17.1=当然，我会的。
+dbc.MainSaga.17.2=这真是糟糕。似乎有更可怕
+dbc.MainSaga.17.3=的未来在弗利萨的事情之后。
+dbc.MainSaga.17.4=你能帮我看一下吗？
+dbc.MainSaga.d.Cold=库尔德王：不要杀我！！！！！
+dbc.MainSaga.d.Freeza=机械弗利萨：不可能....
+
+dbc.MainSaga.17.b=当然, 我会的.
+dbc.MainSaga.17.m=这很可怕. 那可怕的弗利萨将会在不久的将来到达. 你能帮我看一下吗?
+
+dbc.MainSaga.d.c20=人造人20号：我没有其他的选择，我必须启动17号和18号！你不会高兴的！
+dbc.MainSaga.d.c19=人造人19号：我还不想死！！！
+dbc.MainSaga.d.c19.resp=从人造人嘴里听到真是讽刺。
+dbc.MainSaga.d.c18=人造人18号：不！离我远一点你这怪物！！啊啊啊！
+dbc.MainSaga.22.cell1=沙鲁：别担心，你会变成我的一部分的，18号。
+dbc.MainSaga.22.cell2=沙鲁：我会好好使用你的，相信我17号。
+dbc.MainSaga.23.cell0=沙鲁：没有人会以我的方法去追求完美...没有人！
+dbc.MainSaga.23.cell1=沙鲁：还差一个我就变成完全体了。
+dbc.MainSaga.23.cell2=沙鲁：终于我成为完全体了！
+dbc.MainSaga.23.cell3=沙鲁：现在我让你离开。所以下次变得更强吧！
+dbc.MainSaga.d.c17=人造人17号：什么？你是什么？我会杀了你.... 啊啊啊！
+dbc.MainSaga.d.c16=人造人16号：很抱歉。我只是想保护我所爱的自然。
+dbc.MainSaga.d.cell1=沙鲁：你认为你能很容易的杀了我？
+dbc.MainSaga.d.cell2=沙鲁：那对我没有效果你知道的。
+dbc.MainSaga.d.cell3=沙鲁：我应该是完美的... 那你是怎么... 不... 我是完美的！！！！
+dbc.MainSaga.d.cell4=沙鲁：我.... 是.....完美的........！
+
+dbc.MainSaga.30.m=你是谁?你以为你能阻止我吗?呵呵,好笑话。
+dbc.MainSaga.30.b=...
+dbc.MainSaga.31.1=普依: 没有地球人能够站起来打败我...(我们都是赛亚人！)
+dbc.MainSaga.31.d=普依: 这... 不可能!
+dbc.MainSaga.32.1=亚昆: 嘎啊啊！
+dbc.MainSaga.32.d=亚昆: 呃啊啊！
+dbc.MainSaga.33.1=达普拉: 你已经走了很远了，但是你不能继续了。
+dbc.MainSaga.33.d=达普拉: 你确实很强大，但还是不够强大。
+dbc.MainSaga.34.1=魔人布欧: 布欧！布欧！布欧把你变成巧克力！
+dbc.MainSaga.34.d=巴比迪: 现在过来魔人布欧，离开那个废物，我们有其他事要做！
+dbc.MainSaga.36.1=魔人布欧: 这次布欧不会让你活着的！
+dbc.MainSaga.36.d=魔人布欧: 现在布欧生气了！布欧要杀了你！
+dbc.MainSaga.38.1=魔人布欧: 你...布欧记得你！你是之前布欧打败过的人！
+dbc.MainSaga.38.2=魔人布欧: 你想多一些吗？好，不过这是最后一次！
+dbc.MainSaga.38.d=魔人布欧: 嘎啊啊啊！
+
+dbc.sidesagas.101.talkok=没问题
+dbc.sidesagas.101.talk=感谢你抵挡了栽培人的威胁。
+
+dbc.sagasystem.freeza=那美克星篇
+dbc.sagasystem.saiyan=赛亚人来袭篇
+dbc.sagasystem.android=人造人篇
+dbc.sagasystem.buu=魔人布欧篇
+dbc.sagasystem.credits=角色
+dbc.sagasystem.0.title=欢迎来到龙珠
+dbc.sagasystem.0.desc=你会感到令人不舒服的力量！你准备好了吗？
+dbc.sagasystem.0.obj=单击“开始”开始故事模式
+dbc.sagasystem.1.title=什么？赛亚人？他们可以吃吗？
+dbc.sagasystem.1.desc=杀掉栽培人来获得更多信息。他们能在岩石群系(Rocky Biome)发现。
+dbc.sagasystem.1.obj=杀掉6个栽培人。
+dbc.sagasystem.2.title=拉蒂兹到来
+dbc.sagasystem.2.desc=拉蒂兹来地球找他的弟弟，是很久前被送到地球的一个婴儿。
+dbc.sagasystem.2.obj=杀掉拉蒂兹。
+dbc.sagasystem.3.title=更强的赛亚人
+dbc.sagasystem.3.desc=拉蒂兹告诉你还有两个赛亚人在路上，而且比他更强大。
+dbc.sagasystem.3.obj=杀掉12个栽培人。
+dbc.sagasystem.4.title=贝吉塔和那巴
+dbc.sagasystem.4.desc=他们来毁灭地球了！不能让他们得逞！
+dbc.sagasystem.4.obj=杀了他们！
+dbc.sagasystem.5.title=贝吉塔逃走了
+dbc.sagasystem.5.desc=前往那美克星, 如果你想要一个更大的挑战... 你会在那见识到的 >)
+dbc.sagasystem.5.obj=用太空舱去那美克星。
+dbc.sagasystem.6.title=谁是弗利萨？
+dbc.sagasystem.6.desc=士兵在那美克星上到处都是！他们从哪里来的还有为什么来这？
+dbc.sagasystem.6.obj=杀掉12个弗利萨的士兵。
+dbc.sagasystem.7.title=新的危机！
+dbc.sagasystem.7.desc=“这是什么？比我强吗？没办法！这没有一个更强的！”
+dbc.sagasystem.7.obj=和邱夷战斗！
+dbc.sagasystem.8.title=多多利亚找到你了！
+dbc.sagasystem.8.desc=“如果你敢的话，在这里，我是最强的。”
+dbc.sagasystem.8.obj=和多多利亚战斗！
+dbc.sagasystem.9.title=萨博做了些什么或者是其他的事。
+dbc.sagasystem.9.desc=看来必须和萨博战斗，或者被弗利萨杀掉... 好吧，他会被杀的。
+dbc.sagasystem.9.obj=和萨博战斗！
+dbc.sagasystem.10.title=基纽特战队
+dbc.sagasystem.10.desc=“利库姆！”，“巴特”，“吉斯”，“古尔多”，“基纽队长... 我们所有人即是... 基纽特战队！这他妈的那是什么？！
+dbc.sagasystem.10.obj=打败基纽特战队！
+dbc.sagasystem.11.title=他不会原谅！
+dbc.sagasystem.11.desc=“你破坏了我的计划，我的军队，我的愿望！你就那么想被杀掉么？！”
+dbc.sagasystem.11.obj=和弗利萨战斗！
+dbc.sagasystem.12.title=回到地球
+dbc.sagasystem.12.desc=战斗结束了。回到地球去确认每一个东西都很好。
+dbc.sagasystem.12.obj=在地球。
+dbc.sagasystem.13.title=弗利萨不是死了吗？
+dbc.sagasystem.13.desc=你感到了一股巨大气向地球移动...这不是...这是他！
+dbc.sagasystem.13.obj=寻找一个平原群系(Plains Biome)!
+dbc.sagasystem.14.title=弗利萨来了！
+dbc.sagasystem.14.desc=和他们战斗，避免地球被毁灭。
+dbc.sagasystem.14.obj=杀掉他们的士兵
+dbc.sagasystem.15.title=库尔德王是巨大的...
+dbc.sagasystem.15.desc=弗利萨比之前更强大，现在他和他爸爸一起来到了地球。
+dbc.sagasystem.15.obj=杀掉他们！
+dbc.sagasystem.16.title=超级赛亚人
+dbc.sagasystem.16.desc=变成超级赛亚人。这是赛亚人里的传说，每一千年会出现一个超级赛亚人。
+dbc.sagasystem.16.obj=变成超级赛亚人。
+dbc.sagasystem.17.title=凶兆
+dbc.sagasystem.17.desc=神仙看起来有一件非常重要的事要告诉你。
+dbc.sagasystem.17.obj=和神仙交谈
+dbc.sagasystem.18.title=有点不对劲！
+dbc.sagasystem.18.desc=什么东西让神仙如此害怕？希望不是像神仙说的那么糟糕。
+dbc.sagasystem.18.obj=寻找一个岩石群系(Rocky Biome)
+dbc.sagasystem.19.title=人造人？
+dbc.sagasystem.19.desc=“先是外星人，现在是人造人。好极了。这个世界发生了什么...？”
+dbc.sagasystem.19.obj=和人造人战斗。
+dbc.sagasystem.20.title=更多人造人？
+dbc.sagasystem.20.desc=20号逃跑了。他和你说了一些关于17号和18号的事情。他说他们比他更强。
+dbc.sagasystem.20.obj=去精神与时间屋修炼
+dbc.sagasystem.21.title=新的人造人
+dbc.sagasystem.21.desc=根据神仙说的人造人在平原群系(plains biome)
+dbc.sagasystem.21.obj=寻找一个平原群系(Plains Biome)
+dbc.sagasystem.22.title=格罗博士是人造人20号
+dbc.sagasystem.22.desc=人造人看上去已经启动了，其中一个很想战斗。和人造人战斗。
+dbc.sagasystem.22.obj=和18号战斗
+dbc.sagasystem.23.title=沙鲁-人造生物
+dbc.sagasystem.23.desc=这是什么东西？他似乎不是人造人，但是他真的很强。。
+dbc.sagasystem.23.obj=和沙鲁战斗
+dbc.sagasystem.24.title=和沙鲁战斗
+dbc.sagasystem.24.desc=沙鲁说他会等你变得更强再和你战斗。那么其他人造人在哪？
+dbc.sagasystem.24.obj=寻找一个岩石群系(Rocky Biome)
+dbc.sagasystem.25.title=16号想要保护17号？
+dbc.sagasystem.25.desc=看上去16号比17号更强。嗯...他的目的是什么？
+dbc.sagasystem.25.obj=看上去16号比17号更强。嗯...他的目的是什么？
+dbc.sagasystem.26.title=沙鲁又来了
+dbc.sagasystem.26.desc=看来沙鲁吸收了17号..这看起来很不好。
+dbc.sagasystem.26.obj=和沙鲁战斗
+dbc.sagasystem.27.title=超越超级赛亚人
+dbc.sagasystem.27.desc=达到新的超级赛亚人阶段和全功率的沙鲁战斗。
+dbc.sagasystem.27.obj=达到新的超级赛亚人阶段和全功率的沙鲁战斗。
+dbc.sagasystem.28.title=等着，沙鲁
+dbc.sagasystem.28.desc=“我不会让他为所欲为的！他会死在我的手上！”
+dbc.sagasystem.28.obj=寻找一个平原群系(Plains Biome)
+dbc.sagasystem.29.title=最后的对决
+dbc.sagasystem.29.desc=与全功率的沙鲁战斗，然后保护地球
+dbc.sagasystem.29.obj=杀掉最终形态的沙鲁
+dbc.sagasystem.30.title=新的威胁
+dbc.sagasystem.30.desc=界王给了棘手的警告。他说一个邪恶的魔法师巴比迪企图复活宇宙里最邪恶的生物：魔人布欧。赶紧阻止他。你能在平原群系(plains biome)找到他的飞船。
+dbc.sagasystem.30.obj=在平原群系(plains biome)找到巴比迪的飞船
+dbc.sagasystem.31.title=巴比迪的第一个仆从
+dbc.sagasystem.31.desc=普依，在这和你战斗！把他扔出去！
+dbc.sagasystem.31.obj=打败普依
+dbc.sagasystem.32.title=亚昆
+dbc.sagasystem.32.desc=巴比迪放出了他的怪物：亚昆。不要让他靠近你！(亚昆会让失明变成黑暗)
+dbc.sagasystem.32.obj=打败亚昆
+dbc.sagasystem.33.title=恶魔之王
+dbc.sagasystem.33.desc=巴比迪派他的心腹达普拉来对付你。他比其他人强多了。
+dbc.sagasystem.33.obj=打败达普拉
+dbc.sagasystem.34.title=惊讶的是
+dbc.sagasystem.34.desc=达普拉用和你战斗时的机会让魔人布欧吸收复活的能量！这足以让魔人布欧复活，这不是我们期待看到的。这家伙真是魔人布欧？一个粉红色的胖子！等等！他把达普拉变成巧克力然后吃了！他显然比你想象的更加强大！
+dbc.sagasystem.34.obj=和胖魔人布欧战斗
+dbc.sagasystem.35.title=更多力量
+dbc.sagasystem.35.desc=你需要到达一个新的高度...再次超越超越超级赛亚人
+dbc.sagasystem.35.obj=达到超级赛亚人3
+dbc.sagasystem.36.title=第二次
+dbc.sagasystem.36.desc=魔人布欧打败了你，但是他没杀你。你必须马上找到他并阻止他！你需要变得更强。
+dbc.sagasystem.36.obj=再次和倒胖魔人布欧战斗
+dbc.sagasystem.37.title=寻找这力量的来源！
+dbc.sagasystem.37.desc=魔人布欧杀死巴比迪后似乎已经开始平静的生活。一切似乎都结束了，尽管你没有做任何事情。不幸的是，在那个方向，有一个强大的能量。调查的时间到了。
+dbc.sagasystem.37.obj=找到一个平原群系(plains biome)
+dbc.sagasystem.38.title=超级魔人
+dbc.sagasystem.38.desc=魔人布欧变得更瘦，更强大。你是在一个地狱的斗争！
+dbc.sagasystem.38.obj=和超级魔人布欧战斗!
+dbc.sagasystem.39.title=龙珠正版剧情完结
+dbc.sagasystem.39.desc=感谢你玩龙珠MOD！我想感谢所有帮助我开发这个MOD的人，我希望人会更多。如果你愿意的话可以重新开始故事模式。
+dbc.sagasystem.39.obj=因为JinRyuu,才有了这个mod感谢!
+
+dbc.sagasystem.all.ak=已经死了。
+dbc.sagasystem.all.none=没有了
+dbc.sagasystem.all.one=一个
+dbc.sagasystem.all.tk=他们其中一个已经死了
+
+dbc.sagasystem.Protect=为了正义
+dbc.sagasystem.Myself=为了自己
+dbc.sagasystem.Evil=为了邪恶
+
+dbc.sidesagas.100.story=栽培人的侵袭
+dbc.sidesagas.100.title=了解敌人
+dbc.sidesagas.100.desc=拉蒂兹已经种下了一些栽培人的种子，几天后就会成功了，在一切还能挽回之前去解决它们。
+dbc.sidesagas.100.obj=解决30个栽培人。
+dbc.sidesagas.101.title=向神仙报告。
+dbc.sidesagas.101.desc=栽培人已经解决。
+dbc.sidesagas.101.obj=和神仙对话完成任务
+
+
+dbc.entitymasters.insafezone=你现在在 %s 的安全区域！
+dbc.entitymasters.nofightinsafe=安全区内不允许打架！
+dbc.entitymasters.leftsafe=你离开了安全区域！
+
+dbc.entity.death.youllregretthis=你会后悔的！...
+dbc.packets.notenoughtp=没有足够的训练点！
+
+dbc.timechamber.waitillenter=你必须等待 %s 才能再次进入！
+dbc.timechamber.waitillenter.min=分
+dbc.timechamber.waitillenter.sec=秒
+dbc.timechamber.mustwaitaday=你必须等待一个Minecraft天（20分钟）你才可以再次进入精神与时间屋。
+
+dbc.worldgen.buildings.beenfound=%s 已经发现！
+dbc.clienttick.increltouseki=想用气, 就按下释放气的 %s 键！
+
+dbc.com.loc.coords=XYZ 坐标
+dbc.com.loc.kami=加林塔和神仙神殿坐标: 80 220 60
+dbc.com.loc.kame=龟仙屋
+dbc.com.loc.kamenotexp=龟仙屋还没有发现！它能在海洋群系(Ocean biome)找到
+dbc.com.loc.cell=沙鲁的比武场
+dbc.com.loc.cellnotexp=沙鲁的比武场还没有发现！它能在平原群系(Plains biome)找到
+dbc.com.loc.goku=悟空的家
+dbc.com.loc.gokunotexp=悟空的家还没有发现！它能在平原群系(Plains biome)找到
+dbc.com.loc.babidi=巴比迪的飞船
+dbc.com.loc.babidinotexp=巴比迪的飞船还没有发现！它能在平原群系(Plains biome)找到
+dbc.com.loc.freeza=弗利萨的飞船
+dbc.com.loc.freezanotexp=弗利萨的飞船还没有发现！它能在那美克星群系(Namek biome)找到
+
+
+
+dbc.itemSenzu.line1=仙豆会回复你的体力和气。
+dbc.ItemDinoMeat.line1=恐龙肉会补充500的体力和10%的气。
+dbc.HTC.toolong=你在精神与时间屋里呆得太久了。
+dbc.HTC.how=你会得到经验如果你有战斗力
+dbc.HTC.how.2=, 修炼点
+dbc.HTC.how.3=还有你必须在移动中。
+dbc.HTC.how2=直到你提升战斗力时你才会获得经验
+dbc.HTC.how2.2=战斗力 或者
+dbc.HTC.how2.3=修炼点, 如果你移动。
+
+jinryuudragonblockc.KABigBang=大爆炸攻击
+jinryuudragonblockc.KABlast=气功炮
+jinryuudragonblockc.KABurningAtt=燃烧攻击
+jinryuudragonblockc.KADeathBeam=死亡光线
+jinryuudragonblockc.KADodon=动动波
+jinryuudragonblockc.KAEnergyDisk=气圆斩
+jinryuudragonblockc.KAFinalFlash=终极闪光
+jinryuudragonblockc.KAFingerLeser=手指光线
+jinryuudragonblockc.KAGalicGun=闪光炮
+jinryuudragonblockc.KAHame=龟派气功
+jinryuudragonblockc.KAHame10x=10倍龟派气功
+jinryuudragonblockc.KAMakanko=魔贯光杀炮
+jinryuudragonblockc.KAMasenko=魔闪光
+jinryuudragonblockc.KAPlanetDest=超新星
+jinryuudragonblockc.KASpiritbomb=元气弹
+jinryuudragonblockc.KTKaioken=界王拳
+jinryuudragonblockc.KAFakeMoon=人造月亮
+
+dbc.moreevil.line1=你将变得越来越邪恶！
+jinryuudragonblockc.StrainRemoved=压力已经消除!
+
+jinryuudragonblockc.Concentration=专注
+jinryuudragonblockc.Jump=跳跃
+jinryuudragonblockc.Dash=冲刺
+jinryuudragonblockc.Fly=舞空术
+jinryuudragonblockc.Endurance=忍耐力
+jinryuudragonblockc.Endurance=忍耐力
+jinryuudragonblockc.PotentialUnlock=极限解锁
+jinryuudragonblockc.NamekRegeneration=那美克星人再生
+jinryuudragonblockc.Meditation=冥想
+jinryuudragonblockc.Kaioken=界王拳
+jinryuudragonblockc.KiSense=气感
+jinryuudragonblockc.GodForm=神模式
+jinryuudragonblockc.KiProtection=气护体
+jinryuudragonblockc.KiFist=气拳
+jinryuudragonblockc.KiBoost=气增强
+jinryuudragonblockc.DefensePenetration=防御渗透
+jinryuudragonblockc.KiInfuse=气注入
+jinryuudragonblockc.HealSelf=自我治疗
+jinryuudragonblockc.GodKi=God Ki
+jinryuudragonblockc.FriendlyFist=友好拳
+
+jinryuudragonblockc.JumpDesc=技能跳跃让你跳得更高
+jinryuudragonblockc.DashDesc=技能冲刺,让你跑得更快并提供双击ASD躲闪的能力.您可以在操作菜单中打开/关闭.
+jinryuudragonblockc.FlyDesc=技能舞空术,您可以在空中或跳起来按F（默认F）进行飞行,另外双击“前进”可以让你在短距离飞行,它叫做舞空术,您可以在操作菜单中打开/关闭.
+jinryuudragonblockc.EnduranceDesc=技能忍耐力,为你提供额外的基于伤害减少的百分比.
+jinryuudragonblockc.PotentialUnlockDesc=技能极限解锁,允许您释放50％以上的气,每个级别提供5％的气释放.
+jinryuudragonblockc.NamekRegenerationDesc=技能那美克星人再生,只能由那美克星人使用.这可以让他们获得比其他种族更高的治愈能力来换取能量.
+jinryuudragonblockc.MeditationDesc0=技能冥想,加快恢复能量.
+jinryuudragonblockc.MeditationDesc1=技能冥想,进一步提高能量.
+jinryuudragonblockc.KaiokenDesc=技能界王拳,给玩家使用界王拳的能力.可以在操作菜单中可访问
+jinryuudragonblockc.KiSenseDesc=技能气感,让你看到其他玩家的力量.增加详细资料,包括比较的线条.使用默认为F4
+jinryuudragonblockc.GodFormDesc=技能神模式,将提供与神的形式和可能性感知其他人在神的形式时的确切能力.可以在操作菜单中可访问
+jinryuudragonblockc.KiProtectionDesc=技能气护体,给予额外的气防御.
+jinryuudragonblockc.KiFistDesc=技能气拳,给予额外的气伤害.
+jinryuudragonblockc.KiBoostDesc=技能气增强,增加气上限.
+jinryuudragonblockc.DefensePenetrationDesc=技能防御渗透,会忽略对手防御的百分比,但是这个伤害百分比总是最低. 每升级1％
+jinryuudragonblockc.KiInfuseDesc=技能气注入,允许气弹射伤害,从而增加他们的伤害. 每次升级都会给意志属性造成0.5％的伤害
+
+jinryuudragonblockc.Single=单体
+jinryuudragonblockc.Explosive=爆炸
+jinryuudragonblockc.AOE=群体伤害
+
+jinryuudragonblockc.HiddenPotential=地球人种族天赋
+jinryuudragonblockc.SuperForm=赛亚人种族天赋
+jinryuudragonblockc.PowerBoost=那美克星人种族天赋
+jinryuudragonblockc.Transformations=冰冻恶魔种族天赋
+jinryuudragonblockc.HiddenPotentialDesc=地球人种族技能.他们获得力量.
+jinryuudragonblockc.SuperFormDesc=赛亚人和混血赛亚人的种族技能.为他们开启新的菜单.
+jinryuudragonblockc.PowerBoostDesc=那美克星人种族技能.他们获得力量.
+jinryuudragonblockc.TransformationsDesc=冰冻恶魔种族技能.可以解锁新的表格并增加他们的能量限制,  如果他们拥有PP则可以在100％能量释放时获得额外的动力提升.
+
+jinryuudragonblockc.Fusion=融合
+jinryuudragonblockc.FusionDesc=技能融合,需要2名玩家.玩家的属性将融合到控制玩家的属性中.可以在操作菜单中可访问
+jinryuudragonblockc.playersFused=%1$s 和 %2$s 成功融合,现在是 %3$s !
+jinryuudragonblockc.playersFuseFaild= %1$s 和 %2$s 融合失败!
+jinryuudragonblockc.fusedspectator=你是融合副体,只能观看不能控制!
+jinryuudragonblockc.cantupgradef=不允许属性升级!
+
+jinryuudragonblockc.majinGet=魔化自己
+jinryuudragonblockc.majinLoose=净化
+
+jinryuudragonblockc.PURitual=老界王的仪式
+jinryuudragonblockc.OldKaiUnlock=潜能释放
+jinryuudragonblockc.OldKaiUnlockDesc=技能潜能释放,解锁神秘的形式. 可以在操作菜单中访问
+jinryuudragonblockc.UltraInstinct=自在极意功
+jinryuudragonblockc.UltraInstinctDesc=技能自在极意功，可能解锁自在极意功状态.神都难以到达这种境界,而且很难掌握.可以在操作菜单中访问.
+
+
+
+dbc.skill.jump.name=跳跃
+dbc.skill.dash.name=冲刺
+dbc.skill.fly.name=飞行
+dbc.skill.over.name=潜能解锁
+dbc.skill.endu.name=耐久
+
+dbc.saagui.abilities=能力
+dbc.saagui.sagasystem=故事模式
+dbc.saagui.trainingpoints=训练点
+dbc.saagui.body=身体
+dbc.saagui.maxki=气
+dbc.saagui.chargeki=气回复
+dbc.saagui.dash=冲刺
+dbc.saagui.punch=拳击
+dbc.saagui.jump=跳跃
+dbc.saagui.fly=飞行
+dbc.saagui.ascending=上升
+dbc.saagui.attackpower=攻击力
+dbc.saagui.selecthair=选择头发
+dbc.saagui.forgetattacks=忘记已学习的技能
+dbc.saagui.next=下一个
+dbc.saagui.back=返回
+dbc.saagui.accept=接受
+dbc.saagui.Black=黑
+dbc.saagui.White=白
+dbc.saagui.Purple=紫
+dbc.saagui.Red=红
+dbc.saagui.Brown=褐
+dbc.saagui.Orange=橙
+dbc.saagui.Green=绿
+dbc.saagui.Cyan=青
+dbc.saagui.Blue=蓝
+dbc.saagui.curexp=当前经验:
+dbc.saagui.exptp= 1训练点
+dbc.saagui.newskill=你已经学习到了新技能！
+
+jinryuudragonblockc.Earth=地球
+jinryuudragonblockc.Namek=那美克
+jinryuudragonblockc.OtherWorld=连接的世界
+jinryuudragonblockc.Vegeta=贝吉塔
+jinryuudragonblockc.TimeChamber=精神与时光屋
+
+dbc.wishgui.diamonds=钻石
+dbc.wishgui.chip=1级芯片
+dbc.wishgui.warcryst=无法切割的晶体
+dbc.wishgui.senzu=仙豆
+dbc.wishgui.kshard=剑碎片
+dbc.wishgui.younger2=游戏中年轻2岁
+dbc.wishgui.younger6=游戏中年轻6岁
+jinryuudragonblockc.wishrevive=复活其他玩家
+jinryuudragonblockc.wishreviveS=复活 %1$s
+jinryuudragonblockc.wishreviventp=复活并且带到这里
+jinryuudragonblockc.wishreviventpS=复活 %1$s 并带到这里
+jinryuudragonblockc.wishreviveall=复活所有 %1$s 玩家
+jinryuudragonblockc.wishtptoplanet=传送到一个星球
+jinryuudragonblockc.wishyoung=我想变成年轻的样子
+jinryuudragonblockc.wishchild=我想变成年幼的样子
+jinryuudragonblockc.wishold=我想变成老人
+jinryuudragonblockc.reviveoffered=你有了一个恢复和传送到 %2$s 朝 %3$s 身边的 %1$s
+jinryuudragonblockc.selectplayer=选择一个复活的玩家.
+jinryuudragonblockc.reviveaccepted=%1$s 接受了 %2$s 和 %3$s.
+jinryuudragonblockc.wishkicolor=改变气的颜色
+jinryuudragonblockc.wisharcultformcolor=重置Arcosian的最终颜色
+jinryuudragonblockc.DodgeSwoop=闪避/俯冲
+jinryuudragonblockc.error=错误
+jinryuudragonblockc.PlaceHolderDontUse=不使用-格子!
+
+dbc.talkgui.kintoun=得到了一朵筋斗云
+dbc.talkgui.kintounblack=得到了一朵黑色的筋斗云
+dbc.talkgui.learnki=学习气功
+dbc.talkgui.anew=重新开始
+
+dbc.talkgui.reincarnate=轮回转世
+dbc.talkgui.stay=待在地府
+dbc.talkgui.revfree=复活
+dbc.talkgui.revivetime=复活冷却 %4$sd %3$s:%2$s:%1$s
+dbc.talkgui.enmawelcomeG=欢迎来到地府！不幸的是你死了，但不要担心你的去向，你肯定会去天堂。
+dbc.talkgui.enmawelcomeN=欢迎来到地府!/n 你伤心死了,因为你在天堂与地狱中间徘徊
+dbc.talkgui.enmawelcomeE=欢迎来到地府!/n 这里有什么?. 邪恶吗? 这种破地方才不能困住我呢!
+dbc.talkgui.enmareincarnate=轮回转世/n 转世的意味着你将失去你所学到的，只保留原来数量的百分之90属性的一切 (%1$s). 如果这是你想要的,请确认.
+dbc.talkgui.enmareincavilabl=确认 %1$s 秒
+jinryuudragonblockc.canrevivenow=到界王那恢复!
+jinryuudragonblockc.reincarnated=你已经转世了!
+jinryuudragonblockc.kisensemode0=气感: 默认
+jinryuudragonblockc.kisensemode1=气感: 只看玩家
+jinryuudragonblockc.kisensemode2=气感: 只看怪物 
+jinryuudragonblockc.kisensemode3=气感: 所有
+jinryuudragonblockc.kisensemode4=解除气感
+
+jinryuudragonblockc.Descend=下降
+jinryuudragonblockc.AuraColor=气的颜色
+
+item.record.DBC1.name=运动的能量
+item.record.DBC2.name=无尽的努力
+item.record.DBC3.name=无尽的努力
+item.record.DBC4.name=没有极限
+item.record.DBC5.name=面对浪涛
+item.record.DBC1.desc=唱片集《运动的力量》(Motion of Energy)由Clayton Stroup制作
+item.record.DBC2.desc=唱片集《无尽的努力》(The Long Climb)由Clayton Stroup制作
+item.record.DBC3.desc=唱片集《面对未知》(Face the Unknown)由Clayton Stroup制作
+item.record.DBC4.desc=唱片集《没有极限》(No Restraint)由Clayton Stroup制作
+item.record.DBC5.desc=唱片集《面对浪涛》(Against the Waves)由Clayton Stroup制作
+
+dbc.talkgui.line1000=Jin
+dbc.talkgui.line1001=你好呀！
+dbc.talkgui.line1002=我看到你还有你的身体
+dbc.talkgui.line1003=我很想和你吵架！
+dbc.talkgui.line1004=很高兴看到像你这样的人
+dbc.talkgui.line1005=为需要帮助
+dbc.talkgui.line1006=的人而战
+dbc.talkgui.line1007=一个人有这么多邪恶
+dbc.talkgui.line1008=我很惊讶阎王让你通过了
+dbc.talkgui.line1009=我仍然看到你身上有很大的潜力
+
+
+dbc.talkgui.line0000=神仙
+dbc.talkgui.kami1=好吧，你的心似乎没我想的那么纯净。但是我仍然会教你。
+dbc.talkgui.kami0=我很高兴看到你活着！如果你想知道一些东西，请问，我想我可以教你。
+dbc.talkgui.kami2=我不喜欢你的心中的邪恶，但因为我是唯一一个可以教你的人，我会教你，如果你想学。
+
+dbc.talkgui.line0010=界王
+dbc.talkgui.kaio1=你视乎不是很善良，但你是一个强大的战士！所以我会教给你我的武技。
+dbc.talkgui.kaio0=我会把我懂的会的,全部教给你,让你成为比孙悟空还强大的战士!
+dbc.talkgui.kaio2=像你这种邪恶的人不允许踏上我的星球!我不会教你任何东西
+
+dbc.talkgui.karin.00=加林仙人
+dbc.talkgui.karin0=你好！很高兴在这里见到你。每天我可以在我这领一颗仙豆哦。如果你需要的话。
+dbc.talkgui.karin1=你应该净化你的心灵。如果你在这样下去，你会变得邪恶，你不希望这样，对吗？
+dbc.talkgui.karin2=你现在该走了，在这里你不受欢迎!
+
+dbc.talkgui.line0000=神仙
+dbc.talkgui.line0001=嗯嗯你的心似乎并不
+dbc.talkgui.line0002=像我认为的那样纯净。
+dbc.talkgui.line0003=但是，我还是会教你。
+dbc.talkgui.line0004=高兴看到你还活着！
+dbc.talkgui.line0005=如果你想知道什么
+dbc.talkgui.line0006=我能告诉你一些。
+dbc.talkgui.line0007=我们不喜欢你这种人，
+dbc.talkgui.line0008=但是我是唯一一个
+dbc.talkgui.line0009=能教你的人。
+
+dbc.talkgui.line0010=界王
+dbc.talkgui.line0011=你似乎不是很好
+dbc.talkgui.line0012=但你是个强大的战士！
+dbc.talkgui.line0013=因此我会教你我的气功。
+dbc.talkgui.line0014=哦，你在这啊！我已经在等你了！
+dbc.talkgui.line0015=我的气功是最强的，
+dbc.talkgui.line0016=只要你能保持修炼！
+dbc.talkgui.line0017=你怎么来到这里的？像你这样邪恶
+dbc.talkgui.line0018=的人不准来到我的星球。
+dbc.talkgui.line0019=我不会教给你任何东西！
+
+dbc.talkgui.karin.00=加林仙人
+dbc.talkgui.karin.01=你好！我很高兴在这里见到你。
+dbc.talkgui.karin.02=我可以每天给你一次仙豆，
+dbc.talkgui.karin.03=如果你需要的话。
+dbc.talkgui.karin.04=你应该多净化你的心灵。
+dbc.talkgui.karin.05=如果你继续这样下去
+dbc.talkgui.karin.06=你会变得邪恶，我们不希望这样，不是吗？
+dbc.talkgui.karin.07=你应该马上离开。
+dbc.talkgui.karin.08=这里不欢迎你！
+
+dbc.talkgui.karin.senzu=拿仙豆
+dbc.talkgui.karin.nosenzu=没有仙豆了，明天早上会再有的。
+
+
+jinryuudragonblockc.KaioDiffRed=在确认之后，需要在游戏中1到2天后才会变成正常难度。你会看到一个N，这表明你是正常的。
+dbc.talkgui.difftonormal=难度改为正常
+dbc.talkgui.no=否
+dbc.talkgui.confirm=确认
+dbc.talkgui.kami.forcetailregrow=重新长出尾巴
+dbc.talkgui.kami.cutdowntail=剪掉尾巴
+dbc.talkgui.owned=已习得
+dbc.talkgui.cost=花费
+dbc.talkgui.mind=心灵
+
+dbc.talkgui.kami.startanew=重置你的人物。
+dbc.talkgui.kami.confirmtailcut=请确认你是否真的要剪掉尾巴。
+dbc.talkgui.kami.tailregrow=你确定要让尾巴长出来吗？你将会失去100点HP和20训练点。
+
+dbc.talkgui.roshi.goodneut=如果你弄一些...我会教你的...你懂的...嘿嘿嘿
+dbc.talkgui.cell.evil=一直在这里等着变得很无聊...你看上去好像和我不是同一个立场。我会向你展现我所知道的事。
+dbc.talkgui.cell.goodneut=如果你担心你的小命就不要挡在我面前。不然你的小命就没了。
+dbc.talkgui.songoku.goodneut=嗨，我知道你需要一些训练。如果你想和我战斗，你将必须更强。
+dbc.talkgui.songoku.evil=我从你身上感到了邪恶。你最好不要做出让你后悔的举动。
+dbc.talkgui.freeza.evil=在伟大的我面前鞠躬吧！加入我们，目前我不会杀了你。
+dbc.talkgui.freeza.else=滚开！或者去死。
+dbc.talkgui.babidi.evilneut=我从你身上感受到了邪恶，我的“朋友”。为我效力吧，我会给予你难以想象的强大力量。
+dbc.talkgui.babidi.good=我从你身上感受不到邪恶...我现在对你没有任何兴趣。
+dbc.talkgui.babidi.fullgood=难以置信!你身上没有一点邪恶,你必须死!
+dbc.talkgui.piccolo.goodneut=嗯你有潜力,让我们看看.
+dbc.talkgui.piccolo.evil=你和我有着同样的邪恶...我不会说任何不好的话,不要走那条路.
+dbc.talkgui.vegeta.goodneut=你有些紧张.不过我不介意,但是你要快速选择那条路
+dbc.talkgui.vegeta.evil=闭嘴,你很讨厌!
+dbc.talkgui.songohan.goodneut=嘿!如果你要和我对战,你需要一些训练,比我做的更好.
+dbc.talkgui.songohan.evil=我从你身上感觉到了邪恶,所以你不要做让你后悔的事.
+
+
+dbc.talkgui.skills=学习技能
+dbc.talkgui.learntechs=学习气功
+dbc.talkgui.giveweights=负重训练
+
+dbc.talkgui.weightamount=负重训练
+dbc.talkgui.giveweightsdesc=它的重量是多少？最大值为5000。1训练重量约100kg。
+
+tile.ArtGravDevBlock.name=重力装置(最大值为 1000倍)
+jinryuudragonblockc.Gravity=重力
+jinryuudragonblockc.SetGravity=设置重力
+jinryuudragonblockc.OutOfFuel=出来的燃料
+jinryuudragonblockc.ArtGravDevDesc=可产生高达 1000 倍重力
+
+tile.BlockWildMedMoss.name=野生草药苔藓
+tile.BlockCropMedMoss.name=医疗的苔藓
+item.ItemMedMoss.name=医疗的苔藓
+
+item.bodysuit0.name=紧身衣 #1
+item.bodysuit1.name=紧身衣 #2
+item.bodysuit2.name=紧身衣 #3
+item.bodysuit3.name=紧身衣 #4
+item.bodysuit4.name=紧身衣 #5
+item.bodysuit5.name=紧身衣 #6
+item.bodysuit6.name=紧身衣 #7
+item.bodysuit7.name=紧身衣 #8
+
+item.gi0.name=可染色短袖
+item.gi1.name=可染色长袖衬衫
+item.gi2.name=可染色衬衫
+
+item.gi_color_8Head.name=可染色头带
+item.gi_color_9Head.name=可染色长头带
+item.gi_color_10Chest.name=可染色腕带
+item.gi_color_11Chest.name=可染色长腕带
+
+item.gi_color_13Chest.name=蓝色毛衣
+item.gi_color_14Chest.name=绿色毛衣
+
+
+item.gi_color_5Chest.name=可染色毛衣
+item.gi_color_6Chest.name=可染色外套
+item.gi_color_7Chest.name=可染色单肩长袍
+
+
+item.gi_color_0Chest.name=可染色衬衫#1
+item.gi_color_0Leg.name=可染色裤子#1
+item.gi_color_0Boots.name=可染色鞋子#1
+
+item.gi_color_1Leg.name=可染色短裤
+item.gi_color_2Boots.name=可染色长鞋
+item.gi_color_3Chest.name=可染色绑带
+item.gi_color_15Chest.name=可染色腰带
+item.gi_color_16Chest.name=可染色宽腰带
+item.gi_color_4Chest.name=可染色手套
+
+item.vanity_d_0.name=Android 21 外套
+item.vanity_d_1.name=Android 21 上衣
+item.vanity_d_2.name=Android 21 护膝
+item.vanity_d_3.name=Android 21 裤子
+item.vanity_d_4.name=Android 21 靴子
+
+
+item.ItemStrongFabric.name=高强度布料
+
+
+item.xenogoku01Chest.name=Xeno Goku 上衣
+item.xenogoku01Leg.name=Xeno Goku 裤子
+item.xenogoku01Boots.name=Xeno Goku 靴子
+
+
+item.DnomaidSword.name=德诺迈德剑
+item.DlogSword.name=迪罗格剑
+item.LehnoriSword.name=雷诺沃里剑
+item.DnomaidAxe.name=德诺迈德斧头
+item.DlogAxe.name=迪罗格斧头
+item.LehnoriAxe.name=雷诺沃里斧头
+item.DnomaidPick.name=德诺迈德镐
+item.DlogPick.name=迪罗格镐
+item.LehnoriPick.name=雷诺沃里镐
+item.DlogIngot.name=迪罗格锭
+item.LehnoriIngot.name=雷诺沃里锭
+item.DnomaidIngot.name=德诺迈德锭
+item.JJay.name=J界
+item.LehnoriHelmet.name=雷诺沃里头盔
+item.LehnoriChest.name=雷诺沃里胸甲
+item.LehnoriPants.name=雷诺沃里腿甲  
+item.LehnoriBoots.name=雷诺沃里靴子
+item.DlogHelmet.name=迪罗格头盔
+item.DlogChest.name=迪罗格胸甲   
+item.DlogPants.name=迪罗格腿甲     
+item.DlogBoots.name=迪罗格靴子
+item.DnomaidHelmet.name=德诺迈德头盔
+item.DnomaidChest.name=德诺迈德胸甲
+item.DnomaidPants.name=德诺迈德腿甲  
+item.DnomaidBoots.name=德诺迈德靴子
+
+tile.Dnomaidore.name=德诺迈德矿
+tile.Dlogore.name=迪罗格矿
+tile.Lehnoriore.name=雷诺沃里矿
+tile.JJayore.name=J界矿
+tile.Dnomaidblock.name=德诺迈德块
+tile.Dlogblock.name=迪罗格块
+tile.Lehnoriblock.name=雷诺沃里块
+tile.JJayblock.name=J界块
+
+tile.BlockTCFloor.name=精神与时光屋的地板
+tile.BlockTCPort.name=精神与时光屋的门户
+
+tile.SpacePod01Block.name=空间舱
+
+item.SpacePod01Item.name=空间舱
+
+tile.SaibaiHatched.name=孵化栽培人
+
+item.ItemDragonRadar.name=龙珠雷达
+
+tile.BlockNamekDragonBallStone.name=那美克龙珠（石块）
+item.ItemNamekDragonBlock.name=那美克星龙珠
+
+tile.BlockDragonBallStone.name=地球龙珠（石块）
+
+item.ItemDragonBlock.name=地球龙珠
+
+tile.BlockOreWrenai.name=高强度的晶体矿石
+tile.BlockNamekGrass.name=那美克星草方块
+tile.BlockNamekLog.name=阿吉萨树木
+tile.BlockNamekDirt.name=轻污垢
+tile.BlockNamekLeaves.name=阿吉萨树叶
+tile.BlockKiFire.name=气的能源
+tile.BlockNamekStone.name=普通的石墙
+tile.BlockAlienStone.name=肮脏的石头
+tile.BlockAlienCobbleStone.name=肮脏的鹅卵石
+tile.BlockHealingPods.name=医疗液体
+tile.BlockHealingPodDoor.name=医疗舱的门
+
+item.ItemWarenai.name=高强度的晶体
+item.ItemSenzu.name=仙豆
+item.ItemKatana.name=武士刀
+item.ItemKatchin.name=金属碎片
+item.ItemDinoMeat.name=生恐龙肉
+item.ItemDinoMeatCooked.name=熟恐龙肉
+
+tile.BlockNamekSapling.name=阿吉萨树苗
+
+item.ItemBraveSword.name=勇者之剑
+item.ItemZSword.name=界王神剑
+item.ItemKatanaHandle.name=武士刀的刀柄
+item.ItemBraveSwordHandle.name=勇者之剑的剑柄
+item.ItemZSwordHandle.name=界王神剑的剑柄
+item.ItemKatanaSwordBlade.name=武士刀的刀刃
+item.ItemBraveSwordBlade.name=勇者之剑的剑刃
+item.ItemZSwordBlade.name=界王神剑的剑刃
+
+item.ItemAlienTechChipTier1.name=1级科技芯片
+item.ItemChipTier2.name=2级科技芯片
+item.ItemChipTier3.name=3级科技芯片
+
+item.KintounItem.name=筋斗云
+item.KintounBlackItem.name=黑筋斗云
+
+
+item.YellowScoutera.name=2级黄色探测器
+item.RedScoutera.name=2级红色探测器
+item.PurpleScoutera.name=2级紫色探测器
+item.BlueScoutera.name=2级蓝色探测器
+item.GreenScoutera.name=2级绿色探测器
+item.PinkScoutera.name=2级粉色探测器
+item.YellowScouterb.name=3级黄色探测器
+item.RedScouterb.name=3级红色探测器
+item.PurpleScouterb.name=3级紫色探测器
+item.BlueScouterb.name=3级蓝色探测器
+item.GreenScouterb.name=3级绿色探测器
+item.PinkScouterb.name=3级粉色探测器
+
+item.YellowScouter.name=1级黄色探测器
+item.BattleArmorChest00.name=战斗服
+item.BattleArmorLegs00.name=战斗服护腿
+item.BattleArmorBoots00.name=战斗服靴子
+
+item.RedScouter.name=1级红色探测器
+item.BattleArmorChest01.name=战斗服
+item.BattleArmorLegs01.name=战斗服护腿
+item.BattleArmorBoots01.name=战斗服靴子
+
+item.PurpleScouter.name=1级紫色探测器
+item.BattleArmorChest02.name=战斗服
+item.BattleArmorLegs02.name=战斗服护腿
+item.BattleArmorBoots02.name=战斗服靴子
+
+item.BlueScouter.name=1级蓝色探测器
+item.BattleArmorChest03.name=战斗服
+item.BattleArmorLegs03.name=战斗服护腿
+item.BattleArmorBoots03.name=战斗服靴子
+
+item.GreenScouter.name=1级绿色探测器
+item.BattleArmorChest04.name=战斗服
+item.BattleArmorLegs04.name=战斗服护腿
+item.BattleArmorBoots04.name=战斗服靴子
+
+item.PinkScouter.name=1级粉色探测器
+item.BattleArmorChest05.name=战斗服
+item.BattleArmorLegs05.name=战斗服护腿
+item.BattleArmorBoots05.name=战斗服靴子
+
+item.BattleArmorChest06.name=战斗服
+item.BattleArmorLegs06.name=战斗护腿
+item.BattleArmorBoots06.name=战斗服靴子
+item.BattleArmorChest07.name=战斗服
+item.BattleArmorBoots07.name=战斗服靴子
+item.BattleArmorChest08.name=战斗服
+item.BattleArmorBoots08.name=战斗服靴子
+item.BattleArmorChest09.name=战斗服
+item.BattleArmorLegs09.name=战斗护腿
+item.BattleArmorBoots09.name=战斗服靴子
+
+item.GiFighterTorso1.name=橙色练功服(短袖)
+item.GiFighterLeg1.name=橙色练功服裤
+item.GiFighterBoots1.name=橙色练功服靴子(蓝)
+item.GiNamekTorso0.name=那美克星练功服
+item.GiNamekLeg0.name=那美克星练功服裤
+item.GiNamekBoots0.name=那美克星练功服靴子
+item.GiFutureTorso0.name=未来夹克
+item.GiFutureLeg0.name=未来裤子
+item.GiFutureBoots0.name=未来靴子
+item.GiFighterTorso2.name=蓝色练功服
+item.GiFighterLeg2.name=蓝色练功服裤
+item.GiFighterBoots2.name=白色靴子
+
+item.JinTorso.name=Jin Ryuu 衬衫
+item.JinLeg.name=Jin Ryuu 裤子
+item.JinBoots.name=Jin Ryuu 鞋子
+
+item.KameTorso1.name=橙色练功服(背心)
+item.KameBoots1.name=黑色靴子
+item.GiFighterTorso3.name=橙色练功服(长袖)
+
+item.c19Head.name=人造人19 头盔
+item.c20Head.name=人造人20 头盔
+item.c16Chest.name=人造人16 盔甲
+item.c17Chest.name=人造人17 盔甲
+item.c18Chest.name=人造人18 盔甲
+item.c19Chest.name=人造人19 盔甲
+item.c20Chest.name=人造人20 盔甲
+item.darburaChest.name=达普拉 盔甲
+item.majinbuufatChest.name=魔人布欧 盔甲
+item.majinbuuChest.name=超级布欧 盔甲
+item.c16Leg.name=人造人16 裤子
+item.c17Leg.name=人造人17 裤子
+item.c18Leg.name=人造人18 裤子
+item.c19Leg.name=人造人19 裤子
+item.c20Leg.name=人造人20 裤子
+item.darburaLeg.name=达普拉 裤子
+item.majinbuufatLeg.name=魔人布欧 裤子
+item.majinbuuLeg.name=超级布欧 裤子
+item.c16Boots.name=人造人16 鞋子
+item.c17Boots.name=人造人17 鞋子
+item.c18Boots.name=人造人18 鞋子
+item.c19Boots.name=人造人19 鞋子
+item.c20Boots.name=人造人20 鞋子
+item.darburaBoots.name=达普拉 鞋子
+item.majinbuufatBoots.name=魔人布欧 鞋子
+item.majinbuuBoots.name=超级布欧 鞋子
+
+item.tienHead.name=天津饭的头饰
+item.chichiHead.name=琪琪的头饰
+item.genblueHead.name=一般的蓝色头饰
+item.highschoolHead.name=中学的头饰
+item.karingaHead.name=凯里部落的头饰
+item.pilafHead.name=皮拉夫大王的头饰
+item.saiyamanHead.name=蒙面赛亚超人头饰
+item.supkaiHead.name=界王神的头饰
+item.tienChest.name=天津饭的 上衣
+item.chichiChest.name=琪琪的 上衣
+item.genblueChest.name=一般的蓝色 上衣
+item.highschoolChest.name=中学的 上衣
+item.karingaChest.name=凯里部落的 上衣
+item.pilafChest.name=皮拉夫大王的 上衣
+item.saiyamanChest.name=蒙面赛亚超人 上衣
+item.supkaiChest.name=界王神的 上衣
+item.blackChest.name=黑悟空的上衣
+item.fusiondChest.name=美达摩星人的 上衣
+item.tienLeg.name=天津饭的 裤子
+item.chichiLeg.name=琪琪的 裤子
+item.genblueLeg.name=一般的蓝色 裤子
+item.highschoolLeg.name=中学的 裤子
+item.karingaLeg.name=凯里部落的 裤子
+item.pilafLeg.name=皮拉夫大王的 裤子
+item.saiyamanLeg.name=蒙面赛亚超人 裤子
+item.supkaiLeg.name=界王神的 裤子
+item.blackLeg.name=黑悟空的裤子
+item.fusiondLeg.name=美达摩星人的裤子
+item.tienBoots.name=天津饭的 鞋子
+item.chichiBoots.name=琪琪的 鞋子
+item.genblueBoots.name=一般的蓝色 鞋子
+item.highschoolBoots.name=中学的 鞋子
+item.karingaBoots.name=凯里部落的 鞋子
+item.pilafBoots.name=皮拉夫大王的 鞋子
+item.saiyamanBoots.name=蒙面赛亚超人 鞋子
+item.supkaiBoots.name=界王神的 鞋子
+item.blackBoots.name=黑悟空的鞋子
+item.fusiondBoots.name=美达摩星人的 鞋子
+
+item.brolyChest.name=布罗利 上衣
+item.demonclanChest.name=魔族 上衣
+item.herculesChest.name=大力士 上衣
+item.kingkaiChest.name=北界王 上衣
+item.lordslugChest.name=史拉格 上衣
+item.mrpopoChest.name=波波先生  上衣
+item.orintempChest.name=Orin Temple 上衣
+item.uubChest.name=欧布上衣
+item.videl2Chest.name=比迪丽 #2 上衣
+item.videl3Chest.name=比迪丽 #3 上衣
+item.videlChest.name=比迪丽 #1 上衣
+item.yamchaChest.name=雅木茶 上衣
+item.brolyLeg.name=布罗利 裤子
+item.demonclanLeg.name=魔族 裤子
+item.herculesLeg.name=大力士 裤子
+item.kingkaiLeg.name=北界王 裤子
+item.lordslugLeg.name=史拉格 裤子
+item.mrpopoLeg.name=波波先生  裤子
+item.orintempLeg.name=Orin Temple 裤子
+item.uubLeg.name=欧布裤子
+item.videl2Leg.name=比迪丽 #2 裤子
+item.videl3Leg.name=比迪丽 #3 裤子
+item.videlLeg.name=比迪丽 #1 裤子
+item.yamchaLeg.name=雅木茶 裤子
+item.brolyBoots.name=布罗利 鞋子
+item.demonclanBoots.name=魔族 鞋子
+item.herculesBoots.name=大力士 鞋子
+item.kingkaiBoots.name=北界王 鞋子
+item.lordslugBoots.name=史拉格 鞋子
+item.mrpopoBoots.name=波波先生  鞋子
+item.orintempBoots.name=Orin Temple 鞋子
+item.uubBoots.name=欧布鞋子
+item.videl2Boots.name=比迪丽 #2 鞋子
+item.videl3Boots.name=比迪丽 #3 鞋子
+item.videlBoots.name=比迪丽 #1 鞋子
+item.yamchaBoots.name=雅木茶 鞋子
+item.supkaiblackLeg.name=黑色界王神的 裤子
+item.supkaiblackChest.name=黑色界王神的 上衣
+item.supkaiblackBoots.name=黑色界王神的 鞋子
+
+item.tracksuitLeg.name=运动裤子
+item.tracksuitChest.name=运动上衣
+item.tracksuitBoots.name=运动鞋子
+
+item.gokugtgiChest.name=悟空GT上衣
+item.gokugtgiLeg.name=悟空GT裤子
+item.gokugtgiBoots.name=悟空GT鞋子
+item.gokusChest.name=超悟空上衣
+item.gokusLeg.name=超悟空裤子
+item.gokusBoots.name=超悟空鞋子
+item.cabbaChest.name=加贝上衣
+item.cabbaLeg.name=加贝裤子
+item.cabbaBoots.name=加贝鞋子
+item.hitChest.name=希特上衣
+item.hitLeg.name=希特裤子
+item.hitBoots.name=希特鞋子
+item.pridetrooperChest.name=超级英雄上衣
+item.pridetrooperLeg.name=超级英雄裤子
+item.pridetrooperBoots.name=超级英雄鞋子
+item.cauliflaChest.name=卡莉芙拉上衣
+item.cauliflaBoots.name=卡莉芙拉裤子
+item.cauliflaLeg.name=卡莉芙拉鞋子
+item.kaleChest.name=开尔上衣
+item.kaleLeg.name=开尔裤子
+item.kaleBoots.name=开尔鞋子
+item.vegetasChest.name=超级贝吉塔上衣
+item.vegetasLeg.name=超级贝吉塔裤子
+item.vegetasBoots.name=超级贝吉塔鞋子
+item.whisBoots.name=维斯鞋子
+item.whisChest.name=维斯上衣
+item.whisLeg.name=维斯裤子
+
+item.c18sBoots.name=C18超级 鞋子
+item.c18sChest.name=C18超级 上衣
+item.c18sLeg.name=C18超级 裤子
+item.superc17Boots.name=超级C17 鞋子
+item.superc17Chest.name=超级C17 上衣
+item.superc17Leg.name=超级C17 裤子
+item.c18-2Boots.name=C18 #2 鞋子
+item.c18-2Chest.name=C18 #2 上衣
+item.c18-2Leg.name=C18 #2 裤子
+item.tienbBoots.name=天津布欧 鞋子
+item.tienbChest.name=天津布欧 上衣
+item.tienbLeg.name=天津布欧 裤子
+item.tiensBoots.name=超级天津 鞋子
+item.tiensChest.name=超级天津 上衣
+item.tiensLeg.name=超级天津 裤子
+item.panBoots.name=Pan GT 鞋子
+item.panChest.name=Pan GT 上衣
+item.panLeg.name=Pan GT 裤子
+item.c17sBoots.name=C17超级 鞋子
+item.c17sChest.name=C17超级 上衣
+item.c17sLeg.name=C17超级 裤子
+
+item.ItemWarenaiFabric.name=无法切割的布料
+item.ItemPP.name=如意棒
+item.ItemSmallClub.name=小棒子
+item.ItemJanembaEssence.name=邪念能源
+item.ItemEvilSpear.name=邪恶的矛
+item.ItemDimensionSword.name=次元之剑
+
+item.ItemWeightShell.name=龟壳
+item.ItemWeightShirt.name=负重T恤
+item.ItemWeightHandLeg.name=负重绑腿和手套
+item.ItemWeightCape.name=披风
+item.ItemSaibaiSeed.name=栽培人的种子
+
+item.ItemBucketMedLiq.name=药液桶
+
+item.Sakura_Stick.name=樱花棒
+tile.Sakura_Block.name=樱花石
+item.Sakura_Pickaxe.name=樱花镐
+item.Sakura_Sword.name=樱花剑
+item.Sakura_Axe.name=樱花斧
+item.Sakura_Shovel.name=樱花铲
+item.Sakura_Hoe.name=樱花锄
+tile.Sapling.Sakura.name=樱花树苗
+tile.Sapling.Mahagony.name=桃花心木树苗
+tile.Log.Sakura.name=樱花原木
+tile.Log.Mahagony.name=桃花心原木
+tile.Leaf.Mahagony.name=桃花心木树叶
+tile.Leaf.Sakura.name=樱花树叶
+tile.Planks.Mahagony.name=桃花心木木板
+tile.Planks.Sakura.name=樱花木板
+item.Mahagony_Stick.name=桃花心木棒
+item.Mahagony_Pickaxe.name=桃花心木镐
+item.Mahagony_Sword.name=桃花心木剑
+item.Mahagony_Axe.name=桃花心木斧
+item.Mahagony_Shovel.name=桃花心木铲
+item.Mahagony_Hoe.name=桃花心木锄
+tile.SakuraFence.name=樱花栅栏
+tile.MahagonyFence.name=桃花心木栅栏
+item.Sakura_Branch.name=樱花木棍
+item.Mahagony_Branch.name=桃花心木棍
+item.Sakura_Hammer.name=樱花锤
+tile.Slab.Sakura.name=樱花板
+tile.Slab.Mahagony.name=桃花心木板
+tile.MahagonyStairs.name=桃花心木楼梯
+tile.SakuraStairs.name=樱花楼梯
+tile.SakuraPaperWall.White.name=白色樱花纸墙
+tile.SakuraPaperWall.Lime.name=石灰色樱花纸墙
+tile.SakuraPaperWall.Magenta.name=樱红色纸墙
+tile.SakuraPaperWall.Gray.name=灰色樱花纸墙
+tile.SakuraPaperWall.Green.name=绿色樱花纸墙
+tile.SakuraPaperWall.Red.name=红色樱花纸墙
+tile.SakuraPaperWall.Black.name=黑色樱花纸墙
+tile.SakuraPaperWall.Brown.name=棕色樱花纸墙
+tile.SakuraPaperWall.Pink.name=粉色樱花纸墙
+tile.SakuraPaperWall.Cyan.name=青色樱花纸墙
+tile.SakuraPaperWall.Purple.name=紫色樱花纸墙
+tile.SakuraPaperWall.Blue.name=蓝色樱花纸墙
+tile.SakuraPaperWall.Yellow.name=黄色樱花纸墙
+tile.SakuraPaperWall.Orange.name=橙色樱花纸墙
+tile.SakuraPaperWall.Light_Gray.name=淡灰色樱花纸墙
+tile.SakuraPaperWall.Light_Blue.name=浅蓝色樱花纸墙
+tile.MahagonyPaperWall.White.name=白色桃花心木纸墙
+tile.MahagonyPaperWall.Lime.name=石灰色桃花心木纸墙
+tile.MahagonyPaperWall.Magenta.name=品红色桃花心木纸墙
+tile.MahagonyPaperWall.Gray.name=灰色桃花心木纸墙
+tile.MahagonyPaperWall.Green.name=绿色桃花心木纸墙
+tile.MahagonyPaperWall.Red.name=红色桃花心木纸墙
+tile.MahagonyPaperWall.Black.name=黑色桃花心木纸墙
+tile.MahagonyPaperWall.Brown.name=棕色桃花心木纸墙
+tile.MahagonyPaperWall.Pink.name=粉色桃花心木纸墙
+tile.MahagonyPaperWall.Cyan.name=青色桃花心木纸墙
+tile.MahagonyPaperWall.Purple.name=紫色桃花心木纸墙
+tile.MahagonyPaperWall.Blue.name=蓝色桃花心木纸墙
+tile.MahagonyPaperWall.Yellow.name=黄色桃花心木纸墙
+tile.MahagonyPaperWall.Orange.name=橙色桃花心木纸墙
+tile.MahagonyPaperWall.Light_Gray.name=浅灰色桃花心木纸墙
+tile.MahagonyPaperWall.Light_Blue.name=浅蓝色桃花心木纸墙
+tile.SakFencGate.name=樱花栅栏门
+tile.MahFencGate.name=桃花心木栅栏门
+tile.Planks.Maple.name=枫树木板
+tile.MapleStairs.name=枫树楼梯
+tile.Slab.Maple.name=枫树台阶
+tile.MapFencGate.name=枫树栅栏门
+tile.Log.Maple.name=枫树原木
+tile.Maples.Maple.name=枫树树叶
+tile.Sapling.Maple.name=枫树树苗
+tile.MapleFence.name=枫树栅栏
+item.Maple_Stick.name=枫树木棒
+item.Maple_Hoe.name=枫树锄
+item.Maple_Sword.name=枫树剑
+item.Maple_Pickaxe.name=枫树稿
+item.Maple_Axe.name=枫树斧
+item.Maple_Shovel.name=枫树铲
+

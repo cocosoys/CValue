@@ -1,0 +1,4 @@
+{
+"MINIGAME.blast":{"category":"neutral","sounds":["minigame/minigame_blast"]},
+"MINIGAME.blast_bad":{"category":"neutral","sounds":["minigame/minigame_blast_bad"]}
+}

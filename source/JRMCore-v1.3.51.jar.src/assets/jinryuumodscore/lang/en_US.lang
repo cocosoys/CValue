@@ -1,0 +1,1127 @@
+itemGroup.JRMCore=JinRyuu's Mods Core
+itemGroup.jrhc=JinRyuu's Hair C
+jinryuujrmcore.RemoveHair=Remove Custom Hair
+
+jinryuujrmcore.Help=Help
+jinryuujrmcore.News=News
+jinryuujrmcore.Update=Update
+jinryuujrmcore.Server=Server
+
+jinryuujrmcore.Main=Main
+jinryuujrmcore.Side=Side
+jinryuujrmcore.Group=Group
+
+jinryuujrmcore.CoreServerConfigurations=Core Server Configurations
+jinryuujrmcore.Disabled=Disabled
+jinryuujrmcore.Enabled=Enabled
+jinryuujrmcore.EnergyRegeneration=Energy Regeneration
+jinryuujrmcore.HealthRegeneration=Health Regeneration
+jinryuujrmcore.PowerRelease=Power Release
+jinryuujrmcore.EnergyCharge=Energy Charge
+jinryuujrmcore.ExpirienceGain=Expirience Gain
+jinryuujrmcore.TrainingPointGain=Training Point Gain
+jinryuujrmcore.AttributeUpgradeType=Attribute Upgrade Type
+jinryuujrmcore.AttributeBasedSizeChange=Attribute Based Size Change
+jinryuujrmcore.Explosions=Explosions
+jinryuujrmcore.Speed=Speed
+jinryuujrmcore.Off=Off
+jinryuujrmcore.selectpwratcreator=Select Power type at character creation.
+jinryuujrmcore.On=On
+jinryuujrmcore.OK=OK
+jinryuujrmcore.Select=Select
+jinryuujrmcore.Planet=Planet
+jinryuujrmcore.Destinations=Destinations
+
+jinryuujrmcore.OnDynamic=On Dynamic
+jinryuujrmcore.OnSimple=On Simple
+
+jinryuujrmcore.Human=Human
+jinryuujrmcore.Saiyan=Saiyan
+jinryuujrmcore.Half-Saiyan=Half-Saiyan
+jinryuujrmcore.Namekian=Namekian
+jinryuujrmcore.Arcosian=Arcosian
+jinryuujrmcore.Majin=Majin
+
+jinryuujrmcore.Race=Race
+jinryuujrmcore.Gender=Gender
+jinryuujrmcore.Hair=Hair
+jinryuujrmcore.Style=Style
+jinryuujrmcore.Color=Color
+jinryuujrmcore.Tail=Tail
+jinryuujrmcore.PowerType=Power Type
+jinryuujrmcore.Years=Age
+jinryuujrmcore.Child=Child
+jinryuujrmcore.Teen=Teen
+jinryuujrmcore.YoungAdult=YoungAdult
+jinryuujrmcore.Adult=Adult
+jinryuujrmcore.MiddleAged=Middle Aged
+jinryuujrmcore.Senior=Senior
+
+jinryuujrmcore.Appearance=Appearance
+jinryuujrmcore.Enable=Enable
+jinryuujrmcore.Disable=Disable
+jinryuujrmcore.DisabledType=Disabled Type
+jinryuujrmcore.DefaultSkin=Default Skin
+jinryuujrmcore.CustomSkin=Custom Skin
+jinryuujrmcore.BodyType=Body Type
+jinryuujrmcore.Nose=Nose
+jinryuujrmcore.Mouth=Mouth
+jinryuujrmcore.Eyes=Eyes
+jinryuujrmcore.Match=Match
+jinryuujrmcore.CustomHair=Custom Hair
+jinryuujrmcore.BaseHair=Base Hair
+jinryuujrmcore.Reset=Reset
+jinryuujrmcore.Yaw=Yaw
+jinryuujrmcore.Pitch=Pitch
+jinryuujrmcore.Share=Share
+jinryuujrmcore.Copy=Copy
+jinryuujrmcore.Paste=Paste
+jinryuujrmcore.Done=Done
+jinryuujrmcore.Revert=Revert
+jinryuujrmcore.FrontHead=Front
+jinryuujrmcore.RightHead=Right
+jinryuujrmcore.LeftHead=Left
+jinryuujrmcore.BackHead=Back
+jinryuujrmcore.TopHead=Top
+jinryuujrmcore.Preset=Preset
+jinryuujrmcore.SavePreset=Save as Preset
+jinryuujrmcore.DelPreset=Delete Preset
+jinryuujrmcore.hairRotations=Rotations
+jinryuujrmcore.hairXaxis=X-axis
+jinryuujrmcore.hairYaxis=Y-axis
+jinryuujrmcore.hairZaxis=Z-axis
+jinryuujrmcore.hairLength=Hair Length
+jinryuujrmcore.hairBend=Bend
+jinryuujrmcore.hairBendpoint=Bendpoint
+jinryuujrmcore.hairTransf=DBC shape change intensity
+jinryuujrmcore.hairTier=Tier
+jinryuujrmcore.hairTierDesc=Tier 1 options are for the rotations and length and Tier 2 options are for bending properties and DBC shape change Intensity
+jinryuujrmcore.hairHide=Hide hair group
+jinryuujrmcore.hairShow=Show hair group
+jinryuujrmcore.hairReset=Reset
+jinryuujrmcore.hairDoAllOn=Repeat mode is On
+jinryuujrmcore.hairDoAllDesc=The sliders that turn grey will copy changes to every block on this page
+jinryuujrmcore.hairDoAllOff=Repeat mode is Off
+jinryuujrmcore.Preview=Preview
+jinryuujrmcore.HairSalon=HairSalon
+jinryuujrmcore.HairSalonDesc=It will open the HairSalon site where you can browse hairstyles from other users at http://HairSalon.jingames.net
+jinryuujrmcore.HairShareDesc=It will copy your current hairstyle code to clipboard to share with others, mainly meant for the http://HairSalon.jingames.net site
+jinryuujrmcore.HairPasteDesc=It will paste a hairstyle code from clipboard
+jinryuujrmcore.HairResetDesc=It will reset the current hairstyle to the hairstyle preset currently selected
+
+jinryuujrmcore.Male=Male
+jinryuujrmcore.Female=Female
+
+jinryuujrmcore.SwordArt=Sword Art
+
+jinryuujrmcore.Natural=Natural
+jinryuujrmcore.Ki=Ki
+jinryuujrmcore.Ki Attack=Ki Attack
+jinryuujrmcore.Ki Attack Charge=Ki Attack Charge
+jinryuujrmcore.Chakra=Chakra
+jinryuujrmcore.NaturalDesc=The Basic Minecraft Interface with nothing additional, except the appearance (increasing compatibility with other mods)
+jinryuujrmcore.KiDesc=The Dragon Block Energy. If you want to access the Dragon Block C features choose this
+jinryuujrmcore.ChakraDesc=The Naruto Energy. If you want to access the Naruto C features choose this
+
+jinryuujrmcore.Survival=Survival
+jinryuujrmcore.SurvivalDesc=Minecraft Survival
+jinryuujrmcore.MartialArtist=Martial Artist
+jinryuujrmcore.Spiritualist=Spiritualist
+jinryuujrmcore.Warrior=Warrior
+jinryuujrmcore.MartialArtistDesc=Balanced §cPhysical §8and §9Energy §8build
+jinryuujrmcore.SpiritualistDesc=Fighters that want to excel in §9Energy §8usage
+jinryuujrmcore.WarriorDesc=Fighters who prefer §cPhysical §8fitness and raw power
+
+jinryuujrmcore.Clanless=Clanless
+jinryuujrmcore.Hyuuga=Hyuuga
+jinryuujrmcore.Uchiha=Uchiha
+jinryuujrmcore.ClanlessDesc=Clanless User
+jinryuujrmcore.HyuugaDesc=Byakugan Users
+jinryuujrmcore.UchihaDesc=Sharingan Users
+
+jinryuujrmcore.Class=Class
+jinryuujrmcore.Clan=Clan
+jinryuujrmcore.Super=Super
+jinryuujrmcore.Normal=Normal
+jinryuujrmcore.Hard=Hard
+jinryuujrmcore.Insane=Insane
+jinryuujrmcore.NormalDesc=No Death Penalty, current chance for TP gain is %1$s
+jinryuujrmcore.HardDesc=Death Penalty (1 point loss from a random attribute), %1$s chance for TP gain
+jinryuujrmcore.InsaneDesc=Death Penalty (1 point loss from random 2 attributes), %1$s chance for TP gain
+
+jinryuujrmcore.TRState=Form
+jinryuujrmcore.Base=Base
+jinryuujrmcore.HForm1=Full Released
+jinryuujrmcore.HForm2=Buffed
+jinryuujrmcore.HFormG=God
+jinryuujrmcore.Super=Super
+jinryuujrmcore.SuperG2=SS Grade 2
+jinryuujrmcore.SuperG3=SS Grade 3
+jinryuujrmcore.SuperFP=Full Power SS
+jinryuujrmcore.Super2=SS2
+jinryuujrmcore.Super3=SS3
+jinryuujrmcore.Super4=SS4
+jinryuujrmcore.Super5=SS5
+jinryuujrmcore.SuperFalse=False SSJ
+jinryuujrmcore.UltraEgo=Ultra Ego
+jinryuujrmcore.NForm1=Full Released
+jinryuujrmcore.NForm2=Giant
+jinryuujrmcore.NFormG=God
+jinryuujrmcore.Form0=Minimal
+jinryuujrmcore.Form1=First
+jinryuujrmcore.Form2=Second
+jinryuujrmcore.Form3=Third
+jinryuujrmcore.Form5=Super
+jinryuujrmcore.Form6=Ultimate
+jinryuujrmcore.FormG=God
+jinryuujrmcore.Oozaru=Oozaru
+jinryuujrmcore.OozaruS=Golden Oozaru
+jinryuujrmcore.SuperG=SSGod
+jinryuujrmcore.SuperGR=SSGod Ritual
+jinryuujrmcore.SuperB=SSBlue
+jinryuujrmcore.SuperR=SSRose
+jinryuujrmcore.PotUnleashed=Mystic
+jinryuujrmcore.SuperL=SS Green
+jinryuujrmcore.SuperLB=MaxPower SSGreen
+jinryuujrmcore.SuperBS=SSBlue Shinka
+jinryuujrmcore.SuperRS=SSRose Shinka
+jinryuujrmcore.UInstinct=Ultra Instinct
+jinryuujrmcore.GoDestruction=God of Destruction
+jinryuujrmcore.MForm1=Evil
+jinryuujrmcore.MForm2=Full Power
+jinryuujrmcore.MForm3=Pure
+jinryuujrmcore.MFormG=God
+jinryuujrmcore.MAbsorption=Absorption
+
+jinryuujrmcore.ArcosianUltimateColor=Arcosian Ultimate Form's Colors
+
+jinryuujrmcore.UCnam=Attribute Upgrade Cost
+
+jinryuujrmcore.Modified=Modified
+jinryuujrmcore.Original=Original
+jinryuujrmcore.Strength=Strength
+jinryuujrmcore.Dexterity=Dexterity
+jinryuujrmcore.Constitution=Constitution
+jinryuujrmcore.WillPower=WillPower
+jinryuujrmcore.Mind=Mind
+jinryuujrmcore.Spirit=Spirit
+jinryuujrmcore.Concentration=Concentration
+jinryuujrmcore.airBoxing=Air Boxing
+
+jinryuujrmcore.StrMC=Increases Melee damage
+jinryuujrmcore.DexMC=Increases Speed
+jinryuujrmcore.ConMC=Increases Health
+
+jinryuujrmcore.StrDB=Increases Melee damage
+jinryuujrmcore.DexDB=Increases Defense and Speed
+jinryuujrmcore.ConDB=Increases Body and ActionTime
+jinryuujrmcore.WilDB=Increases Maximum Ki Power
+jinryuujrmcore.MndDB=Increases TP gain amount and Skill Limits
+jinryuujrmcore.SpiDB=Increases Ki Pool
+
+jinryuujrmcore.StrNC=Taijutsu Power
+jinryuujrmcore.DexNC=Taijutsu Speed
+jinryuujrmcore.ConNC=Body Limits, Regen & Size
+jinryuujrmcore.WilNC=Jutsu Control & Power
+jinryuujrmcore.MndNC=Chakra Limits
+jinryuujrmcore.SpiNC=Increases Chakra Pool
+
+jinryuujrmcore.Stats1Body=Body
+jinryuujrmcore.Stats2Speed=Speed
+jinryuujrmcore.Stats3Stamina=ActionTime
+jinryuujrmcore.Stats4Max=Ki Max
+jinryuujrmcore.Stats5Control=Ki Control
+jinryuujrmcore.Stats6Regen=Ki Regen
+jinryuujrmcore.Stats7Defense=Defense
+jinryuujrmcore.Stats8Melee=Melee Dmg
+
+jinryuujrmcore.NCStats1Body=Body
+jinryuujrmcore.NCStats2Speed=Speed
+jinryuujrmcore.NCStats3Stamina=ActionTime
+jinryuujrmcore.NCStats4Max=Chakra Max
+jinryuujrmcore.NCStats5Control=Chakra Control
+jinryuujrmcore.NCStats6Regen=Chakra Regen
+
+jinryuujrmcore.Level=Level
+jinryuujrmcore.LevelNext=Level increase after %1$s attribute upgrade
+jinryuujrmcore.LevelMax=Maximum Level has been reached!
+jinryuujrmcore.Alignment=Alignment
+jinryuujrmcore.AlignmentDesc=You are %1$s Good
+jinryuujrmcore.SkillSysNext=Attribute %1$s required to learn or improve skills!/nSkills Learned: %2$s
+jinryuujrmcore.SkillSysMax=Your Mind has reached its limits!/nSkills Learned: %1$s
+
+jinryuujrmcore.needRacialSkillMax=You need to Max out your race skill!
+jinryuujrmcore.cantLearnThis=You can't learn this!
+jinryuujrmcore.Good=Good
+jinryuujrmcore.Neutral=Neutral
+jinryuujrmcore.Evil=Evil
+jinryuujrmcore.Max=Max
+jinryuujrmcore.Current=Current
+jinryuujrmcore.PunchDamage=Punch Damage
+jinryuujrmcore.meleeDamage=Melee Damage
+jinryuujrmcore.NeedToBeGood=Need to be 100%% Good!
+
+jinryuujrmcore.skilldisabled=Skill is Disabled!
+jinryuujrmcore.specskilldisabled=Skill %1$s is Disabled!
+
+jinryuujrmcore.mleMC=Melee Dmg
+jinryuujrmcore.DefMC=Defense
+jinryuujrmcore.heltMC=Health
+
+jinryuujrmcore.mleNC=Melee Dmg
+jinryuujrmcore.DefNC=Defense
+jinryuujrmcore.BdNC=Body
+jinryuujrmcore.StNC=ActionTime
+jinryuujrmcore.EnPwNC=Chakra Power
+jinryuujrmcore.EnPlNC=Max Chakra
+jinryuujrmcore.MxSkNC=Max Skills
+jinryuujrmcore.SpNC=Speed
+jinryuujrmcore.RBNC=Body Regen Rate
+jinryuujrmcore.RSNC=ActionTime Regen Rate
+jinryuujrmcore.RENC=Chakra Regen Rate
+
+jinryuujrmcore.mleDB=Melee Dmg
+jinryuujrmcore.DefDB=Defense
+jinryuujrmcore.BdDB=Body
+jinryuujrmcore.StDB=ActionTime
+jinryuujrmcore.EnPwDB=Ki Power
+jinryuujrmcore.EnPlDB=Max Ki
+jinryuujrmcore.MxSkDB=Max Skills
+jinryuujrmcore.SpDB=Running
+jinryuujrmcore.RBDB=Body Regen Rate
+jinryuujrmcore.RSDB=ActionTime Regen Rate
+jinryuujrmcore.REDB=Ki Regen Rate
+jinryuujrmcore.FSDB=Flying
+jinryuujrmcore.Stats=Statistics
+jinryuujrmcore.StatIncreaseDesc=§8Increasing §c%1$s §8attribute will increase this stat by §9%2$s
+jinryuujrmcore.StatIncreaseDesc2=/n§8Stat at Maximum Release §c%3$s §8
+jinryuujrmcore.StatIncreaseDesc3=/n§8Passive Output §2%4$s §8
+jinryuujrmcore.StatIncreaseDesc4=/n§8Extra Output §5+%5$s §8
+jinryuujrmcore.StatIncreaseDesc5=/n§8Incoming Damage Reduction §5%3$s%% §8
+jinryuujrmcore.SpDBDesc=Maximum reachable running speed %1$s%%/nUpgrading %2$s attribute and %3$s skill will increase speed
+jinryuujrmcore.FSDBDesc=Maximum reachable flying speed is around %1$s%% /nUpgrading %2$s attribute and %3$s skill will increase speed
+jinryuujrmcore.Attributes=Attributes
+jinryuujrmcore.StartAttr=Starting Attributes
+jinryuujrmcore.TP=TP
+jinryuujrmcore.TrainingPoints=Current Training Points
+jinryuujrmcore.RequiredTP=Required Training Points to Upgrade %1$s
+jinryuujrmcore.AttributeMaxed=This Attribute is Maxed!
+jinryuujrmcore.AttributeAllMaxed=All Attributes are Maxed!
+jinryuujrmcore.LimitReached=Limit Reached!
+jinryuujrmcore.cantupgrade=You can't upgrade!
+
+jinryuujrmcore.youSlainBy=You were slain by %1$s!
+jinryuujrmcore.youDied=You Died!
+jinryuujrmcore.slainBy=%1$s was slain by %2$s
+jinryuujrmcore.pDied=%1$s died!
+jinryuujrmcore.pDied2=%1$s died! Last known attack was %2$s seconds ago by %3$s
+
+death.attack.OutOfBodyHealth.player=%1$s was slain by %2$s
+death.attack.OutOfBodyHealth=%1$s died. Body reached its limits
+death.attack.OutOfBodyHealth.player=%1$s was slain by %2$s
+death.attack.NotAlive=%1$s was not alive
+death.attack.causeExplosion=%1$s was blown up
+
+jinryuujrmcore.recivedinv=Group invitation received from:
+jinryuujrmcore.form=Form New Group
+jinryuujrmcore.invite=Invite
+jinryuujrmcore.setleader=Set Leader
+jinryuujrmcore.kick=Kick
+jinryuujrmcore.disband=Disband
+jinryuujrmcore.leave=Leave
+jinryuujrmcore.leader=Leader
+jinryuujrmcore.Next=Next
+jinryuujrmcore.Back=Back
+jinryuujrmcore.Prev=Prev
+jinryuujrmcore.Accept=Accept
+jinryuujrmcore.Yes=Yes
+jinryuujrmcore.No=No
+
+jinryuujrmcore.delskillconfirm=Do you want to DELETE the skill %1$s?
+
+jinryuujrmcore.reward=Why do you Fight?
+jinryuujrmcore.accept=Accept
+jinryuujrmcore.decline=Decline
+jinryuujrmcore.abandon=Abandon
+
+jinryuujrmcore.Fight=Fight
+jinryuujrmcore.Skip=Skip
+jinryuujrmcore.Restart=Restart
+jinryuujrmcore.start=Start
+jinryuujrmcore.Continue=Continue
+
+jinryuujrmcore.Update=Update
+jinryuujrmcore.noOneToTeach=No one to teach!
+jinryuujrmcore.teachingOffer=%1$s have been offered to teach "%2$s" techniqu for %3$s TP. To accept type /jrmc accept
+jinryuujrmcore.teachingOfferAccepted=%1$s accepted your "%2$s" technique!
+jinryuujrmcore.teachingOfferDeclined=%1$s's "%2$s" technique teaching offer was declined!
+jinryuujrmcore.teachingOfDeclByYou=You have declined %1$s's "%2$s" technique teaching offer!
+jinryuujrmcore.teachingOfDeclByPlayr=%1$s has declined your technique teaching offer!
+jinryuujrmcore.nothingtoaccept=There is nothing to accept!
+jinryuujrmcore.notenoughtp=Not enough Training Points!
+jinryuujrmcore.typedWrong=You typed a command parameter wrong!
+
+jinryuujrmcore.noslotleft=There is no free slot left!
+jinryuujrmcore.nomindleft=There is no Mind left!
+jinryuujrmcore.alreadyhaveskill=You already have that Skill!
+jinryuujrmcore.skilladded=Skill %1$s has been added!
+jinryuujrmcore.skillupped=Skill %1$s has been upgraded to lvl %2$s!
+jinryuujrmcore.skillallremoved=All Skill has been removed!
+jinryuujrmcore.techadded=Technique %1$s has been added!
+jinryuujrmcore.skillnameinvalid=Skill name invalid!
+
+jinryuujrmcore.SelectedDifficulty=Selected Difficulty
+jinryuujrmcore.KaioDiffRedLine=Go to King Kai to reduce Difficulty
+jinryuujrmcore.TailMode=Tail Mode
+jinryuujrmcore.ArcMask=5th Form Mask
+jinryuujrmcore.ArcMaskOn=Mask On
+jinryuujrmcore.ArcMaskOff=Mask Off
+jinryuujrmcore.Difficulty=Difficulty
+jinryuujrmcore.MainAttributes=Main Attributes
+jinryuujrmcore.CharSheet=Character Sheet
+jinryuujrmcore.Skills=Skills
+jinryuujrmcore.KiTechniques=Ki Techniques
+jinryuujrmcore.Jutsu=Jutsu
+jinryuujrmcore.Learn=Learn
+jinryuujrmcore.Maxed=Maxed
+jinryuujrmcore.UpgradeLocked=Upgrade Locked
+jinryuujrmcore.NoUpgrade=No Upgrade
+jinryuujrmcore.AvailableSkillSlot=Available Skill Slot
+jinryuujrmcore.AvailableMind=Available Mind
+jinryuujrmcore.Unlearn=Unlearn
+jinryuujrmcore.Teach=Teach
+jinryuujrmcore.Create=Create
+jinryuujrmcore.tooPowerful=The Technique is too Powerful
+jinryuujrmcore.Changesomestats=Change some stats
+jinryuujrmcore.Owned=Owned
+jinryuujrmcore.Voice=Voice
+jinryuujrmcore.AuraColor=Aura Color
+
+jinryuujrmcore.Learned=Learned
+jinryuujrmcore.Selfmade=Selfmade
+jinryuujrmcore.Slow=Slow
+jinryuujrmcore.Average=Average
+jinryuujrmcore.Fast=Fast
+jinryuujrmcore.VeryFast=Very Fast
+jinryuujrmcore.AlignmentBased=Alignment Based
+jinryuujrmcore.white=White
+jinryuujrmcore.blue=Blue
+jinryuujrmcore.purple=Purple
+jinryuujrmcore.red=Red
+jinryuujrmcore.black=Black
+jinryuujrmcore.green=Green
+jinryuujrmcore.yellow=Yellow
+jinryuujrmcore.orange=Orange
+jinryuujrmcore.magenta=Magenta
+jinryuujrmcore.lightPink=Light Pink
+jinryuujrmcore.darkCyan=Dark Cyan
+jinryuujrmcore.lightCyan=Light Cyan
+jinryuujrmcore.darkGray=Dark Gray
+jinryuujrmcore.darkBlue=Dark Blue
+jinryuujrmcore.darkPurple=Dark Purple
+jinryuujrmcore.lightPurple=Light Purple
+jinryuujrmcore.darkRed=Dark Red
+jinryuujrmcore.lightRed=Light Red
+jinryuujrmcore.darkGreen=Dark Green
+jinryuujrmcore.lightgreen=Light Green
+jinryuujrmcore.darkYellow=Dark Yellow
+jinryuujrmcore.lightYellow=Light Yellow
+jinryuujrmcore.gold=Gold
+jinryuujrmcore.lightOrange=Light Orange
+jinryuujrmcore.darkBrown=Dark Brown
+jinryuujrmcore.lightBrown=Light Brown
+
+jinryuujrmcore.brown=Brown
+jinryuujrmcore.cyan=Cyan
+jinryuujrmcore.silver=Light Gray
+jinryuujrmcore.gray=Gray
+jinryuujrmcore.pink=Pink
+jinryuujrmcore.lime=Lime Green
+jinryuujrmcore.lightBlue=Light Blue
+
+jinryuujrmcore.BodysuitColor=Color
+
+jinryuujrmcore.Vanity=Vanity item
+
+item.ItemFabric.name=Fabric
+item.jrmc_vanity_0.name=Creeper Sweater
+item.jrmc_vanity_1.name=Enderman Sweater
+item.jrmc_vanity_2.name=Christmas Hat
+item.jrmc_vanity_3.name=Christmas Sweater
+item.jrmc_vanity_4.name=Christmas Long Sweater
+item.jrmc_vanity_5.name=Christmas Pants
+item.jrmc_vanity_6.name=Christmas Boots
+
+
+
+jinryuujrmcore.GroupManager=Group Management
+jinryuujrmcore.ServerConfig=Settings & Configs
+jinryuujrmcore.Calendar=Calendar and The Days
+jinryuujrmcore.Family=Family Status and Management
+
+
+jinryuujrmcore.BarberMenu=Barber Menu
+jinryuujrmcore.NoHairToEdit=This Race has no Hair
+jinryuujrmcore.BarberSnC.line1=You can modify your hair anytime with this item.
+
+item.ItemBarberSnC.name=Barber Scissors and Comb
+
+entity.jinryuufamilyc.Child.name=a child
+
+jinryuujrmcore.ExtraSlots=ExtraSlots
+jinryuujrmcore.WeightSlot=Weight
+jinryuujrmcore.trainingweightworn=Current Weight
+jinryuujrmcore.weightreduction=Stat Reduction
+jinryuujrmcore.trainingweight=Training Weight
+jinryuujrmcore.trainingweightno=Weight needs to be received from;a Trainer like Kami or King Kai;to have a weight!
+
+jinryuujrmcore.Start=Start
+jinryuujrmcore.shadowdummy=Shadow Dummy
+jinryuujrmcore.concentration=Concentration
+jinryuujrmcore.shadowdummyDesc=Shadow Dummy is clone of the player that is as strong as the spawner but only the owner can actually use it. Training with this dummy will result in increased TP gain.
+jinryuujrmcore.concentrationDesc=Concentration minigame with ingame daily limit on TP Claim./nClick the Blue balls to gather score./nRed balls will take score from you./nBlack balls will take score and take a life too./nGame over if score goes below zero or out of lifes./nScore will be converted to TP.
+jinryuujrmcore.airBoxingDesc=Airboxing minigame with ingame daily limit on TP Claim./nKeys start to spawn on a Key Track/nwhich move towards the left side./nPress the shown key when it reaches/nthe box on the left side./nKeys become red when they are missed.
+jinryuujrmcore.Change=Change
+jinryuujrmcore.BPswap=Battle Power
+jinryuujrmcore.BPswapDesc=You can change your Battle power calculation to Normal and High. /nThe Normal indicates the currently most accurte power scale, used for comparisons between players. And /nthe High is only for fun and has ridiculous high scales, and is not accurate at all. (Client Only)/nCurrent BP: %1$s
+jinryuujrmcore.BPHigh=High
+jinryuujrmcore.BPNormal=Normal
+jinryuujrmcore.msnshare=Mission Share
+
+entity.jinryuujrmcore.TrainingShadowDummy.name=Shadow Dummy
+jinryuujrmcore.Training=Training
+jinryuujrmcore.TrainingDesc=Training
+jinryuujrmcore.MediSkillCategory=Meditation Category
+jinryuujrmcore.Active=Active
+jinryuujrmcore.Passive=Passive
+jinryuujrmcore.Rate=Rate
+jinryuujrmcore.CltSettings=Client Settings
+jinryuujrmcore.CltSettingsDesc=Client Settings might have impact on gameplay but mostly settings are visual only.
+jinryuujrmcore.Notifications=Notifications
+
+jinryuujrmcore.BodySlot=Body
+jinryuujrmcore.HeadSlot=Head
+
+
+jinryuujrmcore.restart=Restart
+jinryuujrmcore.missionSys.Protect=To Protect
+jinryuujrmcore.missionSys.Myself=For Myself
+jinryuujrmcore.missionSys.Evil=For the sake of Evil
+
+jinryuujrmcore.missionObjType.completed=- Completed
+jinryuujrmcore.missionObjType.defeated=- Defeated
+jinryuujrmcore.missionObjType.nothinh=No Objectives
+jinryuujrmcore.missionObjType.kill=Kill %1$s %2$s
+jinryuujrmcore.missionObjType.killsame=Kill %1$s %2$s 
+jinryuujrmcore.missionObjType.item=Gather %1$s %2$s 
+jinryuujrmcore.missionObjType.biome=Go to biome %1$s %2$s 
+jinryuujrmcore.missionObjType.dim=Go to dimension %1$s %2$s 
+jinryuujrmcore.missionObjType.biome2=Be in biome %1$s %2$s 
+jinryuujrmcore.missionObjType.dim2=Be in dimension %1$s %2$s 
+jinryuujrmcore.missionObjType.state=Ascend to state %1$s %2$s 
+jinryuujrmcore.missionObjType.talk=Talk to %1$s %2$s 
+jinryuujrmcore.missionObjType.lvl=Reach level %1$s %2$s 
+jinryuujrmcore.missionObjType.anywilldo= (any will do)
+
+jinryuujrmcore.missionRepeat.wait=You can replay this story after %4$sd %3$s:%2$s:%1$s
+jinryuujrmcore.missionRepeat.not=This story is not repeatable!
+jinryuujrmcore.missionUnlock=Complete at least once the following stories to play:
+
+tile.BlockBarrier.name=Barrier Block
+tile.BlockBorder.name=Border Block
+
+
+tile.stoneSingleSlab.name=Grey Colored Stone Slab
+tile.BlockColoredStone.black.name=Black Colored Stone
+tile.BlockColoredStone.red.name=Red Colored Stone
+tile.BlockColoredStone.green.name=Green Colored Stone
+tile.BlockColoredStone.brown.name=Brown Colored Stone
+tile.BlockColoredStone.blue.name=Blue Colored Stone
+tile.BlockColoredStone.purple.name=Purple Colored Stone
+tile.BlockColoredStone.cyan.name=Cyan Colored Stone
+tile.BlockColoredStone.silver.name=Silver Colored Stone
+tile.BlockColoredStone.gray.name=Gray Colored Stone
+tile.BlockColoredStone.pink.name=Pink Colored Stone
+tile.BlockColoredStone.lime.name=Lime Colored Stone
+tile.BlockColoredStone.yellow.name=Yellow Colored Stone
+tile.BlockColoredStone.lightBlue.name=LightBlue Colored Stone
+tile.BlockColoredStone.magenta.name=Magenta Colored Stone
+tile.BlockColoredStone.orange.name=Orange Colored Stone
+tile.BlockColoredStone.white.name=White Colored Stone
+tile.BlockFence.name=Unbreakable White Fence
+tile.BlockStairs.name=Unbreakable White Stairs
+
+tile.stoneSingleSlab2.name=Grey Colored Stone Slab Type 2
+tile.BlockColoredStone2.black.name=Black Colored Stone Type 2
+tile.BlockColoredStone2.red.name=Red Colored Stone Type 2
+tile.BlockColoredStone2.green.name=Green Colored Stone Type 2
+tile.BlockColoredStone2.brown.name=Brown Colored Stone Type 2
+tile.BlockColoredStone2.blue.name=Blue Colored Stone Type 2
+tile.BlockColoredStone2.purple.name=Purple Colored Stone Type 2
+tile.BlockColoredStone2.cyan.name=Cyan Colored Stone Type 2
+tile.BlockColoredStone2.silver.name=Silver Colored Stone Type 2
+tile.BlockColoredStone2.gray.name=Gray Colored Stone Type 2
+tile.BlockColoredStone2.pink.name=Pink Colored Stone Type 2
+tile.BlockColoredStone2.lime.name=Lime Colored Stone Type 2
+tile.BlockColoredStone2.yellow.name=Yellow Colored Stone Type 2
+tile.BlockColoredStone2.lightBlue.name=LightBlue Colored Stone Type 2
+tile.BlockColoredStone2.magenta.name=Magenta Colored Stone Type 2
+tile.BlockColoredStone2.orange.name=Orange Colored Stone Type 2
+tile.BlockColoredStone2.white.name=White Colored Stone Type 2
+tile.BlockFence2.name=Unbreakable White Fence Type 2
+tile.BlockStairs2.name=Unbreakable White Stairs Type 2
+
+
+
+
+tile.Colorable Stone Pattern1_0.name=White Stone Pattern 1
+tile.Colorable Stone Pattern1_1.name=Orange Stone Pattern 1
+tile.Colorable Stone Pattern1_2.name=Magenta Stone Pattern 1
+tile.Colorable Stone Pattern1_3.name=Light Blue Stone Pattern 1
+tile.Colorable Stone Pattern1_4.name=Yellow Stone Pattern 1
+tile.Colorable Stone Pattern1_5.name=Lime Stone Pattern 1
+tile.Colorable Stone Pattern1_6.name=Pink Stone Pattern 1
+tile.Colorable Stone Pattern1_7.name=Dark Gray Stone Pattern 1
+tile.Colorable Stone Pattern1_8.name=Gray Stone Pattern 1
+tile.Colorable Stone Pattern1_9.name=Cyan Stone Pattern 1
+tile.Colorable Stone Pattern1_10.name=Purple Stone Pattern 1
+tile.Colorable Stone Pattern1_11.name=Blue Stone Pattern 1
+tile.Colorable Stone Pattern1_12.name=Brown Stone Pattern 1
+tile.Colorable Stone Pattern1_13.name=Green Stone Pattern 1
+tile.Colorable Stone Pattern1_14.name=Red Stone Pattern 1
+tile.Colorable Stone Pattern1_15.name=Black Stone Pattern 1
+
+tile.Colorable Stone Pattern1_0Fence.name=White Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_1Fence.name=Orange Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_2Fence.name=Magenta Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_3Fence.name=Light blue Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_4Fence.name=Yellow Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_5Fence.name=Lime Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_6Fence.name=Pink Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_7Fence.name=Dark Gray Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_8Fence.name=Gray Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_9Fence.name=Cyan Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_10Fence.name=Purple Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_11Fence.name=Blue Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_12Fence.name=Brown Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_13Fence.name=Green Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_14Fence.name=Red Stone Pattern 1 Fence
+tile.Colorable Stone Pattern1_15Fence.name=Black Stone Pattern 1 Fence
+
+tile.Colorable Stone Pattern1_0Slab.name=White Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_1Slab.name=Orange Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_2Slab.name=Magenta Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_3Slab.name=Light blue Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_4Slab.name=Yellow Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_5Slab.name=Lime Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_6Slab.name=Pink Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_7Slab.name=Dark Gray Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_8Slab.name=Gray Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_9Slab.name=Cyan Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_10Slab.name=Purple Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_11Slab.name=Blue Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_12Slab.name=Brown Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_13Slab.name=Green Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_14Slab.name=Red Stone Pattern 1 Slab
+tile.Colorable Stone Pattern1_15Slab.name=Black Stone Pattern 1 Slab
+
+tile.Colorable Stone Pattern1_0Stairs.name=White Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_1Stairs.name=Orange Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_2Stairs.name=Magenta Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_3Stairs.name=Light blue Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_4Stairs.name=Yellow Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_5Stairs.name=Lime Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_6Stairs.name=Pink Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_7Stairs.name=Dark Gray Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_8Stairs.name=Gray Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_9Stairs.name=Cyan Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_10Stairs.name=Purple Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_11Stairs.name=Blue Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_12Stairs.name=Brown Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_13Stairs.name=Green Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_14Stairs.name=Red Stone Pattern 1 Stairs
+tile.Colorable Stone Pattern1_15Stairs.name=Black Stone Pattern 1 Stairs
+
+
+
+
+
+
+
+
+tile.Colorable Stone Pattern2_0.name=White Stone Pattern 2
+tile.Colorable Stone Pattern2_1.name=Orange Stone Pattern 2
+tile.Colorable Stone Pattern2_2.name=Magenta Stone Pattern 2
+tile.Colorable Stone Pattern2_3.name=Light Blue Stone Pattern 2
+tile.Colorable Stone Pattern2_4.name=Yellow Stone Pattern 2
+tile.Colorable Stone Pattern2_5.name=Lime Stone Pattern 2
+tile.Colorable Stone Pattern2_6.name=Pink Stone Pattern 2
+tile.Colorable Stone Pattern2_7.name=Dark Gray Stone Pattern 2
+tile.Colorable Stone Pattern2_8.name=Gray Stone Pattern 2
+tile.Colorable Stone Pattern2_9.name=Cyan Stone Pattern 2
+tile.Colorable Stone Pattern2_10.name=Purple Stone Pattern 2
+tile.Colorable Stone Pattern2_11.name=Blue Stone Pattern 2
+tile.Colorable Stone Pattern2_12.name=Brown Stone Pattern 2
+tile.Colorable Stone Pattern2_13.name=Green Stone Pattern 2
+tile.Colorable Stone Pattern2_14.name=Red Stone Pattern 2
+tile.Colorable Stone Pattern2_15.name=Black Stone Pattern 2
+
+tile.Colorable Stone Pattern2_0Fence.name=White Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_1Fence.name=Orange Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_2Fence.name=Magenta Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_3Fence.name=Light blue Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_4Fence.name=Yellow Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_5Fence.name=Lime Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_6Fence.name=Pink Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_7Fence.name=Dark Gray Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_8Fence.name=Gray Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_9Fence.name=Cyan Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_10Fence.name=Purple Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_11Fence.name=Blue Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_12Fence.name=Brown Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_13Fence.name=Green Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_14Fence.name=Red Stone Pattern 2 Fence
+tile.Colorable Stone Pattern2_15Fence.name=Black Stone Pattern 2 Fence
+
+tile.Colorable Stone Pattern2_0Slab.name=White Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_1Slab.name=Orange Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_2Slab.name=Magenta Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_3Slab.name=Light blue Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_4Slab.name=Yellow Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_5Slab.name=Lime Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_6Slab.name=Pink Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_7Slab.name=Dark Gray Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_8Slab.name=Gray Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_9Slab.name=Cyan Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_10Slab.name=Purple Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_11Slab.name=Blue Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_12Slab.name=Brown Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_13Slab.name=Green Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_14Slab.name=Red Stone Pattern 2 Slab
+tile.Colorable Stone Pattern2_15Slab.name=Black Stone Pattern 2 Slab
+
+tile.Colorable Stone Pattern2_0Stairs.name=White Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_1Stairs.name=Orange Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_2Stairs.name=Magenta Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_3Stairs.name=Light blue Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_4Stairs.name=Yellow Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_5Stairs.name=Lime Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_6Stairs.name=Pink Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_7Stairs.name=Dark Gray Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_8Stairs.name=Gray Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_9Stairs.name=Cyan Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_10Stairs.name=Purple Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_11Stairs.name=Blue Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_12Stairs.name=Brown Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_13Stairs.name=Green Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_14Stairs.name=Red Stone Pattern 2 Stairs
+tile.Colorable Stone Pattern2_15Stairs.name=Black Stone Pattern 2 Stairs
+
+
+
+
+
+
+
+tile.Colorable Stone Pattern3_0.name=White Stone Pattern 3
+tile.Colorable Stone Pattern3_1.name=Orange Stone Pattern 3
+tile.Colorable Stone Pattern3_2.name=Magenta Stone Pattern 3
+tile.Colorable Stone Pattern3_3.name=Light Blue Stone Pattern 3
+tile.Colorable Stone Pattern3_4.name=Yellow Stone Pattern 3
+tile.Colorable Stone Pattern3_5.name=Lime Stone Pattern 3
+tile.Colorable Stone Pattern3_6.name=Pink Stone Pattern 3
+tile.Colorable Stone Pattern3_7.name=Dark Gray Stone Pattern 3
+tile.Colorable Stone Pattern3_8.name=Gray Stone Pattern 3
+tile.Colorable Stone Pattern3_9.name=Cyan Stone Pattern 3
+tile.Colorable Stone Pattern3_10.name=Purple Stone Pattern 3
+tile.Colorable Stone Pattern3_11.name=Blue Stone Pattern 3
+tile.Colorable Stone Pattern3_12.name=Brown Stone Pattern 3
+tile.Colorable Stone Pattern3_13.name=Green Stone Pattern 3
+tile.Colorable Stone Pattern3_14.name=Red Stone Pattern 3
+tile.Colorable Stone Pattern3_15.name=Black Stone Pattern 3
+
+tile.Colorable Stone Pattern3_0Fence.name=White Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_1Fence.name=Orange Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_2Fence.name=Magenta Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_3Fence.name=Light blue Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_4Fence.name=Yellow Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_5Fence.name=Lime Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_6Fence.name=Pink Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_7Fence.name=Dark Gray Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_8Fence.name=Gray Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_9Fence.name=Cyan Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_10Fence.name=Purple Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_11Fence.name=Blue Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_12Fence.name=Brown Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_13Fence.name=Green Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_14Fence.name=Red Stone Pattern 3 Fence
+tile.Colorable Stone Pattern3_15Fence.name=Black Stone Pattern 3 Fence
+
+tile.Colorable Stone Pattern3_0Slab.name=White Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_1Slab.name=Orange Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_2Slab.name=Magenta Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_3Slab.name=Light blue Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_4Slab.name=Yellow Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_5Slab.name=Lime Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_6Slab.name=Pink Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_7Slab.name=Dark Gray Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_8Slab.name=Gray Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_9Slab.name=Cyan Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_10Slab.name=Purple Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_11Slab.name=Blue Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_12Slab.name=Brown Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_13Slab.name=Green Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_14Slab.name=Red Stone Pattern 3 Slab
+tile.Colorable Stone Pattern3_15Slab.name=Black Stone Pattern 3 Slab
+
+tile.Colorable Stone Pattern3_0Stairs.name=White Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_1Stairs.name=Orange Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_2Stairs.name=Magenta Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_3Stairs.name=Light blue Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_4Stairs.name=Yellow Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_5Stairs.name=Lime Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_6Stairs.name=Pink Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_7Stairs.name=Dark Gray Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_8Stairs.name=Gray Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_9Stairs.name=Cyan Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_10Stairs.name=Purple Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_11Stairs.name=Blue Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_12Stairs.name=Brown Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_13Stairs.name=Green Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_14Stairs.name=Red Stone Pattern 3 Stairs
+tile.Colorable Stone Pattern3_15Stairs.name=Black Stone Pattern 3 Stairs
+
+
+
+
+
+tile.Colorable Stone Pattern4_0.name=White Stone Pattern 4
+tile.Colorable Stone Pattern4_1.name=Orange Stone Pattern 4
+tile.Colorable Stone Pattern4_2.name=Magenta Stone Pattern 4
+tile.Colorable Stone Pattern4_3.name=Light Blue Stone Pattern 4
+tile.Colorable Stone Pattern4_4.name=Yellow Stone Pattern 4
+tile.Colorable Stone Pattern4_5.name=Lime Stone Pattern 4
+tile.Colorable Stone Pattern4_6.name=Pink Stone Pattern 4
+tile.Colorable Stone Pattern4_7.name=Dark Gray Stone Pattern 4
+tile.Colorable Stone Pattern4_8.name=Gray Stone Pattern 4
+tile.Colorable Stone Pattern4_9.name=Cyan Stone Pattern 4
+tile.Colorable Stone Pattern4_10.name=Purple Stone Pattern 4
+tile.Colorable Stone Pattern4_11.name=Blue Stone Pattern 4
+tile.Colorable Stone Pattern4_12.name=Brown Stone Pattern 4
+tile.Colorable Stone Pattern4_13.name=Green Stone Pattern 4
+tile.Colorable Stone Pattern4_14.name=Red Stone Pattern 4
+tile.Colorable Stone Pattern4_15.name=Black Stone Pattern 4
+
+tile.Colorable Stone Pattern4_0Fence.name=White Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_1Fence.name=Orange Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_2Fence.name=Magenta Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_3Fence.name=Light blue Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_4Fence.name=Yellow Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_5Fence.name=Lime Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_6Fence.name=Pink Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_7Fence.name=Dark Gray Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_8Fence.name=Gray Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_9Fence.name=Cyan Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_10Fence.name=Purple Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_11Fence.name=Blue Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_12Fence.name=Brown Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_13Fence.name=Green Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_14Fence.name=Red Stone Pattern 4 Fence
+tile.Colorable Stone Pattern4_15Fence.name=Black Stone Pattern 4 Fence
+
+tile.Colorable Stone Pattern4_0Slab.name=White Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_1Slab.name=Orange Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_2Slab.name=Magenta Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_3Slab.name=Light blue Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_4Slab.name=Yellow Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_5Slab.name=Lime Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_6Slab.name=Pink Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_7Slab.name=Dark Gray Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_8Slab.name=Gray Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_9Slab.name=Cyan Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_10Slab.name=Purple Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_11Slab.name=Blue Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_12Slab.name=Brown Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_13Slab.name=Green Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_14Slab.name=Red Stone Pattern 4 Slab
+tile.Colorable Stone Pattern4_15Slab.name=Black Stone Pattern 4 Slab
+
+tile.Colorable Stone Pattern4_0Stairs.name=White Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_1Stairs.name=Orange Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_2Stairs.name=Magenta Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_3Stairs.name=Light blue Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_4Stairs.name=Yellow Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_5Stairs.name=Lime Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_6Stairs.name=Pink Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_7Stairs.name=Dark Gray Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_8Stairs.name=Gray Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_9Stairs.name=Cyan Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_10Stairs.name=Purple Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_11Stairs.name=Blue Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_12Stairs.name=Brown Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_13Stairs.name=Green Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_14Stairs.name=Red Stone Pattern 4 Stairs
+tile.Colorable Stone Pattern4_15Stairs.name=Black Stone Pattern 4 Stairs
+
+
+
+
+
+
+tile.Colorable Stone Pattern5_0.name=White Stone Pattern 5
+tile.Colorable Stone Pattern5_1.name=Orange Stone Pattern 5
+tile.Colorable Stone Pattern5_2.name=Magenta Stone Pattern 5
+tile.Colorable Stone Pattern5_3.name=Light Blue Stone Pattern 5
+tile.Colorable Stone Pattern5_4.name=Yellow Stone Pattern 5
+tile.Colorable Stone Pattern5_5.name=Lime Stone Pattern 5
+tile.Colorable Stone Pattern5_6.name=Pink Stone Pattern 5
+tile.Colorable Stone Pattern5_7.name=Dark Gray Stone Pattern 5
+tile.Colorable Stone Pattern5_8.name=Gray Stone Pattern 5
+tile.Colorable Stone Pattern5_9.name=Cyan Stone Pattern 5
+tile.Colorable Stone Pattern5_10.name=Purple Stone Pattern 5
+tile.Colorable Stone Pattern5_11.name=Blue Stone Pattern 5
+tile.Colorable Stone Pattern5_12.name=Brown Stone Pattern 5
+tile.Colorable Stone Pattern5_13.name=Green Stone Pattern 5
+tile.Colorable Stone Pattern5_14.name=Red Stone Pattern 5
+tile.Colorable Stone Pattern5_15.name=Black Stone Pattern 5
+
+tile.Colorable Stone Pattern5_0Fence.name=White Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_1Fence.name=Orange Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_2Fence.name=Magenta Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_3Fence.name=Light blue Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_4Fence.name=Yellow Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_5Fence.name=Lime Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_6Fence.name=Pink Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_7Fence.name=Dark Gray Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_8Fence.name=Gray Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_9Fence.name=Cyan Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_10Fence.name=Purple Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_11Fence.name=Blue Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_12Fence.name=Brown Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_13Fence.name=Green Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_14Fence.name=Red Stone Pattern 5 Fence
+tile.Colorable Stone Pattern5_15Fence.name=Black Stone Pattern 5 Fence
+
+tile.Colorable Stone Pattern5_0Slab.name=White Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_1Slab.name=Orange Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_2Slab.name=Magenta Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_3Slab.name=Light blue Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_4Slab.name=Yellow Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_5Slab.name=Lime Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_6Slab.name=Pink Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_7Slab.name=Dark Gray Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_8Slab.name=Gray Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_9Slab.name=Cyan Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_10Slab.name=Purple Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_11Slab.name=Blue Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_12Slab.name=Brown Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_13Slab.name=Green Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_14Slab.name=Red Stone Pattern 5 Slab
+tile.Colorable Stone Pattern5_15Slab.name=Black Stone Pattern 5 Slab
+
+tile.Colorable Stone Pattern5_0Stairs.name=White Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_1Stairs.name=Orange Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_2Stairs.name=Magenta Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_3Stairs.name=Light blue Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_4Stairs.name=Yellow Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_5Stairs.name=Lime Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_6Stairs.name=Pink Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_7Stairs.name=Dark Gray Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_8Stairs.name=Gray Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_9Stairs.name=Cyan Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_10Stairs.name=Purple Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_11Stairs.name=Blue Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_12Stairs.name=Brown Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_13Stairs.name=Green Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_14Stairs.name=Red Stone Pattern 5 Stairs
+tile.Colorable Stone Pattern5_15Stairs.name=Black Stone Pattern 5 Stairs
+
+
+
+
+jinryuujrmcore.help_main=Select a mode
+jinryuujrmcore.help_main1_1=Here you can read about short
+jinryuujrmcore.help_main1_2=Guides for DBC and Naruto C.
+jinryuujrmcore.help_main2_1=Here you can look up Recipes.
+jinryuujrmcore.help_main2_2=Not all of them have been added
+jinryuujrmcore.help_main2_3=yet. Find more on our site.
+
+jinryuujrmcore.Guides=Guides
+jinryuujrmcore.Receipts=Recipes
+jinryuujrmcore.help_core=Core
+jinryuujrmcore.help_nc=Naruto C
+jinryuujrmcore.help_dbc=Dragon Block C
+
+jinryuujrmcore.Back2=Back to select
+jinryuujrmcore.Exit=Exit
+
+
+jinryuujrmcore.Graphic Settings=Graphic Settings
+jinryuujrmcore.User Interface=User Interface
+
+jinryuujrmcore.Client Hud X=Ki Bar position X
+jinryuujrmcore.Client Hud Y=Ki Bar position Y
+jinryuujrmcore.Client Hud Style=Ki Bar Style
+jinryuujrmcore.Client Lockon Style=Lock on Style
+jinryuujrmcore.Client Hud 1 X=Health/Action Bar position X
+jinryuujrmcore.Client Hud 1 Y=Health/Action Bar position Y
+jinryuujrmcore.Client Hud 1 Style=Health/Action Bar Style
+
+jinryuujrmcore.Client Hud 2 X=Custom HUD position X
+jinryuujrmcore.Client Hud 2 Y=Custom HUD position Y
+
+jinryuujrmcore.Client Custom Hud=Custom HUD
+jinryuujrmcore.SETTON=ON
+jinryuujrmcore.SETTOFF=OFF
+jinryuujrmcore.SETT3D=3D
+jinryuujrmcore.SETT2D=2D
+
+jinryuujrmcore.Client Particles0=God Aura Particles
+jinryuujrmcore.Client Particles1=Ultra Instinct Aura Particles
+
+jinryuujrmcore.Client Particles2=Stone Aura Particles
+jinryuujrmcore.Client Particles3=Grass Aura Particles
+jinryuujrmcore.Client Particles4=Dust Particles
+jinryuujrmcore.Client Particles5=Fireball Particles
+jinryuujrmcore.Client Particles6=Explosion Particles
+
+jinryuujrmcore.Client ParAmo=Particle Amount
+jinryuujrmcore.Client ParSpe=Particle Speed
+
+
+jinryuujrmcore.Client Health bar text style=Percentage Text for Health bar
+jinryuujrmcore.Client Health bar rotated=Rotated Health bar
+jinryuujrmcore.Client Action Menu Text Type=Action Menu Text Type
+jinryuujrmcore.Client Action Menu White=Action Menu No Color
+jinryuujrmcore.ClientPasteDesc=It will paste a Custom HUD code from clipboard
+
+jinryuujrmcore.Client Opt3=First Person Particle Visibility
+jinryuujrmcore.Client Opt4=First Person Animations
+jinryuujrmcore.Client Opt5=New 3D explosion
+jinryuujrmcore.Client Opt6=New 2D explosion particle
+jinryuujrmcore.Client Opt7=3D explosion
+jinryuujrmcore.Client Opt8=NPC Aura particles
+jinryuujrmcore.Client Opt9=Double Ki blast color
+jinryuujrmcore.Client Opt10=Ki charge animation
+jinryuujrmcore.Client Opt11=Flying trails
+jinryuujrmcore.Client Opt12=Aura lightning
+jinryuujrmcore.Client Opt13=2D player aura
+jinryuujrmcore.Client Opt14=3D player aura
+jinryuujrmcore.Client Opt15=Hit clash effect
+jinryuujrmcore.Client Opt16=Other particles
+
+jinryuujrmcore.Client Opt17=April Fools Mode
+jinryuujrmcore.Client Opt18=First Person Blocking Animation
+jinryuujrmcore.Client Opt19=Player damage/bruise textures
+jinryuujrmcore.Client Opt20=3D Normal Aura, 2D God aura
+jinryuujrmcore.Client Opt21=3D Aura invisibility
+jinryuujrmcore.Client Opt22=Enma Desk
+
+jinryuujrmcore.Client Opt23=Visibility
+jinryuujrmcore.Client Opt24=Scale
+
+jinryuujrmcore.Client Opt25=Render Energy Outside View
+
+jinryuujrmcore.Client Opt26=Minigame Concentration Animated Textures
+jinryuujrmcore.Client Opt27=Minigame Concentration Animated Color
+jinryuujrmcore.Client Opt28=Minigame Airboxing 3D Character
+jinryuujrmcore.Client Opt29=Minigame Airboxing 3D Aura
+jinryuujrmcore.Client Opt30=Minigame Airboxing Animated Color
+
+jinryuujrmcore.Client Opt31=Barrier Block Render Distance
+jinryuujrmcore.Client Opt32=Particles Render Distance
+jinryuujrmcore.Client Opt33=Ki Attack Charge Render Distance
+jinryuujrmcore.Client Opt34=Aura Render Distance
+
+jinryuujrmcore.Client Opt35=Ki Attack Charge Percentage
+
+jinryuujrmcore.Client Opt36=Tip Notifications
+jinryuujrmcore.Client Opt37=Error Notifications
+
+jinryuujrmcore.Client Opt38=DBC Fast Fusion Spectator Camera Follow
+jinryuujrmcore.Client Opt39=Safe Zone UI Mode
+
+jinryuujrmcore.Client Opt40=Instant Transmission First Person Animation
+jinryuujrmcore.Client Opt41=Instant Transmission Particles
+
+jinryuujrmcore.Client Image0=Swoop Image Effect
+jinryuujrmcore.Add more=Add more
+jinryuujrmcore.Save=Save
+
+
+jinryuujrmcore.descvanityColorable1="Colorable" vanity items can be colored
+jinryuujrmcore.descvanityColorable2=by surrounding it with dye at a crafting table.
+
+
+jinryuujrmcore.help_guide_1_title=Basic Keys
+jinryuujrmcore.help_guide_1_desc=C-Charging your release level/nR-Turbo Mode/nG-Transform(DBC)/Blood line skill(Naruto C)/nH-Descending forms, and lower Release level./nF-Flight mode (needs flight skill)/nX-Action Menu: Here you can enable skills and forms./nPick Block/Mouse Wheel click-Open Spacepod GUI.
+
+
+jinryuujrmcore.help_guide_2_title=Extra Slots
+jinryuujrmcore.help_guide_2_desc=Open: Use Second Function Key+Inventory (Check Controls in case you don't know the key)/nThese are head,body,weight, and 3 Vanity slots/nVanity slots on the right can be arranged in any way possible.
+
+
+jinryuujrmcore.help_guide_3_title=Release level
+jinryuujrmcore.help_guide_3_desc=Release is needed in order to start gaining TP, to level up stats and skills. Each player has a release level in the top left corner. The % sign shows your current release level. By charging with the 'C' key you can start to gain up to 50%. You can only go beyong that by learning Potential Unlock from Kami at the Lookout. You can lower your release by pressing 'H'. Your Battle Power changes with your release.
+
+
+jinryuujrmcore.help_guide_4_title=Leveling up stats and skills
+jinryuujrmcore.help_guide_4_desc=In order to get stronger you need to gain TP, which you get when hitting Entities like mobs IF you have a release level above 0%. Going over the Attributes you can read about what you will gain from them. And in order to level up skills, you will need TP And you will need to level up your MND or Mind Attribute. In the skills tab C stands for TP, and M for Mind.
+
+
+jinryuujrmcore.help_guide_5_title=Skills
+jinryuujrmcore.help_guide_5_desc=You can level up skills using TP (C), or TP and Mind (M). Some learned skills will appear in the middle right skill hot bar you have. There you can scroll through them using your Second Function Key + your mouse scroll wheel. To use a skill you use the Second Function Key+Right click IF you have a release level above 0%.
+
+
+jinryuujrmcore.help_guide_6_title=Action Menu
+jinryuujrmcore.help_guide_6_desc=You have an action menu, that you can open using the 'X' key. It is used to select what form you turn in to, or just enable/disable certain options. Remember, than if it says 'Disable', it will disable it when clicked, not that it already is disabled.
+
+
+jinryuujrmcore.help_guide_7_title=Forms
+jinryuujrmcore.help_guide_7_desc=Players have Forms, some of which depend on their race. You can level up your main forms in the skills tab, but there are other ones you can learn. Some Masters can teach you Form Skills. For example King kai teaches you Mystic Form, and Kaioken. These forms can be used by Pressing 'X' to open up your action Menu. You transform by holding 'G', and descend by pressing 'H'. IF you enable a Form in the Action menu, you will transform in to that.
+
+
+jinryuujrmcore.help_guide_8_title=Movement
+jinryuujrmcore.help_guide_8_desc=Turbo: You can move faster using turbo mode by pressing 'R'./nFly: You can enter Flight mode by pressing 'F', but you will need to first learn Flight from a Master./nSwoop: You can Swoop to fly faster. It requiers Fly. Once it is are learned, you can open your action bar ith 'X' and Enable it. Use it with Second Function Key+Walk Forward key./nDash: Use dash with Second Function + Movement Left/Right/Backwards Key.
+
+
+jinryuujrmcore.help_guide_9_title=Buildings and Masters
+jinryuujrmcore.help_guide_9_desc=In your world there are new Structures spawning that have Masters in them. Some buildings have a fix location (for example Kamis lookout, and Enmas and King Kais place in heaven), but some only spawn in specific biomes when you are close to them (for example Cell Games Arena spawns in plains anywhere the player is close to one). Kamis lookout is found at around X 80, Z 45, so its close to the world center and spawn.
+
+
+jinryuujrmcore.help_guide_10_title=Safe zone
+jinryuujrmcore.help_guide_10_desc=Safe zones are areas, which spawn with Masters. They surround them. Every enemy entity, or Skills used by players vanish when entering one. The flying nimbus is also not possible to be used in them.
+
+
+jinryuujrmcore.help_guide_11_title=Dragon Blocks
+jinryuujrmcore.help_guide_11_desc=There are two type of dragon blocks, the small earth type, and the large planet namek ones. Both work the same way. They spawn in the world at the set time in the configs every now and then. By placing one of a kind in an 'H' form you can summon the dragon by right clicking the middle one. Than right click the dragon for a wish.
+
+
+jinryuujrmcore.help_guide_12_title=Dimensions and Spacepod
+jinryuujrmcore.help_guide_12_desc=There are multiple new dimensions for planets and other worlds. You can use a spacepod to travel to planet namek, planet vegeta, and back to the overworld. When dying, you will be transported to the otherworld. There you can visit King Kai, and a Strong Warrior, or you can talk to Enma to revive you.
+
+
+jinryuujrmcore.help_guide_13_title=Learnable Forms
+jinryuujrmcore.help_guide_13_desc=Mystic: You can learn from King Kai as 'Old Kai's Ritual'. You will lose levels from it by time./nMajin: Learned from Babidi by anyone who is evil. You can only lose it by dying. /nKaioken: Learned from King Kai. You can use it multiple times to increase the level of it but you will lose more and more health. You will receive a debuff called Strained when using it. /nLegendary: This is given randomly to players. It gives you a green icon, and turns your hair green in certain transformations.
+
+jinryuujrmcore.guidehelp_Blocks=Blocks
+jinryuujrmcore.guidehelp_Items=Items
+jinryuujrmcore.guidehelp_Armors=Armors
+jinryuujrmcore.guidehelp_Weapons=Weapons
+jinryuujrmcore.guidehelp_Tools=Tools
+jinryuujrmcore.guidehelp_Vanities=Vanities
+
+jinryuujrmcore.Remove=Remove
+jinryuujrmcore.RemoveAll=Removed All
+jinryuujrmcore.Sort=Sort
+jinryuujrmcore.Disable=Disable
+jinryuujrmcore.Mute=Mute
+jinryuujrmcore.Disabled=Disabled
+jinryuujrmcore.Muted=Muted
+
+jinryuujrmcore.entitymasters.insafezone=Entering the Safe Zone of %s!
+jinryuujrmcore.entitymasters.insaafezone=Entering a Safe Zone!
+jinryuujrmcore.entitymasters.nofightinsafe=Fighting is not allowed in Safe Zones!
+jinryuujrmcore.entitymasters.leftsafe=Leaving the Safe Zone of %s!
+jinryuujrmcore.entitymasters.leftasafe=Leaving a Safe Zone!
+entity.jinryuujrmcore.JGMasterSafeZone.name=JG Safe Zone

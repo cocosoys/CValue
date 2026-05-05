@@ -1,0 +1,978 @@
+/*     */ package JinRyuu.DragonBC.common.Worlds.structures;
+/*     */ 
+/*     */ import JinRyuu.DragonBC.common.Blocks.BlocksDBC;
+/*     */ import JinRyuu.DragonBC.common.Villages.builds;
+/*     */ import JinRyuu.DragonBC.common.Worlds.WorldGeneratorDB;
+/*     */ import JinRyuu.DragonBC.common.mod_DragonBC;
+/*     */ import JinRyuu.JRMCore.JRMCoreComTickH;
+/*     */ import JinRyuu.JRMCore.JRMCoreH;
+/*     */ import cpw.mods.fml.common.FMLCommonHandler;
+/*     */ import java.util.List;
+/*     */ import java.util.Random;
+/*     */ import net.minecraft.block.Block;
+/*     */ import net.minecraft.init.Blocks;
+/*     */ import net.minecraft.server.MinecraftServer;
+/*     */ import net.minecraft.util.AxisAlignedBB;
+/*     */ import net.minecraft.world.World;
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ public class StructureGuru
+/*     */   extends builds
+/*     */ {
+/*     */   protected void b(World par1World, int par2, int par3, int par4, Block par5) {
+/*  28 */     func_150516_a(par1World, par2, par3, par4, par5, 0);
+/*     */   }
+/*     */   
+/*     */   protected void b(World par1World, int par2, int par3, int par4, Block par5, int par6) {
+/*  32 */     func_150516_a(par1World, par2, par3, par4, par5, par6);
+/*     */   }
+/*     */   
+/*  35 */   final String name = "Guru Structure";
+/*  36 */   public Block r = Blocks.field_150325_L;
+/*     */   
+/*  38 */   public Block db = BlocksDBC.BlockNamekStone;
+/*     */ 
+/*     */   
+/*  41 */   public Block g = (Block)Blocks.field_150399_cn;
+/*  42 */   public final int glassID = 13;
+/*  43 */   public final int woolID = 11;
+/*     */   
+/*  45 */   protected Block b73 = BlocksDBC.BlockNamekGrass;
+/*     */   
+/*     */   public StructureGuru() {
+/*  48 */     this; SizeX = 30;
+/*  49 */     this; SizeZ = 30;
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public boolean func_76484_a(World w, Random rand, int i, int j, int k) {
+/*  55 */     this.w = w;
+/*  56 */     this; SizeX = 30;
+/*  57 */     this; SizeZ = 30;
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */     
+/*  62 */     int gen = 4;
+/*  63 */     WorldGeneratorDB.DBbuildsSpawn(gen, false);
+/*  64 */     MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
+/*     */     
+/*  66 */     JRMCoreComTickH.bs = JRMCoreH.bsrwi(server);
+/*  67 */     if (!JRMCoreComTickH.bs.contains(WorldGeneratorDB.DBbuildsNams2(gen)) || this.respawn) {
+/*     */       
+/*  69 */       JRMCoreComTickH.bs += ";" + WorldGeneratorDB.DBbuildsNams2(gen);
+/*  70 */       JRMCoreH.bswwi(server, JRMCoreComTickH.bs, false);
+/*  71 */       this.respawn = false;
+/*     */     } else {
+/*  73 */       return false;
+/*     */     } 
+/*  75 */     mod_DragonBC.logger.info(WorldGeneratorDB.DBbuildsNams(gen) + " spawned " + i + " " + k);
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */ 
+/*     */     
+/*  94 */     return generateBuilding(w, rand, i, j, k);
+/*     */   }
+/*     */ 
+/*     */ 
+/*     */   
+/*     */   public boolean generateBuilding(World w, Random rand, int i, int j, int k) {
+/* 100 */     if (!this.check)
+/* 101 */       for (int ix = 0; ix <= SizeX; ix++) {
+/* 102 */         for (int iz = 0; iz <= SizeZ; iz++) {
+/* 103 */           int var = 0;
+/* 104 */           for (int iy = j; iy < j + 50; iy++) {
+/* 105 */             var++;
+/* 106 */             b(i + ix, iy, k + iz, Blocks.field_150350_a);
+/* 107 */             if (iy < j + 10) {
+/* 108 */               for (int var2 = 0; var2 < var; var2++) {
+/* 109 */                 b(i + ix + var2, iy, k + iz + var2, Blocks.field_150350_a);
+/* 110 */                 if (w.func_147439_a(i + ix + var2, iy - 1, k + iz + var2) != Blocks.field_150350_a) b(i + ix + var2, iy - 1, k + iz + var2, this.b73); 
+/* 111 */                 b(i + ix - var2, iy, k + iz - var2, Blocks.field_150350_a);
+/* 112 */                 if (w.func_147439_a(i + ix - var2, iy - 1, k + iz - var2) != Blocks.field_150350_a) b(i + ix - var2, iy - 1, k + iz - var2, this.b73); 
+/* 113 */                 b(i + ix, iy, k + iz + var2, Blocks.field_150350_a);
+/* 114 */                 if (w.func_147439_a(i + ix, iy - 1, k + iz + var2) != Blocks.field_150350_a) b(i + ix, iy - 1, k + iz + var2, this.b73); 
+/* 115 */                 b(i + ix, iy, k + iz - var2, Blocks.field_150350_a);
+/* 116 */                 if (w.func_147439_a(i + ix, iy - 1, k + iz - var2) != Blocks.field_150350_a) b(i + ix, iy - 1, k + iz - var2, this.b73); 
+/* 117 */                 b(i + ix + var2, iy, k + iz, Blocks.field_150350_a);
+/* 118 */                 if (w.func_147439_a(i + ix + var2, iy - 1, k + iz) != Blocks.field_150350_a) b(i + ix + var2, iy - 1, k + iz, this.b73); 
+/* 119 */                 b(i + ix - var2, iy, k + iz, Blocks.field_150350_a);
+/* 120 */                 if (w.func_147439_a(i + ix - var2, iy - 1, k + iz) != Blocks.field_150350_a) b(i + ix - var2, iy - 1, k + iz, this.b73);
+/*     */               
+/*     */               } 
+/*     */             }
+/*     */           } 
+/*     */         } 
+/*     */       }  
+/* 127 */     b(w, i + 0, j + 0, k + 7, this.db);
+/* 128 */     b(w, i + 0, j + 0, k + 8, this.db);
+/* 129 */     b(w, i + 0, j + 0, k + 9, this.db);
+/* 130 */     b(w, i + 0, j + 0, k + 10, this.db);
+/* 131 */     b(w, i + 0, j + 0, k + 11, this.db);
+/* 132 */     b(w, i + 0, j + 0, k + 12, this.db);
+/* 133 */     b(w, i + 0, j + 0, k + 13, this.db);
+/* 134 */     b(w, i + 0, j + 1, k + 7, this.db);
+/* 135 */     b(w, i + 0, j + 1, k + 8, this.db);
+/* 136 */     b(w, i + 0, j + 1, k + 9, this.db);
+/* 137 */     b(w, i + 0, j + 1, k + 10, this.db);
+/* 138 */     b(w, i + 0, j + 1, k + 11, this.db);
+/* 139 */     b(w, i + 0, j + 1, k + 12, this.db);
+/* 140 */     b(w, i + 0, j + 1, k + 13, this.db);
+/* 141 */     b(w, i + 0, j + 2, k + 7, this.g, 13);
+/* 142 */     b(w, i + 0, j + 2, k + 8, this.db);
+/* 143 */     b(w, i + 0, j + 2, k + 9, this.db);
+/* 144 */     b(w, i + 0, j + 2, k + 10, this.g, 13);
+/* 145 */     b(w, i + 0, j + 2, k + 11, this.db);
+/* 146 */     b(w, i + 0, j + 2, k + 12, this.db);
+/* 147 */     b(w, i + 0, j + 2, k + 13, this.g, 13);
+/* 148 */     b(w, i + 0, j + 3, k + 7, this.db);
+/* 149 */     b(w, i + 0, j + 3, k + 8, this.db);
+/* 150 */     b(w, i + 0, j + 3, k + 9, this.db);
+/* 151 */     b(w, i + 0, j + 3, k + 10, this.db);
+/* 152 */     b(w, i + 0, j + 3, k + 11, this.db);
+/* 153 */     b(w, i + 0, j + 3, k + 12, this.db);
+/* 154 */     b(w, i + 0, j + 3, k + 13, this.db);
+/* 155 */     b(w, i + 1, j + 0, k + 6, this.db);
+/* 156 */     b(w, i + 1, j + 0, k + 7, this.r, 11);
+/* 157 */     b(w, i + 1, j + 0, k + 8, this.r, 11);
+/* 158 */     b(w, i + 1, j + 0, k + 9, this.r, 11);
+/* 159 */     b(w, i + 1, j + 0, k + 10, this.r, 11);
+/* 160 */     b(w, i + 1, j + 0, k + 11, this.r, 11);
+/* 161 */     b(w, i + 1, j + 0, k + 12, this.r, 11);
+/* 162 */     b(w, i + 1, j + 0, k + 13, this.r, 11);
+/* 163 */     b(w, i + 1, j + 0, k + 14, this.db);
+/* 164 */     b(w, i + 1, j + 1, k + 6, this.db);
+/* 165 */     b(w, i + 1, j + 1, k + 14, this.db);
+/* 166 */     b(w, i + 1, j + 2, k + 6, this.g, 13);
+/* 167 */     b(w, i + 1, j + 2, k + 14, this.g, 13);
+/* 168 */     b(w, i + 1, j + 3, k + 6, this.db);
+/* 169 */     b(w, i + 1, j + 3, k + 7, this.db);
+/* 170 */     b(w, i + 1, j + 3, k + 8, this.db);
+/* 171 */     b(w, i + 1, j + 3, k + 9, this.db);
+/* 172 */     b(w, i + 1, j + 3, k + 10, this.db);
+/* 173 */     b(w, i + 1, j + 3, k + 11, this.db);
+/* 174 */     b(w, i + 1, j + 3, k + 12, this.db);
+/* 175 */     b(w, i + 1, j + 3, k + 13, this.db);
+/* 176 */     b(w, i + 1, j + 3, k + 14, this.db);
+/* 177 */     b(w, i + 1, j + 4, k + 7, this.db);
+/* 178 */     b(w, i + 1, j + 4, k + 8, this.db);
+/* 179 */     b(w, i + 1, j + 4, k + 9, this.db);
+/* 180 */     b(w, i + 1, j + 4, k + 10, this.db);
+/* 181 */     b(w, i + 1, j + 4, k + 11, this.db);
+/* 182 */     b(w, i + 1, j + 4, k + 12, this.db);
+/* 183 */     b(w, i + 1, j + 4, k + 13, this.db);
+/* 184 */     b(w, i + 2, j + 0, k + 5, this.db);
+/* 185 */     b(w, i + 2, j + 0, k + 6, this.r, 11);
+/* 186 */     b(w, i + 2, j + 0, k + 7, this.r, 11);
+/* 187 */     b(w, i + 2, j + 0, k + 8, this.r, 11);
+/* 188 */     b(w, i + 2, j + 0, k + 9, this.r, 11);
+/* 189 */     b(w, i + 2, j + 0, k + 10, this.r, 11);
+/* 190 */     b(w, i + 2, j + 0, k + 11, this.r, 11);
+/* 191 */     b(w, i + 2, j + 0, k + 12, this.r, 11);
+/* 192 */     b(w, i + 2, j + 0, k + 13, this.r, 11);
+/* 193 */     b(w, i + 2, j + 0, k + 14, this.r, 11);
+/* 194 */     b(w, i + 2, j + 0, k + 15, this.db);
+/* 195 */     b(w, i + 2, j + 1, k + 5, this.db);
+/* 196 */     b(w, i + 2, j + 1, k + 15, this.db);
+/* 197 */     b(w, i + 2, j + 2, k + 5, this.db);
+/* 198 */     b(w, i + 2, j + 2, k + 15, this.db);
+/* 199 */     b(w, i + 2, j + 3, k + 5, this.db);
+/* 200 */     b(w, i + 2, j + 3, k + 6, this.db);
+/* 201 */     b(w, i + 2, j + 3, k + 14, this.db);
+/* 202 */     b(w, i + 2, j + 3, k + 15, this.db);
+/* 203 */     b(w, i + 2, j + 4, k + 6, this.db);
+/* 204 */     b(w, i + 2, j + 4, k + 7, this.r, 11);
+/* 205 */     b(w, i + 2, j + 4, k + 8, this.r, 11);
+/* 206 */     b(w, i + 2, j + 4, k + 9, this.r, 11);
+/* 207 */     b(w, i + 2, j + 4, k + 10, this.r, 11);
+/* 208 */     b(w, i + 2, j + 4, k + 11, this.r, 11);
+/* 209 */     b(w, i + 2, j + 4, k + 12, this.r, 11);
+/* 210 */     b(w, i + 2, j + 4, k + 13, this.r, 11);
+/* 211 */     b(w, i + 2, j + 4, k + 14, this.db);
+/* 212 */     b(w, i + 2, j + 5, k + 7, this.db);
+/* 213 */     b(w, i + 2, j + 5, k + 8, this.db);
+/* 214 */     b(w, i + 2, j + 5, k + 9, this.db);
+/* 215 */     b(w, i + 2, j + 5, k + 10, this.db);
+/* 216 */     b(w, i + 2, j + 5, k + 11, this.db);
+/* 217 */     b(w, i + 2, j + 5, k + 12, this.db);
+/* 218 */     b(w, i + 2, j + 5, k + 13, this.db);
+/* 219 */     b(w, i + 3, j + 0, k + 5, this.db);
+/* 220 */     b(w, i + 3, j + 0, k + 6, this.r, 11);
+/* 221 */     b(w, i + 3, j + 0, k + 7, this.r, 11);
+/* 222 */     b(w, i + 3, j + 0, k + 8, this.r, 11);
+/* 223 */     b(w, i + 3, j + 0, k + 9, this.r, 11);
+/* 224 */     b(w, i + 3, j + 0, k + 10, this.r, 11);
+/* 225 */     b(w, i + 3, j + 0, k + 11, this.r, 11);
+/* 226 */     b(w, i + 3, j + 0, k + 12, this.r, 11);
+/* 227 */     b(w, i + 3, j + 0, k + 13, this.r, 11);
+/* 228 */     b(w, i + 3, j + 0, k + 14, this.r, 11);
+/* 229 */     b(w, i + 3, j + 0, k + 15, this.db);
+/* 230 */     b(w, i + 3, j + 1, k + 5, this.db);
+/* 231 */     b(w, i + 3, j + 1, k + 15, this.db);
+/* 232 */     b(w, i + 3, j + 2, k + 5, this.db);
+/* 233 */     b(w, i + 3, j + 2, k + 15, this.db);
+/* 234 */     b(w, i + 3, j + 3, k + 5, this.db);
+/* 235 */     b(w, i + 3, j + 3, k + 14, this.db);
+/* 236 */     b(w, i + 3, j + 3, k + 15, this.db);
+/* 237 */     b(w, i + 3, j + 4, k + 5, this.db);
+/* 238 */     b(w, i + 3, j + 4, k + 6, this.r, 11);
+/* 239 */     b(w, i + 3, j + 4, k + 7, this.r, 11);
+/* 240 */     b(w, i + 3, j + 4, k + 8, this.r, 11);
+/* 241 */     b(w, i + 3, j + 4, k + 9, this.r, 11);
+/* 242 */     b(w, i + 3, j + 4, k + 10, this.r, 11);
+/* 243 */     b(w, i + 3, j + 4, k + 11, this.r, 11);
+/* 244 */     b(w, i + 3, j + 4, k + 12, this.r, 11);
+/* 245 */     b(w, i + 3, j + 4, k + 13, this.r, 11);
+/* 246 */     b(w, i + 3, j + 4, k + 14, this.db);
+/* 247 */     b(w, i + 3, j + 5, k + 6, this.db);
+/* 248 */     b(w, i + 3, j + 5, k + 7, this.db);
+/* 249 */     b(w, i + 3, j + 5, k + 8, this.db);
+/* 250 */     b(w, i + 3, j + 5, k + 9, this.db);
+/* 251 */     b(w, i + 3, j + 5, k + 10, this.db);
+/* 252 */     b(w, i + 3, j + 5, k + 11, this.db);
+/* 253 */     b(w, i + 3, j + 5, k + 12, this.db);
+/* 254 */     b(w, i + 3, j + 5, k + 13, this.db);
+/* 255 */     b(w, i + 4, j + 0, k + 2, this.db);
+/* 256 */     b(w, i + 4, j + 0, k + 3, this.db);
+/* 257 */     b(w, i + 4, j + 0, k + 4, this.db);
+/* 258 */     b(w, i + 4, j + 0, k + 5, this.r, 11);
+/* 259 */     b(w, i + 4, j + 0, k + 6, this.r, 11);
+/* 260 */     b(w, i + 4, j + 0, k + 7, this.r, 11);
+/* 261 */     b(w, i + 4, j + 0, k + 8, this.r, 11);
+/* 262 */     b(w, i + 4, j + 0, k + 9, this.r, 11);
+/* 263 */     b(w, i + 4, j + 0, k + 10, this.r, 11);
+/* 264 */     b(w, i + 4, j + 0, k + 11, this.r, 11);
+/* 265 */     b(w, i + 4, j + 0, k + 12, this.r, 11);
+/* 266 */     b(w, i + 4, j + 0, k + 13, this.r, 11);
+/* 267 */     b(w, i + 4, j + 0, k + 14, this.r, 11);
+/* 268 */     b(w, i + 4, j + 0, k + 15, this.r, 11);
+/* 269 */     b(w, i + 4, j + 0, k + 16, this.db);
+/* 270 */     b(w, i + 4, j + 0, k + 17, this.db);
+/* 271 */     b(w, i + 4, j + 1, k + 2, this.db);
+/* 272 */     b(w, i + 4, j + 1, k + 3, this.db);
+/* 273 */     b(w, i + 4, j + 1, k + 4, this.db);
+/* 274 */     b(w, i + 4, j + 1, k + 16, this.db);
+/* 275 */     b(w, i + 4, j + 1, k + 17, this.db);
+/* 276 */     b(w, i + 4, j + 2, k + 2, this.db);
+/* 277 */     b(w, i + 4, j + 2, k + 3, this.db);
+/* 278 */     b(w, i + 4, j + 2, k + 4, this.db);
+/* 279 */     b(w, i + 4, j + 2, k + 16, this.db);
+/* 280 */     b(w, i + 4, j + 2, k + 17, this.g, 13);
+/* 281 */     b(w, i + 4, j + 3, k + 3, this.db);
+/* 282 */     b(w, i + 4, j + 3, k + 4, this.db);
+/* 283 */     b(w, i + 4, j + 3, k + 5, this.db);
+/* 284 */     b(w, i + 4, j + 3, k + 15, this.db);
+/* 285 */     b(w, i + 4, j + 3, k + 16, this.db);
+/* 286 */     b(w, i + 4, j + 3, k + 17, this.db);
+/* 287 */     b(w, i + 4, j + 4, k + 4, this.db);
+/* 288 */     b(w, i + 4, j + 4, k + 5, this.db);
+/* 289 */     b(w, i + 4, j + 4, k + 6, this.r, 11);
+/* 290 */     b(w, i + 4, j + 4, k + 7, this.r, 11);
+/* 291 */     b(w, i + 4, j + 4, k + 8, this.r, 11);
+/* 292 */     b(w, i + 4, j + 4, k + 9, this.r, 11);
+/* 293 */     b(w, i + 4, j + 4, k + 10, this.r, 11);
+/* 294 */     b(w, i + 4, j + 4, k + 11, this.r, 11);
+/* 295 */     b(w, i + 4, j + 4, k + 12, this.r, 11);
+/* 296 */     b(w, i + 4, j + 4, k + 13, this.r, 11);
+/* 297 */     b(w, i + 4, j + 4, k + 14, this.r, 11);
+/* 298 */     b(w, i + 4, j + 4, k + 15, this.db);
+/* 299 */     b(w, i + 4, j + 5, k + 6, this.db);
+/* 300 */     b(w, i + 4, j + 5, k + 7, this.db);
+/* 301 */     b(w, i + 4, j + 5, k + 8, this.db);
+/* 302 */     b(w, i + 4, j + 5, k + 9, this.db);
+/* 303 */     b(w, i + 4, j + 5, k + 10, this.db);
+/* 304 */     b(w, i + 4, j + 5, k + 11, this.db);
+/* 305 */     b(w, i + 4, j + 5, k + 12, this.db);
+/* 306 */     b(w, i + 4, j + 5, k + 13, this.db);
+/* 307 */     b(w, i + 4, j + 5, k + 14, this.db);
+/* 308 */     b(w, i + 4, j + 6, k + 8, this.db);
+/* 309 */     b(w, i + 4, j + 6, k + 9, this.db);
+/* 310 */     b(w, i + 4, j + 6, k + 10, this.db);
+/* 311 */     b(w, i + 4, j + 6, k + 11, this.db);
+/* 312 */     b(w, i + 4, j + 6, k + 12, this.db);
+/* 313 */     b(w, i + 4, j + 7, k + 9, this.db);
+/* 314 */     b(w, i + 4, j + 7, k + 10, this.db);
+/* 315 */     b(w, i + 4, j + 7, k + 11, this.db);
+/* 316 */     b(w, i + 4, j + 9, k + 11, this.db);
+/* 317 */     b(w, i + 4, j + 10, k + 11, this.db);
+/* 318 */     b(w, i + 4, j + 11, k + 11, this.db);
+/* 319 */     b(w, i + 5, j + 0, k + 1, this.db);
+/* 320 */     b(w, i + 5, j + 0, k + 2, this.r, 11);
+/* 321 */     b(w, i + 5, j + 0, k + 3, this.r, 11);
+/* 322 */     b(w, i + 5, j + 0, k + 4, this.r, 11);
+/* 323 */     b(w, i + 5, j + 0, k + 5, this.r, 11);
+/* 324 */     b(w, i + 5, j + 0, k + 6, this.r, 11);
+/* 325 */     b(w, i + 5, j + 0, k + 7, this.r, 11);
+/* 326 */     b(w, i + 5, j + 0, k + 8, this.r, 11);
+/* 327 */     b(w, i + 5, j + 0, k + 9, this.r, 11);
+/* 328 */     b(w, i + 5, j + 0, k + 10, this.r, 11);
+/* 329 */     b(w, i + 5, j + 0, k + 11, this.r, 11);
+/* 330 */     b(w, i + 5, j + 0, k + 12, this.r, 11);
+/* 331 */     b(w, i + 5, j + 0, k + 13, this.r, 11);
+/* 332 */     b(w, i + 5, j + 0, k + 14, this.r, 11);
+/* 333 */     b(w, i + 5, j + 0, k + 15, this.r, 11);
+/* 334 */     b(w, i + 5, j + 0, k + 16, this.r, 11);
+/* 335 */     b(w, i + 5, j + 0, k + 17, this.r, 11);
+/* 336 */     b(w, i + 5, j + 0, k + 18, this.db);
+/* 337 */     b(w, i + 5, j + 1, k + 1, this.db);
+/* 338 */     b(w, i + 5, j + 1, k + 18, this.db);
+/* 339 */     b(w, i + 5, j + 2, k + 1, this.db);
+/* 340 */     b(w, i + 5, j + 2, k + 18, this.g, 13);
+/* 341 */     b(w, i + 5, j + 3, k + 2, this.db);
+/* 342 */     b(w, i + 5, j + 3, k + 3, this.db);
+/* 343 */     b(w, i + 5, j + 3, k + 16, this.db);
+/* 344 */     b(w, i + 5, j + 3, k + 17, this.db);
+/* 345 */     b(w, i + 5, j + 3, k + 18, this.db);
+/* 346 */     b(w, i + 5, j + 4, k + 3, this.db);
+/* 347 */     b(w, i + 5, j + 4, k + 4, this.r, 11);
+/* 348 */     b(w, i + 5, j + 4, k + 5, this.r, 11);
+/* 349 */     b(w, i + 5, j + 4, k + 6, this.r, 11);
+/* 350 */     b(w, i + 5, j + 4, k + 7, this.r, 11);
+/* 351 */     b(w, i + 5, j + 4, k + 8, this.r, 11);
+/* 352 */     b(w, i + 5, j + 4, k + 9, this.r, 11);
+/* 353 */     b(w, i + 5, j + 4, k + 10, this.r, 11);
+/* 354 */     b(w, i + 5, j + 4, k + 11, this.r, 11);
+/* 355 */     b(w, i + 5, j + 4, k + 12, this.r, 11);
+/* 356 */     b(w, i + 5, j + 4, k + 13, this.r, 11);
+/* 357 */     b(w, i + 5, j + 4, k + 14, this.r, 11);
+/* 358 */     b(w, i + 5, j + 4, k + 15, this.r, 11);
+/* 359 */     b(w, i + 5, j + 4, k + 16, this.db);
+/* 360 */     b(w, i + 5, j + 5, k + 4, this.db);
+/* 361 */     b(w, i + 5, j + 5, k + 5, this.db);
+/* 362 */     b(w, i + 5, j + 5, k + 6, this.db);
+/* 363 */     b(w, i + 5, j + 5, k + 7, this.db);
+/* 364 */     b(w, i + 5, j + 5, k + 8, this.db);
+/* 365 */     b(w, i + 5, j + 5, k + 12, this.db);
+/* 366 */     b(w, i + 5, j + 5, k + 13, this.db);
+/* 367 */     b(w, i + 5, j + 5, k + 14, this.db);
+/* 368 */     b(w, i + 5, j + 5, k + 15, this.db);
+/* 369 */     b(w, i + 5, j + 6, k + 8, this.db);
+/* 370 */     b(w, i + 5, j + 6, k + 12, this.g, 13);
+/* 371 */     b(w, i + 5, j + 7, k + 8, this.db);
+/* 372 */     b(w, i + 5, j + 7, k + 12, this.db);
+/* 373 */     b(w, i + 5, j + 8, k + 9, this.db);
+/* 374 */     b(w, i + 5, j + 8, k + 10, this.db);
+/* 375 */     b(w, i + 5, j + 8, k + 11, this.db);
+/* 376 */     b(w, i + 5, j + 9, k + 11, this.db);
+/* 377 */     b(w, i + 6, j + 0, k + 0, this.db);
+/* 378 */     b(w, i + 6, j + 0, k + 1, this.r, 11);
+/* 379 */     b(w, i + 6, j + 0, k + 2, this.r, 11);
+/* 380 */     b(w, i + 6, j + 0, k + 3, this.r, 11);
+/* 381 */     b(w, i + 6, j + 0, k + 4, this.r, 11);
+/* 382 */     b(w, i + 6, j + 0, k + 5, this.r, 11);
+/* 383 */     b(w, i + 6, j + 0, k + 6, this.r, 11);
+/* 384 */     b(w, i + 6, j + 0, k + 7, this.r, 11);
+/* 385 */     b(w, i + 6, j + 0, k + 8, this.r, 11);
+/* 386 */     b(w, i + 6, j + 0, k + 9, this.r, 11);
+/* 387 */     b(w, i + 6, j + 0, k + 10, this.r, 11);
+/* 388 */     b(w, i + 6, j + 0, k + 11, this.r, 11);
+/* 389 */     b(w, i + 6, j + 0, k + 12, this.r, 11);
+/* 390 */     b(w, i + 6, j + 0, k + 13, this.r, 11);
+/* 391 */     b(w, i + 6, j + 0, k + 14, this.r, 11);
+/* 392 */     b(w, i + 6, j + 0, k + 15, this.r, 11);
+/* 393 */     b(w, i + 6, j + 0, k + 16, this.r, 11);
+/* 394 */     b(w, i + 6, j + 0, k + 17, this.r, 11);
+/* 395 */     b(w, i + 6, j + 0, k + 18, this.r, 11);
+/* 396 */     b(w, i + 6, j + 0, k + 19, this.db);
+/* 397 */     b(w, i + 6, j + 1, k + 0, this.db);
+/* 398 */     b(w, i + 6, j + 1, k + 19, this.db);
+/* 399 */     b(w, i + 6, j + 2, k + 0, this.db);
+/* 400 */     b(w, i + 6, j + 2, k + 19, this.db);
+/* 401 */     b(w, i + 6, j + 3, k + 0, this.db);
+/* 402 */     b(w, i + 6, j + 3, k + 1, this.db);
+/* 403 */     b(w, i + 6, j + 3, k + 2, this.db);
+/* 404 */     b(w, i + 6, j + 3, k + 18, this.db);
+/* 405 */     b(w, i + 6, j + 4, k + 2, this.db);
+/* 406 */     b(w, i + 6, j + 4, k + 3, this.r, 11);
+/* 407 */     b(w, i + 6, j + 4, k + 4, this.r, 11);
+/* 408 */     b(w, i + 6, j + 4, k + 5, this.r, 11);
+/* 409 */     b(w, i + 6, j + 4, k + 6, this.r, 11);
+/* 410 */     b(w, i + 6, j + 4, k + 7, this.r, 11);
+/* 411 */     b(w, i + 6, j + 4, k + 8, this.r, 11);
+/* 412 */     b(w, i + 6, j + 4, k + 9, this.r, 11);
+/* 413 */     b(w, i + 6, j + 4, k + 10, this.r, 11);
+/* 414 */     b(w, i + 6, j + 4, k + 11, this.r, 11);
+/* 415 */     b(w, i + 6, j + 4, k + 12, this.r, 11);
+/* 416 */     b(w, i + 6, j + 4, k + 13, this.r, 11);
+/* 417 */     b(w, i + 6, j + 4, k + 14, this.r, 11);
+/* 418 */     b(w, i + 6, j + 4, k + 15, this.r, 11);
+/* 419 */     b(w, i + 6, j + 4, k + 16, this.r, 11);
+/* 420 */     b(w, i + 6, j + 4, k + 17, this.db);
+/* 421 */     b(w, i + 6, j + 5, k + 3, this.db);
+/* 422 */     b(w, i + 6, j + 5, k + 4, this.db);
+/* 423 */     b(w, i + 6, j + 5, k + 5, this.db);
+/* 424 */     b(w, i + 6, j + 5, k + 6, this.db);
+/* 425 */     b(w, i + 6, j + 5, k + 7, this.db);
+/* 426 */     b(w, i + 6, j + 5, k + 13, this.db);
+/* 427 */     b(w, i + 6, j + 5, k + 14, this.db);
+/* 428 */     b(w, i + 6, j + 5, k + 15, this.db);
+/* 429 */     b(w, i + 6, j + 5, k + 16, this.db);
+/* 430 */     b(w, i + 6, j + 6, k + 7, this.db);
+/* 431 */     b(w, i + 6, j + 6, k + 13, this.g, 13);
+/* 432 */     b(w, i + 6, j + 6, k + 14, this.db);
+/* 433 */     b(w, i + 6, j + 6, k + 15, this.db);
+/* 434 */     b(w, i + 6, j + 7, k + 7, this.db);
+/* 435 */     b(w, i + 6, j + 7, k + 12, this.db);
+/* 436 */     b(w, i + 6, j + 7, k + 13, this.db);
+/* 437 */     b(w, i + 6, j + 7, k + 14, this.db);
+/* 438 */     b(w, i + 6, j + 8, k + 8, this.db);
+/* 439 */     b(w, i + 6, j + 8, k + 9, this.db);
+/* 440 */     b(w, i + 6, j + 8, k + 10, this.db);
+/* 441 */     b(w, i + 6, j + 8, k + 11, this.db);
+/* 442 */     b(w, i + 6, j + 8, k + 12, this.db);
+/* 443 */     b(w, i + 6, j + 8, k + 13, this.db);
+/* 444 */     b(w, i + 7, j + 0, k + 0, this.db);
+/* 445 */     b(w, i + 7, j + 0, k + 1, this.r, 11);
+/* 446 */     b(w, i + 7, j + 0, k + 2, this.r, 11);
+/* 447 */     b(w, i + 7, j + 0, k + 3, this.r, 11);
+/* 448 */     b(w, i + 7, j + 0, k + 4, this.r, 11);
+/* 449 */     b(w, i + 7, j + 0, k + 5, this.r, 11);
+/* 450 */     b(w, i + 7, j + 0, k + 6, this.r, 11);
+/* 451 */     b(w, i + 7, j + 0, k + 7, this.r, 11);
+/* 452 */     b(w, i + 7, j + 0, k + 8, this.r, 11);
+/* 453 */     b(w, i + 7, j + 0, k + 9, this.r, 11);
+/* 454 */     b(w, i + 7, j + 0, k + 10, this.r, 11);
+/* 455 */     b(w, i + 7, j + 0, k + 11, this.r, 11);
+/* 456 */     b(w, i + 7, j + 0, k + 12, this.r, 11);
+/* 457 */     b(w, i + 7, j + 0, k + 13, this.r, 11);
+/* 458 */     b(w, i + 7, j + 0, k + 14, this.r, 11);
+/* 459 */     b(w, i + 7, j + 0, k + 15, this.r, 11);
+/* 460 */     b(w, i + 7, j + 0, k + 16, this.r, 11);
+/* 461 */     b(w, i + 7, j + 0, k + 17, this.r, 11);
+/* 462 */     b(w, i + 7, j + 0, k + 18, this.r, 11);
+/* 463 */     b(w, i + 7, j + 0, k + 19, this.db);
+/* 464 */     b(w, i + 7, j + 1, k + 0, this.db);
+/* 465 */     b(w, i + 7, j + 1, k + 19, this.db);
+/* 466 */     b(w, i + 7, j + 2, k + 0, this.db);
+/* 467 */     b(w, i + 7, j + 2, k + 19, this.db);
+/* 468 */     b(w, i + 7, j + 3, k + 0, this.db);
+/* 469 */     b(w, i + 7, j + 3, k + 1, this.db);
+/* 470 */     b(w, i + 7, j + 3, k + 19, this.db);
+/* 471 */     b(w, i + 7, j + 4, k + 1, this.db);
+/* 472 */     b(w, i + 7, j + 4, k + 2, this.r, 11);
+/* 473 */     b(w, i + 7, j + 4, k + 3, this.r, 11);
+/* 474 */     b(w, i + 7, j + 4, k + 4, this.r, 11);
+/* 475 */     b(w, i + 7, j + 4, k + 5, this.r, 11);
+/* 476 */     b(w, i + 7, j + 4, k + 6, this.r, 11);
+/* 477 */     b(w, i + 7, j + 4, k + 7, this.r, 11);
+/* 478 */     b(w, i + 7, j + 4, k + 8, this.r, 11);
+/* 479 */     b(w, i + 7, j + 4, k + 9, this.r, 11);
+/* 480 */     b(w, i + 7, j + 4, k + 10, this.r, 11);
+/* 481 */     b(w, i + 7, j + 4, k + 11, this.r, 11);
+/* 482 */     b(w, i + 7, j + 4, k + 12, this.r, 11);
+/* 483 */     b(w, i + 7, j + 4, k + 13, this.r, 11);
+/* 484 */     b(w, i + 7, j + 4, k + 16, this.r, 11);
+/* 485 */     b(w, i + 7, j + 4, k + 17, this.db);
+/* 486 */     b(w, i + 7, j + 4, k + 18, this.db);
+/* 487 */     b(w, i + 7, j + 5, k + 2, this.db);
+/* 488 */     b(w, i + 7, j + 5, k + 3, this.db);
+/* 489 */     b(w, i + 7, j + 5, k + 4, this.db);
+/* 490 */     b(w, i + 7, j + 5, k + 5, this.db);
+/* 491 */     b(w, i + 7, j + 5, k + 6, this.db);
+/* 492 */     b(w, i + 7, j + 5, k + 16, this.db);
+/* 493 */     b(w, i + 7, j + 6, k + 6, this.db);
+/* 494 */     b(w, i + 7, j + 6, k + 16, this.g, 13);
+/* 495 */     b(w, i + 7, j + 7, k + 6, this.db);
+/* 496 */     b(w, i + 7, j + 7, k + 15, this.g, 13);
+/* 497 */     b(w, i + 7, j + 7, k + 16, this.g, 13);
+/* 498 */     b(w, i + 7, j + 8, k + 7, this.db);
+/* 499 */     b(w, i + 7, j + 8, k + 14, this.db);
+/* 500 */     b(w, i + 7, j + 8, k + 15, this.g, 13);
+/* 501 */     b(w, i + 7, j + 9, k + 8, this.db);
+/* 502 */     b(w, i + 7, j + 9, k + 9, this.db);
+/* 503 */     b(w, i + 7, j + 9, k + 10, this.db);
+/* 504 */     b(w, i + 7, j + 9, k + 11, this.db);
+/* 505 */     b(w, i + 7, j + 9, k + 12, this.db);
+/* 506 */     b(w, i + 7, j + 9, k + 13, this.db);
+/* 507 */     b(w, i + 8, j + 0, k + 0, this.db);
+/* 508 */     b(w, i + 8, j + 0, k + 1, this.r, 11);
+/* 509 */     b(w, i + 8, j + 0, k + 2, this.r, 11);
+/* 510 */     b(w, i + 8, j + 0, k + 3, this.r, 11);
+/* 511 */     b(w, i + 8, j + 0, k + 4, this.r, 11);
+/* 512 */     b(w, i + 8, j + 0, k + 5, this.r, 11);
+/* 513 */     b(w, i + 8, j + 0, k + 6, this.r, 11);
+/* 514 */     b(w, i + 8, j + 0, k + 7, this.r, 11);
+/* 515 */     b(w, i + 8, j + 0, k + 8, this.r, 11);
+/* 516 */     b(w, i + 8, j + 0, k + 9, this.r, 11);
+/* 517 */     b(w, i + 8, j + 0, k + 10, this.r, 11);
+/* 518 */     b(w, i + 8, j + 0, k + 11, this.r, 11);
+/* 519 */     b(w, i + 8, j + 0, k + 12, this.r, 11);
+/* 520 */     b(w, i + 8, j + 0, k + 13, this.r, 11);
+/* 521 */     b(w, i + 8, j + 0, k + 14, this.r, 11);
+/* 522 */     b(w, i + 8, j + 0, k + 15, this.r, 11);
+/* 523 */     b(w, i + 8, j + 0, k + 16, this.r, 11);
+/* 524 */     b(w, i + 8, j + 0, k + 17, this.r, 11);
+/* 525 */     b(w, i + 8, j + 0, k + 18, this.r, 11);
+/* 526 */     b(w, i + 8, j + 0, k + 19, this.db);
+/* 527 */     b(w, i + 8, j + 1, k + 0, this.db);
+/* 528 */     b(w, i + 8, j + 2, k + 0, this.db);
+/* 529 */     b(w, i + 8, j + 3, k + 0, this.db);
+/* 530 */     b(w, i + 8, j + 3, k + 19, this.db);
+/* 531 */     b(w, i + 8, j + 4, k + 0, this.db);
+/* 532 */     b(w, i + 8, j + 4, k + 1, this.r, 11);
+/* 533 */     b(w, i + 8, j + 4, k + 2, this.r, 11);
+/* 534 */     b(w, i + 8, j + 4, k + 3, this.r, 11);
+/* 535 */     b(w, i + 8, j + 4, k + 4, this.r, 11);
+/* 536 */     b(w, i + 8, j + 4, k + 5, this.r, 11);
+/* 537 */     b(w, i + 8, j + 4, k + 6, this.r, 11);
+/* 538 */     b(w, i + 8, j + 4, k + 7, this.r, 11);
+/* 539 */     b(w, i + 8, j + 4, k + 8, this.r, 11);
+/* 540 */     b(w, i + 8, j + 4, k + 9, this.r, 11);
+/* 541 */     b(w, i + 8, j + 4, k + 10, this.r, 11);
+/* 542 */     b(w, i + 8, j + 4, k + 11, this.r, 11);
+/* 543 */     b(w, i + 8, j + 4, k + 12, this.r, 11);
+/* 544 */     b(w, i + 8, j + 4, k + 13, this.r, 11);
+/* 545 */     b(w, i + 8, j + 4, k + 16, this.r, 11);
+/* 546 */     b(w, i + 8, j + 4, k + 17, this.db);
+/* 547 */     b(w, i + 8, j + 4, k + 18, this.db);
+/* 548 */     b(w, i + 8, j + 5, k + 1, this.db);
+/* 549 */     b(w, i + 8, j + 5, k + 2, this.db);
+/* 550 */     b(w, i + 8, j + 5, k + 3, this.db);
+/* 551 */     b(w, i + 8, j + 5, k + 4, this.db);
+/* 552 */     b(w, i + 8, j + 5, k + 5, this.db);
+/* 553 */     b(w, i + 8, j + 5, k + 6, this.db);
+/* 554 */     b(w, i + 8, j + 5, k + 16, this.db);
+/* 555 */     b(w, i + 8, j + 6, k + 6, this.db);
+/* 556 */     b(w, i + 8, j + 6, k + 16, this.g, 13);
+/* 557 */     b(w, i + 8, j + 7, k + 6, this.db);
+/* 558 */     b(w, i + 8, j + 7, k + 16, this.g, 13);
+/* 559 */     b(w, i + 8, j + 8, k + 7, this.db);
+/* 560 */     b(w, i + 8, j + 8, k + 14, this.db);
+/* 561 */     b(w, i + 8, j + 8, k + 15, this.g, 13);
+/* 562 */     b(w, i + 8, j + 9, k + 7, this.db);
+/* 563 */     b(w, i + 8, j + 9, k + 8, this.db);
+/* 564 */     b(w, i + 8, j + 9, k + 9, this.db);
+/* 565 */     b(w, i + 8, j + 9, k + 10, this.db);
+/* 566 */     b(w, i + 8, j + 9, k + 11, this.db);
+/* 567 */     b(w, i + 8, j + 9, k + 12, this.db);
+/* 568 */     b(w, i + 8, j + 9, k + 13, this.db);
+/* 569 */     b(w, i + 9, j + 0, k + 0, this.db);
+/* 570 */     b(w, i + 9, j + 0, k + 1, this.r, 11);
+/* 571 */     b(w, i + 9, j + 0, k + 2, this.r, 11);
+/* 572 */     b(w, i + 9, j + 0, k + 3, this.r, 11);
+/* 573 */     b(w, i + 9, j + 0, k + 4, this.r, 11);
+/* 574 */     b(w, i + 9, j + 0, k + 5, this.r, 11);
+/* 575 */     b(w, i + 9, j + 0, k + 6, this.r, 11);
+/* 576 */     b(w, i + 9, j + 0, k + 7, this.r, 11);
+/* 577 */     b(w, i + 9, j + 0, k + 8, this.r, 11);
+/* 578 */     b(w, i + 9, j + 0, k + 9, this.r, 11);
+/* 579 */     b(w, i + 9, j + 0, k + 10, this.r, 11);
+/* 580 */     b(w, i + 9, j + 0, k + 11, this.r, 11);
+/* 581 */     b(w, i + 9, j + 0, k + 12, this.r, 11);
+/* 582 */     b(w, i + 9, j + 0, k + 13, this.r, 11);
+/* 583 */     b(w, i + 9, j + 0, k + 14, this.r, 11);
+/* 584 */     b(w, i + 9, j + 0, k + 15, this.r, 11);
+/* 585 */     b(w, i + 9, j + 0, k + 16, this.r, 11);
+/* 586 */     b(w, i + 9, j + 0, k + 17, this.r, 11);
+/* 587 */     b(w, i + 9, j + 0, k + 18, this.r, 11);
+/* 588 */     b(w, i + 9, j + 0, k + 19, this.db);
+/* 589 */     b(w, i + 9, j + 1, k + 0, this.db);
+/* 590 */     b(w, i + 9, j + 1, k + 19, this.db);
+/* 591 */     b(w, i + 9, j + 2, k + 0, this.db);
+/* 592 */     b(w, i + 9, j + 2, k + 19, this.db);
+/* 593 */     b(w, i + 9, j + 3, k + 0, this.db);
+/* 594 */     b(w, i + 9, j + 3, k + 1, this.db);
+/* 595 */     b(w, i + 9, j + 3, k + 19, this.db);
+/* 596 */     b(w, i + 9, j + 4, k + 1, this.db);
+/* 597 */     b(w, i + 9, j + 4, k + 2, this.r, 11);
+/* 598 */     b(w, i + 9, j + 4, k + 3, this.r, 11);
+/* 599 */     b(w, i + 9, j + 4, k + 4, this.r, 11);
+/* 600 */     b(w, i + 9, j + 4, k + 5, this.r, 11);
+/* 601 */     b(w, i + 9, j + 4, k + 6, this.r, 11);
+/* 602 */     b(w, i + 9, j + 4, k + 7, this.r, 11);
+/* 603 */     b(w, i + 9, j + 4, k + 8, this.r, 11);
+/* 604 */     b(w, i + 9, j + 4, k + 9, this.r, 11);
+/* 605 */     b(w, i + 9, j + 4, k + 10, this.r, 11);
+/* 606 */     b(w, i + 9, j + 4, k + 11, this.r, 11);
+/* 607 */     b(w, i + 9, j + 4, k + 12, this.r, 11);
+/* 608 */     b(w, i + 9, j + 4, k + 13, this.r, 11);
+/* 609 */     b(w, i + 9, j + 4, k + 16, this.r, 11);
+/* 610 */     b(w, i + 9, j + 4, k + 17, this.db);
+/* 611 */     b(w, i + 9, j + 4, k + 18, this.db);
+/* 612 */     b(w, i + 9, j + 5, k + 2, this.db);
+/* 613 */     b(w, i + 9, j + 5, k + 3, this.db);
+/* 614 */     b(w, i + 9, j + 5, k + 4, this.db);
+/* 615 */     b(w, i + 9, j + 5, k + 5, this.db);
+/* 616 */     b(w, i + 9, j + 5, k + 6, this.db);
+/* 617 */     b(w, i + 9, j + 5, k + 16, this.db);
+/* 618 */     b(w, i + 9, j + 6, k + 6, this.db);
+/* 619 */     b(w, i + 9, j + 6, k + 16, this.g, 13);
+/* 620 */     b(w, i + 9, j + 7, k + 6, this.db);
+/* 621 */     b(w, i + 9, j + 7, k + 15, this.g, 13);
+/* 622 */     b(w, i + 9, j + 7, k + 16, this.g, 13);
+/* 623 */     b(w, i + 9, j + 8, k + 7, this.db);
+/* 624 */     b(w, i + 9, j + 8, k + 14, this.db);
+/* 625 */     b(w, i + 9, j + 8, k + 15, this.g, 13);
+/* 626 */     b(w, i + 9, j + 9, k + 8, this.db);
+/* 627 */     b(w, i + 9, j + 9, k + 9, this.db);
+/* 628 */     b(w, i + 9, j + 9, k + 10, this.db);
+/* 629 */     b(w, i + 9, j + 9, k + 11, this.db);
+/* 630 */     b(w, i + 9, j + 9, k + 12, this.db);
+/* 631 */     b(w, i + 9, j + 9, k + 13, this.db);
+/* 632 */     b(w, i + 10, j + 0, k + 0, this.db);
+/* 633 */     b(w, i + 10, j + 0, k + 1, this.r, 11);
+/* 634 */     b(w, i + 10, j + 0, k + 2, this.r, 11);
+/* 635 */     b(w, i + 10, j + 0, k + 3, this.r, 11);
+/* 636 */     b(w, i + 10, j + 0, k + 4, this.r, 11);
+/* 637 */     b(w, i + 10, j + 0, k + 5, this.r, 11);
+/* 638 */     b(w, i + 10, j + 0, k + 6, this.r, 11);
+/* 639 */     b(w, i + 10, j + 0, k + 7, this.r, 11);
+/* 640 */     b(w, i + 10, j + 0, k + 8, this.r, 11);
+/* 641 */     b(w, i + 10, j + 0, k + 9, this.r, 11);
+/* 642 */     b(w, i + 10, j + 0, k + 10, this.r, 11);
+/* 643 */     b(w, i + 10, j + 0, k + 11, this.r, 11);
+/* 644 */     b(w, i + 10, j + 0, k + 12, this.r, 11);
+/* 645 */     b(w, i + 10, j + 0, k + 13, this.r, 11);
+/* 646 */     b(w, i + 10, j + 0, k + 14, this.r, 11);
+/* 647 */     b(w, i + 10, j + 0, k + 15, this.r, 11);
+/* 648 */     b(w, i + 10, j + 0, k + 16, this.r, 11);
+/* 649 */     b(w, i + 10, j + 0, k + 17, this.r, 11);
+/* 650 */     b(w, i + 10, j + 0, k + 18, this.r, 11);
+/* 651 */     b(w, i + 10, j + 0, k + 19, this.db);
+/* 652 */     b(w, i + 10, j + 1, k + 0, this.db);
+/* 653 */     b(w, i + 10, j + 1, k + 19, this.db);
+/* 654 */     b(w, i + 10, j + 2, k + 0, this.db);
+/* 655 */     b(w, i + 10, j + 2, k + 19, this.db);
+/* 656 */     b(w, i + 10, j + 3, k + 0, this.db);
+/* 657 */     b(w, i + 10, j + 3, k + 1, this.db);
+/* 658 */     b(w, i + 10, j + 3, k + 2, this.db);
+/* 659 */     b(w, i + 10, j + 3, k + 18, this.db);
+/* 660 */     b(w, i + 10, j + 4, k + 2, this.db);
+/* 661 */     b(w, i + 10, j + 4, k + 3, this.r, 11);
+/* 662 */     b(w, i + 10, j + 4, k + 4, this.r, 11);
+/* 663 */     b(w, i + 10, j + 4, k + 5, this.r, 11);
+/* 664 */     b(w, i + 10, j + 4, k + 6, this.r, 11);
+/* 665 */     b(w, i + 10, j + 4, k + 7, this.r, 11);
+/* 666 */     b(w, i + 10, j + 4, k + 8, this.r, 11);
+/* 667 */     b(w, i + 10, j + 4, k + 9, this.r, 11);
+/* 668 */     b(w, i + 10, j + 4, k + 10, this.r, 11);
+/* 669 */     b(w, i + 10, j + 4, k + 11, this.r, 11);
+/* 670 */     b(w, i + 10, j + 4, k + 12, this.r, 11);
+/* 671 */     b(w, i + 10, j + 4, k + 13, this.r, 11);
+/* 672 */     b(w, i + 10, j + 4, k + 14, this.r, 11);
+/* 673 */     b(w, i + 10, j + 4, k + 15, this.r, 11);
+/* 674 */     b(w, i + 10, j + 4, k + 16, this.r, 11);
+/* 675 */     b(w, i + 10, j + 4, k + 17, this.db);
+/* 676 */     b(w, i + 10, j + 5, k + 3, this.db);
+/* 677 */     b(w, i + 10, j + 5, k + 4, this.db);
+/* 678 */     b(w, i + 10, j + 5, k + 5, this.db);
+/* 679 */     b(w, i + 10, j + 5, k + 6, this.db);
+/* 680 */     b(w, i + 10, j + 5, k + 7, this.db);
+/* 681 */     b(w, i + 10, j + 5, k + 13, this.db);
+/* 682 */     b(w, i + 10, j + 5, k + 14, this.db);
+/* 683 */     b(w, i + 10, j + 5, k + 15, this.db);
+/* 684 */     b(w, i + 10, j + 5, k + 16, this.db);
+/* 685 */     b(w, i + 10, j + 6, k + 7, this.db);
+/* 686 */     b(w, i + 10, j + 6, k + 13, this.g, 13);
+/* 687 */     b(w, i + 10, j + 6, k + 14, this.db);
+/* 688 */     b(w, i + 10, j + 6, k + 15, this.db);
+/* 689 */     b(w, i + 10, j + 7, k + 7, this.db);
+/* 690 */     b(w, i + 10, j + 7, k + 12, this.db);
+/* 691 */     b(w, i + 10, j + 7, k + 13, this.db);
+/* 692 */     b(w, i + 10, j + 7, k + 14, this.db);
+/* 693 */     b(w, i + 10, j + 8, k + 8, this.db);
+/* 694 */     b(w, i + 10, j + 8, k + 9, this.db);
+/* 695 */     b(w, i + 10, j + 8, k + 10, this.db);
+/* 696 */     b(w, i + 10, j + 8, k + 11, this.db);
+/* 697 */     b(w, i + 10, j + 8, k + 12, this.db);
+/* 698 */     b(w, i + 10, j + 8, k + 13, this.db);
+/* 699 */     b(w, i + 11, j + 0, k + 1, this.db);
+/* 700 */     b(w, i + 11, j + 0, k + 2, this.r, 11);
+/* 701 */     b(w, i + 11, j + 0, k + 3, this.r, 11);
+/* 702 */     b(w, i + 11, j + 0, k + 4, this.r, 11);
+/* 703 */     b(w, i + 11, j + 0, k + 5, this.r, 11);
+/* 704 */     b(w, i + 11, j + 0, k + 6, this.r, 11);
+/* 705 */     b(w, i + 11, j + 0, k + 7, this.r, 11);
+/* 706 */     b(w, i + 11, j + 0, k + 8, this.r, 11);
+/* 707 */     b(w, i + 11, j + 0, k + 9, this.r, 11);
+/* 708 */     b(w, i + 11, j + 0, k + 10, this.r, 11);
+/* 709 */     b(w, i + 11, j + 0, k + 11, this.r, 11);
+/* 710 */     b(w, i + 11, j + 0, k + 12, this.r, 11);
+/* 711 */     b(w, i + 11, j + 0, k + 13, this.r, 11);
+/* 712 */     b(w, i + 11, j + 0, k + 14, this.r, 11);
+/* 713 */     b(w, i + 11, j + 0, k + 15, this.r, 11);
+/* 714 */     b(w, i + 11, j + 0, k + 16, this.r, 11);
+/* 715 */     b(w, i + 11, j + 0, k + 17, this.r, 11);
+/* 716 */     b(w, i + 11, j + 0, k + 18, this.db);
+/* 717 */     b(w, i + 11, j + 1, k + 1, this.db);
+/* 718 */     b(w, i + 11, j + 1, k + 18, this.db);
+/* 719 */     b(w, i + 11, j + 2, k + 1, this.db);
+/* 720 */     b(w, i + 11, j + 2, k + 18, this.g, 13);
+/* 721 */     b(w, i + 11, j + 3, k + 2, this.db);
+/* 722 */     b(w, i + 11, j + 3, k + 3, this.db);
+/* 723 */     b(w, i + 11, j + 3, k + 16, this.db);
+/* 724 */     b(w, i + 11, j + 3, k + 17, this.db);
+/* 725 */     b(w, i + 11, j + 3, k + 18, this.db);
+/* 726 */     b(w, i + 11, j + 4, k + 3, this.db);
+/* 727 */     b(w, i + 11, j + 4, k + 4, this.r, 11);
+/* 728 */     b(w, i + 11, j + 4, k + 5, this.r, 11);
+/* 729 */     b(w, i + 11, j + 4, k + 6, this.r, 11);
+/* 730 */     b(w, i + 11, j + 4, k + 7, this.r, 11);
+/* 731 */     b(w, i + 11, j + 4, k + 8, this.r, 11);
+/* 732 */     b(w, i + 11, j + 4, k + 9, this.r, 11);
+/* 733 */     b(w, i + 11, j + 4, k + 10, this.r, 11);
+/* 734 */     b(w, i + 11, j + 4, k + 11, this.r, 11);
+/* 735 */     b(w, i + 11, j + 4, k + 12, this.r, 11);
+/* 736 */     b(w, i + 11, j + 4, k + 13, this.r, 11);
+/* 737 */     b(w, i + 11, j + 4, k + 14, this.r, 11);
+/* 738 */     b(w, i + 11, j + 4, k + 15, this.r, 11);
+/* 739 */     b(w, i + 11, j + 4, k + 16, this.db);
+/* 740 */     b(w, i + 11, j + 5, k + 4, this.db);
+/* 741 */     b(w, i + 11, j + 5, k + 5, this.db);
+/* 742 */     b(w, i + 11, j + 5, k + 6, this.db);
+/* 743 */     b(w, i + 11, j + 5, k + 7, this.db);
+/* 744 */     b(w, i + 11, j + 5, k + 8, this.db);
+/* 745 */     b(w, i + 11, j + 5, k + 12, this.db);
+/* 746 */     b(w, i + 11, j + 5, k + 13, this.db);
+/* 747 */     b(w, i + 11, j + 5, k + 14, this.db);
+/* 748 */     b(w, i + 11, j + 5, k + 15, this.db);
+/* 749 */     b(w, i + 11, j + 6, k + 8, this.db);
+/* 750 */     b(w, i + 11, j + 6, k + 12, this.g, 13);
+/* 751 */     b(w, i + 11, j + 7, k + 8, this.db);
+/* 752 */     b(w, i + 11, j + 7, k + 12, this.db);
+/* 753 */     b(w, i + 11, j + 8, k + 9, this.db);
+/* 754 */     b(w, i + 11, j + 8, k + 10, this.db);
+/* 755 */     b(w, i + 11, j + 8, k + 11, this.db);
+/* 756 */     b(w, i + 11, j + 9, k + 11, this.db);
+/* 757 */     b(w, i + 12, j + 0, k + 2, this.db);
+/* 758 */     b(w, i + 12, j + 0, k + 3, this.db);
+/* 759 */     b(w, i + 12, j + 0, k + 4, this.db);
+/* 760 */     b(w, i + 12, j + 0, k + 5, this.r, 11);
+/* 761 */     b(w, i + 12, j + 0, k + 6, this.r, 11);
+/* 762 */     b(w, i + 12, j + 0, k + 7, this.r, 11);
+/* 763 */     b(w, i + 12, j + 0, k + 8, this.r, 11);
+/* 764 */     b(w, i + 12, j + 0, k + 9, this.r, 11);
+/* 765 */     b(w, i + 12, j + 0, k + 10, this.r, 11);
+/* 766 */     b(w, i + 12, j + 0, k + 11, this.r, 11);
+/* 767 */     b(w, i + 12, j + 0, k + 12, this.r, 11);
+/* 768 */     b(w, i + 12, j + 0, k + 13, this.r, 11);
+/* 769 */     b(w, i + 12, j + 0, k + 14, this.r, 11);
+/* 770 */     b(w, i + 12, j + 0, k + 15, this.r, 11);
+/* 771 */     b(w, i + 12, j + 0, k + 16, this.db);
+/* 772 */     b(w, i + 12, j + 0, k + 17, this.db);
+/* 773 */     b(w, i + 12, j + 1, k + 2, this.db);
+/* 774 */     b(w, i + 12, j + 1, k + 3, this.db);
+/* 775 */     b(w, i + 12, j + 1, k + 4, this.db);
+/* 776 */     b(w, i + 12, j + 1, k + 16, this.db);
+/* 777 */     b(w, i + 12, j + 1, k + 17, this.db);
+/* 778 */     b(w, i + 12, j + 2, k + 2, this.db);
+/* 779 */     b(w, i + 12, j + 2, k + 3, this.db);
+/* 780 */     b(w, i + 12, j + 2, k + 4, this.db);
+/* 781 */     b(w, i + 12, j + 2, k + 16, this.db);
+/* 782 */     b(w, i + 12, j + 2, k + 17, this.g, 13);
+/* 783 */     b(w, i + 12, j + 3, k + 3, this.db);
+/* 784 */     b(w, i + 12, j + 3, k + 4, this.db);
+/* 785 */     b(w, i + 12, j + 3, k + 5, this.db);
+/* 786 */     b(w, i + 12, j + 3, k + 15, this.db);
+/* 787 */     b(w, i + 12, j + 3, k + 16, this.db);
+/* 788 */     b(w, i + 12, j + 3, k + 17, this.db);
+/* 789 */     b(w, i + 12, j + 4, k + 4, this.db);
+/* 790 */     b(w, i + 12, j + 4, k + 5, this.db);
+/* 791 */     b(w, i + 12, j + 4, k + 6, this.r, 11);
+/* 792 */     b(w, i + 12, j + 4, k + 7, this.r, 11);
+/* 793 */     b(w, i + 12, j + 4, k + 8, this.r, 11);
+/* 794 */     b(w, i + 12, j + 4, k + 9, this.r, 11);
+/* 795 */     b(w, i + 12, j + 4, k + 10, this.r, 11);
+/* 796 */     b(w, i + 12, j + 4, k + 11, this.r, 11);
+/* 797 */     b(w, i + 12, j + 4, k + 12, this.r, 11);
+/* 798 */     b(w, i + 12, j + 4, k + 13, this.r, 11);
+/* 799 */     b(w, i + 12, j + 4, k + 14, this.r, 11);
+/* 800 */     b(w, i + 12, j + 4, k + 15, this.db);
+/* 801 */     b(w, i + 12, j + 5, k + 6, this.db);
+/* 802 */     b(w, i + 12, j + 5, k + 7, this.db);
+/* 803 */     b(w, i + 12, j + 5, k + 8, this.db);
+/* 804 */     b(w, i + 12, j + 5, k + 9, this.db);
+/* 805 */     b(w, i + 12, j + 5, k + 10, this.db);
+/* 806 */     b(w, i + 12, j + 5, k + 11, this.db);
+/* 807 */     b(w, i + 12, j + 5, k + 12, this.db);
+/* 808 */     b(w, i + 12, j + 5, k + 13, this.db);
+/* 809 */     b(w, i + 12, j + 5, k + 14, this.db);
+/* 810 */     b(w, i + 12, j + 6, k + 8, this.db);
+/* 811 */     b(w, i + 12, j + 6, k + 9, this.db);
+/* 812 */     b(w, i + 12, j + 6, k + 10, this.db);
+/* 813 */     b(w, i + 12, j + 6, k + 11, this.db);
+/* 814 */     b(w, i + 12, j + 6, k + 12, this.db);
+/* 815 */     b(w, i + 12, j + 7, k + 9, this.db);
+/* 816 */     b(w, i + 12, j + 7, k + 10, this.db);
+/* 817 */     b(w, i + 12, j + 7, k + 11, this.db);
+/* 818 */     b(w, i + 12, j + 9, k + 11, this.db);
+/* 819 */     b(w, i + 12, j + 10, k + 11, this.db);
+/* 820 */     b(w, i + 12, j + 11, k + 11, this.db);
+/* 821 */     b(w, i + 13, j + 0, k + 5, this.db);
+/* 822 */     b(w, i + 13, j + 0, k + 6, this.r, 11);
+/* 823 */     b(w, i + 13, j + 0, k + 7, this.r, 11);
+/* 824 */     b(w, i + 13, j + 0, k + 8, this.r, 11);
+/* 825 */     b(w, i + 13, j + 0, k + 9, this.r, 11);
+/* 826 */     b(w, i + 13, j + 0, k + 10, this.r, 11);
+/* 827 */     b(w, i + 13, j + 0, k + 11, this.r, 11);
+/* 828 */     b(w, i + 13, j + 0, k + 12, this.r, 11);
+/* 829 */     b(w, i + 13, j + 0, k + 13, this.r, 11);
+/* 830 */     b(w, i + 13, j + 0, k + 14, this.r, 11);
+/* 831 */     b(w, i + 13, j + 0, k + 15, this.db);
+/* 832 */     b(w, i + 13, j + 1, k + 5, this.db);
+/* 833 */     b(w, i + 13, j + 1, k + 15, this.db);
+/* 834 */     b(w, i + 13, j + 2, k + 5, this.db);
+/* 835 */     b(w, i + 13, j + 2, k + 15, this.db);
+/* 836 */     b(w, i + 13, j + 3, k + 5, this.db);
+/* 837 */     b(w, i + 13, j + 3, k + 14, this.db);
+/* 838 */     b(w, i + 13, j + 3, k + 15, this.db);
+/* 839 */     b(w, i + 13, j + 4, k + 5, this.db);
+/* 840 */     b(w, i + 13, j + 4, k + 6, this.r, 11);
+/* 841 */     b(w, i + 13, j + 4, k + 7, this.r, 11);
+/* 842 */     b(w, i + 13, j + 4, k + 8, this.r, 11);
+/* 843 */     b(w, i + 13, j + 4, k + 9, this.r, 11);
+/* 844 */     b(w, i + 13, j + 4, k + 10, this.r, 11);
+/* 845 */     b(w, i + 13, j + 4, k + 11, this.r, 11);
+/* 846 */     b(w, i + 13, j + 4, k + 12, this.r, 11);
+/* 847 */     b(w, i + 13, j + 4, k + 13, this.r, 11);
+/* 848 */     b(w, i + 13, j + 4, k + 14, this.db);
+/* 849 */     b(w, i + 13, j + 5, k + 6, this.db);
+/* 850 */     b(w, i + 13, j + 5, k + 7, this.db);
+/* 851 */     b(w, i + 13, j + 5, k + 8, this.db);
+/* 852 */     b(w, i + 13, j + 5, k + 9, this.db);
+/* 853 */     b(w, i + 13, j + 5, k + 10, this.db);
+/* 854 */     b(w, i + 13, j + 5, k + 11, this.db);
+/* 855 */     b(w, i + 13, j + 5, k + 12, this.db);
+/* 856 */     b(w, i + 13, j + 5, k + 13, this.db);
+/* 857 */     b(w, i + 14, j + 0, k + 5, this.db);
+/* 858 */     b(w, i + 14, j + 0, k + 6, this.r, 11);
+/* 859 */     b(w, i + 14, j + 0, k + 7, this.r, 11);
+/* 860 */     b(w, i + 14, j + 0, k + 8, this.r, 11);
+/* 861 */     b(w, i + 14, j + 0, k + 9, this.r, 11);
+/* 862 */     b(w, i + 14, j + 0, k + 10, this.r, 11);
+/* 863 */     b(w, i + 14, j + 0, k + 11, this.r, 11);
+/* 864 */     b(w, i + 14, j + 0, k + 12, this.r, 11);
+/* 865 */     b(w, i + 14, j + 0, k + 13, this.r, 11);
+/* 866 */     b(w, i + 14, j + 0, k + 14, this.r, 11);
+/* 867 */     b(w, i + 14, j + 0, k + 15, this.db);
+/* 868 */     b(w, i + 14, j + 1, k + 5, this.db);
+/* 869 */     b(w, i + 14, j + 1, k + 15, this.db);
+/* 870 */     b(w, i + 14, j + 2, k + 5, this.db);
+/* 871 */     b(w, i + 14, j + 2, k + 15, this.db);
+/* 872 */     b(w, i + 14, j + 3, k + 5, this.db);
+/* 873 */     b(w, i + 14, j + 3, k + 6, this.db);
+/* 874 */     b(w, i + 14, j + 3, k + 14, this.db);
+/* 875 */     b(w, i + 14, j + 3, k + 15, this.db);
+/* 876 */     b(w, i + 14, j + 4, k + 6, this.db);
+/* 877 */     b(w, i + 14, j + 4, k + 7, this.r, 11);
+/* 878 */     b(w, i + 14, j + 4, k + 8, this.r, 11);
+/* 879 */     b(w, i + 14, j + 4, k + 9, this.r, 11);
+/* 880 */     b(w, i + 14, j + 4, k + 10, this.r, 11);
+/* 881 */     b(w, i + 14, j + 4, k + 11, this.r, 11);
+/* 882 */     b(w, i + 14, j + 4, k + 12, this.r, 11);
+/* 883 */     b(w, i + 14, j + 4, k + 13, this.r, 11);
+/* 884 */     b(w, i + 14, j + 4, k + 14, this.db);
+/* 885 */     b(w, i + 14, j + 5, k + 7, this.db);
+/* 886 */     b(w, i + 14, j + 5, k + 8, this.db);
+/* 887 */     b(w, i + 14, j + 5, k + 9, this.db);
+/* 888 */     b(w, i + 14, j + 5, k + 10, this.db);
+/* 889 */     b(w, i + 14, j + 5, k + 11, this.db);
+/* 890 */     b(w, i + 14, j + 5, k + 12, this.db);
+/* 891 */     b(w, i + 14, j + 5, k + 13, this.db);
+/* 892 */     b(w, i + 15, j + 0, k + 6, this.db);
+/* 893 */     b(w, i + 15, j + 0, k + 7, this.r, 11);
+/* 894 */     b(w, i + 15, j + 0, k + 8, this.r, 11);
+/* 895 */     b(w, i + 15, j + 0, k + 9, this.r, 11);
+/* 896 */     b(w, i + 15, j + 0, k + 10, this.r, 11);
+/* 897 */     b(w, i + 15, j + 0, k + 11, this.r, 11);
+/* 898 */     b(w, i + 15, j + 0, k + 12, this.r, 11);
+/* 899 */     b(w, i + 15, j + 0, k + 13, this.r, 11);
+/* 900 */     b(w, i + 15, j + 0, k + 14, this.db);
+/* 901 */     b(w, i + 15, j + 1, k + 6, this.db);
+/* 902 */     b(w, i + 15, j + 1, k + 14, this.db);
+/* 903 */     b(w, i + 15, j + 2, k + 6, this.g, 13);
+/* 904 */     b(w, i + 15, j + 2, k + 14, this.g, 13);
+/* 905 */     b(w, i + 15, j + 3, k + 6, this.db);
+/* 906 */     b(w, i + 15, j + 3, k + 7, this.db);
+/* 907 */     b(w, i + 15, j + 3, k + 8, this.db);
+/* 908 */     b(w, i + 15, j + 3, k + 9, this.db);
+/* 909 */     b(w, i + 15, j + 3, k + 10, this.db);
+/* 910 */     b(w, i + 15, j + 3, k + 11, this.db);
+/* 911 */     b(w, i + 15, j + 3, k + 12, this.db);
+/* 912 */     b(w, i + 15, j + 3, k + 13, this.db);
+/* 913 */     b(w, i + 15, j + 3, k + 14, this.db);
+/* 914 */     b(w, i + 15, j + 4, k + 7, this.db);
+/* 915 */     b(w, i + 15, j + 4, k + 8, this.db);
+/* 916 */     b(w, i + 15, j + 4, k + 9, this.db);
+/* 917 */     b(w, i + 15, j + 4, k + 10, this.db);
+/* 918 */     b(w, i + 15, j + 4, k + 11, this.db);
+/* 919 */     b(w, i + 15, j + 4, k + 12, this.db);
+/* 920 */     b(w, i + 15, j + 4, k + 13, this.db);
+/* 921 */     b(w, i + 16, j + 0, k + 7, this.db);
+/* 922 */     b(w, i + 16, j + 0, k + 8, this.db);
+/* 923 */     b(w, i + 16, j + 0, k + 9, this.db);
+/* 924 */     b(w, i + 16, j + 0, k + 10, this.db);
+/* 925 */     b(w, i + 16, j + 0, k + 11, this.db);
+/* 926 */     b(w, i + 16, j + 0, k + 12, this.db);
+/* 927 */     b(w, i + 16, j + 0, k + 13, this.db);
+/* 928 */     b(w, i + 16, j + 1, k + 7, this.db);
+/* 929 */     b(w, i + 16, j + 1, k + 8, this.db);
+/* 930 */     b(w, i + 16, j + 1, k + 9, this.db);
+/* 931 */     b(w, i + 16, j + 1, k + 10, this.db);
+/* 932 */     b(w, i + 16, j + 1, k + 11, this.db);
+/* 933 */     b(w, i + 16, j + 1, k + 12, this.db);
+/* 934 */     b(w, i + 16, j + 1, k + 13, this.db);
+/* 935 */     b(w, i + 16, j + 2, k + 7, this.g, 13);
+/* 936 */     b(w, i + 16, j + 2, k + 8, this.db);
+/* 937 */     b(w, i + 16, j + 2, k + 9, this.db);
+/* 938 */     b(w, i + 16, j + 2, k + 10, this.g, 13);
+/* 939 */     b(w, i + 16, j + 2, k + 11, this.db);
+/* 940 */     b(w, i + 16, j + 2, k + 12, this.db);
+/* 941 */     b(w, i + 16, j + 2, k + 13, this.g, 13);
+/* 942 */     b(w, i + 16, j + 3, k + 7, this.db);
+/* 943 */     b(w, i + 16, j + 3, k + 8, this.db);
+/* 944 */     b(w, i + 16, j + 3, k + 9, this.db);
+/* 945 */     b(w, i + 16, j + 3, k + 10, this.db);
+/* 946 */     b(w, i + 16, j + 3, k + 11, this.db);
+/* 947 */     b(w, i + 16, j + 3, k + 12, this.db);
+/* 948 */     b(w, i + 16, j + 3, k + 13, this.db);
+/*     */ 
+/*     */     
+/* 951 */     double s2 = 50.0D;
+/* 952 */     AxisAlignedBB ab2 = AxisAlignedBB.func_72330_a(i, j, k, i + s2, j + 1.0D, k + s2);
+/* 953 */     List<AxisAlignedBB> list2 = w.func_147461_a(ab2);
+/*     */     
+/* 955 */     for (int i1 = 0; i1 < list2.size(); i1++) {
+/*     */       
+/* 957 */       AxisAlignedBB b = list2.get(i1);
+/*     */ 
+/*     */       
+/* 960 */       for (int i2 = j; i2 > 60; i2--) {
+/*     */         
+/* 962 */         if (w.func_147439_a((int)(b.field_72340_a + 0.0D), i2, (int)(b.field_72339_c + 0.0D)) == Blocks.field_150350_a || w
+/* 963 */           .func_147439_a((int)(b.field_72340_a + 0.5D), i2, (int)(b.field_72339_c + 0.0D)) == Blocks.field_150329_H) {
+/* 964 */           w.func_147449_b((int)(b.field_72340_a + 0.0D), i2, (int)(b.field_72339_c + 0.0D), BlocksDBC.BlockNamekDirt);
+/*     */         }
+/*     */       } 
+/*     */     } 
+/*     */ 
+/*     */     
+/* 970 */     return true;
+/*     */   }
+/*     */ }
+
+
+/* Location:              D:\LifeTools\Google\Chrome\下载\DragonBlockC-v1.4.85.jar!\JinRyuu\DragonBC\common\Worlds\structures\StructureGuru.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */

@@ -1,0 +1,1039 @@
+itemGroup.JRMCore=Jin Ryuu's Mods Core
+itemGroup.jrhc=Jin Ryuu's Cabelos C
+jinryuujrmcore.RemoveHair=Remover cabelo personalizado
+
+jinryuujrmcore.Help=Ajuda
+jinryuujrmcore.News=Novidades
+jinryuujrmcore.Update=Atualização
+jinryuujrmcore.Server=Server
+
+jinryuujrmcore.Main=Principal
+jinryuujrmcore.Side=Secundárias
+jinryuujrmcore.Group=Grupo
+
+jinryuujrmcore.CoreServerConfigurations=Configuração de Server (Core)
+jinryuujrmcore.Disabled=Desativado
+jinryuujrmcore.Enabled=Ativado
+jinryuujrmcore.EnergyRegeneration=Regeneração de Energia
+jinryuujrmcore.HealthRegeneration=Regeneração de Vida
+jinryuujrmcore.PowerRelease=Concentração de Poder
+jinryuujrmcore.EnergyCharge=Concentração de Energia
+jinryuujrmcore.ExpirienceGain=Ganhos de XP
+jinryuujrmcore.TrainingPointGain=Ganhos de TP
+jinryuujrmcore.AttributeUpgradeType=Modo de aumento de Atributos
+jinryuujrmcore.AttributeBasedSizeChange=Tamanho Baseado na Mudança dos Atributos
+jinryuujrmcore.Explosions=Explosões
+jinryuujrmcore.Speed=Velocidade
+jinryuujrmcore.Off=Desligado
+jinryuujrmcore.selectpwratcreator=Selecionar tipo de Poder na Criação de Personagens
+jinryuujrmcore.On=Ativo
+jinryuujrmcore.OK=OK
+jinryuujrmcore.Select=Selecionar
+jinryuujrmcore.Planet=Planeta
+jinryuujrmcore.Destinations=Desino
+
+jinryuujrmcore.OnDynamic=Dinâmico
+jinryuujrmcore.OnSimple=Simples
+
+jinryuujrmcore.Human=Humano
+jinryuujrmcore.Saiyan=Sayajin
+jinryuujrmcore.Half-Saiyan=Meio-Sayajin
+jinryuujrmcore.Namekian=Namekuseijin
+jinryuujrmcore.Arcosian=Arcosian
+
+jinryuujrmcore.Race=Raça
+jinryuujrmcore.Gender=Gênero
+jinryuujrmcore.Hair=Cabelo
+jinryuujrmcore.Style=Estilo
+jinryuujrmcore.Color=Cor
+jinryuujrmcore.Tail=Cauda
+jinryuujrmcore.PowerType=Tipo de Poder
+jinryuujrmcore.Years=Idade
+jinryuujrmcore.Child=Criança
+jinryuujrmcore.Teen=Adolescente
+jinryuujrmcore.YoungAdult=Jovem
+jinryuujrmcore.Adult=Adulto
+jinryuujrmcore.MiddleAged=Meia Idade
+jinryuujrmcore.Senior=Velho
+
+jinryuujrmcore.Appearance=Aparência
+jinryuujrmcore.Enable=Ativado
+jinryuujrmcore.Disable=Desativado
+jinryuujrmcore.DefaultSkin=Skin Default
+jinryuujrmcore.CustomSkin=Skin Custom
+jinryuujrmcore.BodyType=Tipo de Corpo
+jinryuujrmcore.Nose=Nariz
+jinryuujrmcore.Mouth=Boca
+jinryuujrmcore.Eyes=Olhos
+jinryuujrmcore.Match=Igualar
+jinryuujrmcore.CustomHair=Cabelo Custom
+jinryuujrmcore.BaseHair=Cabelo Base
+jinryuujrmcore.Reset=Resetar
+jinryuujrmcore.Yaw=Angulo Vertical
+jinryuujrmcore.Pitch=Angulo Horizontal
+jinryuujrmcore.Share=Compartilhar
+jinryuujrmcore.Copy=Copiar
+jinryuujrmcore.Paste=Colar
+jinryuujrmcore.Done=Terminar
+jinryuujrmcore.Revert=Reverter
+jinryuujrmcore.FrontHead=Frente
+jinryuujrmcore.RightHead=Direita
+jinryuujrmcore.LeftHead=Esquerda
+jinryuujrmcore.BackHead=Retornar
+jinryuujrmcore.TopHead=Topo
+jinryuujrmcore.Preset=Predefinidas
+jinryuujrmcore.SavePreset=Salvar Predefinição
+jinryuujrmcore.DelPreset=Deleta Predefinição
+jinryuujrmcore.hairRotations=Rotações
+jinryuujrmcore.hairXaxis=Eixo X
+jinryuujrmcore.hairYaxis=Eixo Y
+jinryuujrmcore.hairZaxis=Eixo Z
+jinryuujrmcore.hairLength=Comprimento do cabelo
+jinryuujrmcore.hairBend=Manipular
+jinryuujrmcore.hairBendpoint=Ponto de manipulação
+jinryuujrmcore.hairTransf=Mudar intensidade da forma
+jinryuujrmcore.hairTier=Camada
+jinryuujrmcore.hairTierDesc=Camada 1 para rotações e comprimento e Camada 2 para propriedades de manipulação e mudança de intensidade
+jinryuujrmcore.hairHide=Grupo de cabelo lateral
+jinryuujrmcore.hairShow=Mostrar grupo de cabelo
+jinryuujrmcore.hairReset=Resetar
+jinryuujrmcore.hairDoAllOn=Repetir esse modo ativado
+jinryuujrmcore.hairDoAllDesc=As lâminas que se tornam cinzas vão copiar para todos blocos dessa pagina
+jinryuujrmcore.hairDoAllOff=Repetir esse modo desativado
+jinryuujrmcore.Preview=Preview
+jinryuujrmcore.HairSalon=Salão de cabelos
+jinryuujrmcore.HairSalonDesc=Clique para abrir o Salão de cabelos onde poderá ver todos estilos de outros usuários: http://HairSalon.jingames.net 
+jinryuujrmcore.HairShareDesc=Clique para copiar o estilo atual para o copiar-colar para compartilhar com os outros no http://HairSalon.jingames.net
+jinryuujrmcore.HairPasteDesc=Clique para colar o código do estilo do copiar-colar
+jinryuujrmcore.HairResetDesc=Clique para resetar o estilo selecionado
+
+jinryuujrmcore.Male=Masculino
+jinryuujrmcore.Female=Feminino
+
+jinryuujrmcore.SwordArt=Sword Art
+
+jinryuujrmcore.Natural=Natural
+jinryuujrmcore.Ki=Ki
+jinryuujrmcore.Chakra=Chakra
+jinryuujrmcore.NaturalDesc=Interface Básica do Minecraft sem nada adicional, exceto a aparência (melhor para compatibilidade com outros Mods)
+jinryuujrmcore.KiDesc=Energia DBC. Se você deseja acessar as funções do Dragon Block C, escolha esta
+jinryuujrmcore.ChakraDesc=Energia Naruto. Se você deseja acessar as funções do Naruto C, escolha esta
+
+jinryuujrmcore.Survival=Sobrevivência
+jinryuujrmcore.SurvivalDesc=Sobrevivência Minecraft
+jinryuujrmcore.MartialArtist=Artes Marciais
+jinryuujrmcore.Spiritualist=Espiritualista
+jinryuujrmcore.Warrior=Guerreiro
+jinryuujrmcore.MartialArtistDesc=Balanceado §cCorpo à Corpo §8e §9Energia
+jinryuujrmcore.SpiritualistDesc=Lutadores que preferem §9Energia
+jinryuujrmcore.WarriorDesc=Lutadores que preferem §9Corpo à Corpo
+
+jinryuujrmcore.Clanless=Sem clã
+jinryuujrmcore.Hyuuga=Hyuuga
+jinryuujrmcore.Uchiha=Uchiha
+jinryuujrmcore.ClanlessDesc=Sem clã
+jinryuujrmcore.HyuugaDesc=Usuário de Byakugan
+jinryuujrmcore.UchihaDesc=Usuário de Sharingan
+
+jinryuujrmcore.Class=Classe
+jinryuujrmcore.Clan=Clã
+jinryuujrmcore.Super=Super
+jinryuujrmcore.Normal=Normal
+jinryuujrmcore.Hard=Difícil
+jinryuujrmcore.Insane=Insano
+jinryuujrmcore.NormalDesc=Sem Penalidade ao Morrer ( %1$s TP)
+jinryuujrmcore.HardDesc=Penalidade (Perde-se 1 ponto de atributo aleatoriamente) ( %1$s TP)
+jinryuujrmcore.InsaneDesc=Penalidade (Perde-se 1 ponto de 2 atributos aleatoriamente) ( %1$s TP)
+
+jinryuujrmcore.TRState=Forma
+jinryuujrmcore.Base=Base
+jinryuujrmcore.HForm1=Poder maximo
+jinryuujrmcore.HForm2=Buffado
+jinryuujrmcore.HFormG=Deus
+jinryuujrmcore.Super=Super
+jinryuujrmcore.SuperG2=SSJG2
+jinryuujrmcore.SuperG3=SSJG3
+jinryuujrmcore.SuperFP=Super Saiyajin Full Power
+jinryuujrmcore.Super2=SSJ2
+jinryuujrmcore.Super3=SSJ3
+jinryuujrmcore.Super4=SSJ4
+jinryuujrmcore.Super5=SS5
+jinryuujrmcore.NForm1=Poder maximo
+jinryuujrmcore.NForm2=Gigante
+jinryuujrmcore.NFormG=Deus
+jinryuujrmcore.Form0=Minima
+jinryuujrmcore.Form1=Primeira
+jinryuujrmcore.Form2=Segunda
+jinryuujrmcore.Form3=Terceira
+jinryuujrmcore.Form5=Super
+jinryuujrmcore.Form6=Suprema
+jinryuujrmcore.FormG=Deus
+jinryuujrmcore.Oozaru=Oozaru
+jinryuujrmcore.OozaruS=Oozaru dourado
+jinryuujrmcore.SuperG=SSJ Deus
+jinryuujrmcore.SuperGR=Ritual de SSJ Deus
+jinryuujrmcore.SuperB=SSJ Blue
+jinryuujrmcore.SuperR=Super Saiyajin Rosé
+jinryuujrmcore.PotUnleashed=Mistico
+jinryuujrmcore.SuperL=SSJ Verde
+jinryuujrmcore.SuperLB=SSJ Verde Poder Máximo
+jinryuujrmcore.SuperBS=SSBlue Shinka
+jinryuujrmcore.SuperRS=SSRosé Shinka 
+jinryuujrmcore.UInstinct=Instinto Superior
+
+jinryuujrmcore.ArcosianUltimateColor=Cor da ultima forma dos Arcosianos
+
+jinryuujrmcore.UCnam=Aumenta o custo do aprimoramento do atributo
+
+jinryuujrmcore.Modified=Modificado
+jinryuujrmcore.Original=Original
+jinryuujrmcore.Strength=Força
+jinryuujrmcore.Dexterity=Destreza
+jinryuujrmcore.Constitution=Constituição
+jinryuujrmcore.WillPower=Vontade
+jinryuujrmcore.Mind=Mente
+jinryuujrmcore.Spirit=Espirito
+jinryuujrmcore.Concentration=Concentração
+
+jinryuujrmcore.StrMC=Aumenta dano do corpo a corpo
+jinryuujrmcore.DexMC=Aumenta velocidade
+jinryuujrmcore.ConMC=Aumenta vida
+
+jinryuujrmcore.StrDB=Aumenta dano do corpo a corpo
+jinryuujrmcore.DexDB=Aumenta defesa e velocidade
+jinryuujrmcore.ConDB=Aumenta corpo e vigor
+jinryuujrmcore.WilDB=Aumenta o poder e máximo de Ki
+jinryuujrmcore.MndDB=Aumenta o ganho de TP e os limites de habilidades
+jinryuujrmcore.SpiDB=Aumenta o Ki
+
+jinryuujrmcore.StrNC=Poder de Taijutsu
+jinryuujrmcore.DexNC=Velocidade de Taijutsu
+jinryuujrmcore.ConNC=Limites do corpo, regeneração e tamanho
+jinryuujrmcore.WilNC=Controle do jutsu e poder
+jinryuujrmcore.MndNC=Limites do chakra
+jinryuujrmcore.SpiNC=Aumenta o Chakra
+
+jinryuujrmcore.Stats1Body=Corpo
+jinryuujrmcore.Stats2Speed=Velociade
+jinryuujrmcore.Stats3Stamina=Estamina
+jinryuujrmcore.Stats4Max=Ki Máx
+jinryuujrmcore.Stats5Control=Controle de Ki
+jinryuujrmcore.Stats6Regen=Regen de Ki
+jinryuujrmcore.Stats7Defense=Defesa
+jinryuujrmcore.Stats8Melee=Dano de corpo a corpo
+
+jinryuujrmcore.NCStats1Body=Corpo
+jinryuujrmcore.NCStats2Speed=Velocidade
+jinryuujrmcore.NCStats3Stamina=Estamina
+jinryuujrmcore.NCStats4Max=Chakra máximo
+jinryuujrmcore.NCStats5Control=Controle de Chakra
+jinryuujrmcore.NCStats6Regen=Regeneração de Chakra
+
+jinryuujrmcore.Level=Nivel
+jinryuujrmcore.LevelNext=Nivel aumenta %1$s por aprimoramento
+jinryuujrmcore.LevelMax=Nivel maximo alcançado
+jinryuujrmcore.Alignment=Alinhamento
+jinryuujrmcore.AlignmentDesc=Você é %1$s bom
+jinryuujrmcore.SkillSysNext=Atributo %1$s requerido para aprender ou melhorar as habilidades!/nHabilidades aprendidas: %2$s
+jinryuujrmcore.SkillSysMax=Sua mente alcançou os limites!/n Habilidades aprendidas: %1$s
+
+jinryuujrmcore.needRacialSkillMax=Você precisa maximizar sua habilidade racial
+jinryuujrmcore.cantLearnThis=Você não pode aprender isso
+jinryuujrmcore.Good=Bom
+jinryuujrmcore.Neutral=Neutro
+jinryuujrmcore.Evil=Mau
+jinryuujrmcore.Max=Máximo
+jinryuujrmcore.Current=Atual
+jinryuujrmcore.PunchDamage=Dano de Golpe
+jinryuujrmcore.meleeDamage=Dano de corpo a corpo
+jinryuujrmcore.NeedToBeGood=Precisa ser 100%% bom
+
+jinryuujrmcore.skilldisabled=Habilidade desativada
+jinryuujrmcore.specskilldisabled=Habilidade %1$s desativada!
+
+jinryuujrmcore.mleMC=Dano de corpo a corpo
+jinryuujrmcore.DefMC=Defesa
+jinryuujrmcore.heltMC=Vida
+
+jinryuujrmcore.mleNC=Dano de corpo a corpo
+jinryuujrmcore.DefNC=Defesa
+jinryuujrmcore.BdNC=Corpo
+jinryuujrmcore.StNC=Vigor
+jinryuujrmcore.EnPwNC=Poder do Chakra
+jinryuujrmcore.EnPlNC=Chakra maximo
+jinryuujrmcore.MxSkNC=Habilidades maximas
+jinryuujrmcore.SpNC=Velocidade
+jinryuujrmcore.RBNC=Velocidade de Regeneração do corpo
+jinryuujrmcore.RSNC=Velocidade de Regeneração do Vigor
+jinryuujrmcore.RENC=Velocidade de Regeneração do Chakra
+
+jinryuujrmcore.mleDB=Dano de corpo a corpo
+jinryuujrmcore.DefDB=Defesa
+jinryuujrmcore.BdDB=Corpo
+jinryuujrmcore.StDB=Vigor
+jinryuujrmcore.EnPwDB=Poder do Ki
+jinryuujrmcore.EnPlDB=Ki maximo
+jinryuujrmcore.MxSkDB=Maximo de habildiades
+jinryuujrmcore.SpDB=Correndo
+jinryuujrmcore.RBDB=Velocidade de Regeneração do corpo
+jinryuujrmcore.RSDB=Velocidade de Regeneração do Vigor
+jinryuujrmcore.REDB=Velocidade de Regeneração do Ki
+jinryuujrmcore.FSDB=Voo
+jinryuujrmcore.Stats=Estatisticas
+jinryuujrmcore.StatIncreaseDesc=§8Aumentando §c%1$s §8atributo vai aumentar esse status por §9%2$s
+jinryuujrmcore.StatIncreaseDesc2=/n§8Status está no limite §c%3$s §8
+jinryuujrmcore.StatIncreaseDesc3=/n§8Saída Passiva §2%4$s §8
+jinryuujrmcore.StatIncreaseDesc4=/n§8Saída extra §5+%5$s §8
+jinryuujrmcore.StatIncreaseDesc5=/n§Redução de dano §5%3$s%% §8
+jinryuujrmcore.SpDBDesc=Velocidade maxima %1$s%%/nAprimorando o atributo %2$s e %3$s vai aumentar a velocidade
+jinryuujrmcore.FSDBDesc=Velocidade maxima de voo está por %1$s%% /nAprimorando o atributo %2$s e %3$s vai aumentar a velocidade
+jinryuujrmcore.Attributes=Atributos
+jinryuujrmcore.StartAttr=Atributos iniciais
+jinryuujrmcore.TP=TP (Pontos de treino)
+jinryuujrmcore.TrainingPoints=Pontos de treino atuais
+jinryuujrmcore.RequiredTP=TP
+jinryuujrmcore.AttributeMaxed=Esse atributo está no maximo!
+jinryuujrmcore.AttributeAllMaxed=Todos atributos estão no maximo!
+jinryuujrmcore.LimitReached=Limite alcançado
+jinryuujrmcore.cantupgrade=Não pode aumentar!
+
+jinryuujrmcore.youSlainBy=Você foi morto por %1$s!
+jinryuujrmcore.youDied=Você morreu!
+jinryuujrmcore.slainBy=%1$s morreu por %2$s
+jinryuujrmcore.pDied=%1$s morreu!
+jinryuujrmcore.pDied2=%1$s morreu! Ultimo ataque foi a %2$s segundos atrás por %3$s
+
+death.attack.OutOfBodyHealth.player=%1$s foi morto por %2$s
+death.attack.OutOfBodyHealth=%1$s morreu. O corpo atingiu seus limites
+death.attack.OutOfBodyHealth.player=%1$s foi morto por %2$s
+death.attack.NotAlive=%1$s não estava vivo
+death.attack.causeExplosion=%1$s foi explodido
+
+jinryuujrmcore.recivedinv=Convite de Gripo recebido de:
+jinryuujrmcore.form=Formar Novo Grupo
+jinryuujrmcore.invite=Convidar
+jinryuujrmcore.setleader=Escolher Líder
+jinryuujrmcore.kick=Chutar
+jinryuujrmcore.disband=Desfazer
+jinryuujrmcore.leave=Sair
+jinryuujrmcore.leader=Líder
+jinryuujrmcore.Next=Próx
+jinryuujrmcore.Back=Voltar
+jinryuujrmcore.Prev=Anterior
+jinryuujrmcore.Accept=Aceitar
+jinryuujrmcore.Yes=Sim
+jinryuujrmcore.No=Não
+
+jinryuujrmcore.delskillconfirm=Quer remover a habilidade %1$s?
+
+jinryuujrmcore.reward=Pelo que você luta?
+jinryuujrmcore.accept=Aceitar
+jinryuujrmcore.decline=Recusar
+jinryuujrmcore.abandon=Abandonar
+
+jinryuujrmcore.Fight=Lutar
+jinryuujrmcore.Skip=Pular
+jinryuujrmcore.Restart=Reiniciar
+jinryuujrmcore.start=Iniciar
+jinryuujrmcore.Continue=Continuar
+
+jinryuujrmcore.Update=Atualização
+jinryuujrmcore.noOneToTeach=Ninguém para ensinar!
+jinryuujrmcore.teachingOffer=%1$s se ofereceu para ensinar a técnica 
+jinryuujrmcore.teachingOfferAccepted=%1$s aceitou sua técnica 
+jinryuujrmcore.teachingOfferDeclined=%1$s recusou-se a aprender a técnica 
+jinryuujrmcore.teachingOfDeclByYou=Você recusou-se a aprender a técnica 
+jinryuujrmcore.teachingOfDeclByPlayr=%1$s recusou a aprender a sua técnica
+jinryuujrmcore.nothingtoaccept=Não tem nada para aceitar!
+jinryuujrmcore.notenoughtp=Sem TP suficiente
+jinryuujrmcore.typedWrong=Você digitou um comando errado
+
+jinryuujrmcore.noslotleft=Sem espaço para mais!
+jinryuujrmcore.nomindleft=Não tem mais espaço na mente
+jinryuujrmcore.alreadyhaveskill=Você já possuir essa Skill!
+jinryuujrmcore.skilladded=Habilidade %1$s foi adicionada!
+jinryuujrmcore.skillupped=Habilidade %1$s foi melhorada para o nível %2$s
+jinryuujrmcore.skillallremoved=Todas habilidades foram removidas
+jinryuujrmcore.techadded=Técnica %1$s foi adicionada!
+jinryuujrmcore.skillnameinvalid=Nome de habilidade invalida
+
+jinryuujrmcore.SelectedDifficulty=Escolha a Dificuldade
+jinryuujrmcore.KaioDiffRedLine=Vá para o Mestre Kaio para reduzir a Dificuldade
+jinryuujrmcore.TailMode=Modo Calda
+jinryuujrmcore.ArcMask=Mascara da quinta forma
+jinryuujrmcore.ArcMaskOn=Mascara ativa
+jinryuujrmcore.ArcMaskOff=Mascara desativada
+jinryuujrmcore.Difficulty=Dificuldade
+jinryuujrmcore.MainAttributes=Atributos Principais
+jinryuujrmcore.CharSheet=Dados do personagem
+jinryuujrmcore.Skills=Skills
+jinryuujrmcore.KiTechniques=Técnicas de Ki
+jinryuujrmcore.Jutsu=Jutsu
+jinryuujrmcore.Learn=Aprender
+jinryuujrmcore.Maxed=Maximizado
+jinryuujrmcore.NoUpgrade=Sem upgrade
+jinryuujrmcore.AvailableSkillSlot=Slot de Skill Disponível
+jinryuujrmcore.AvailableMind=Mente disponível
+jinryuujrmcore.Unlearn=Esquecer
+jinryuujrmcore.Teach=Ensinar
+jinryuujrmcore.Create=Criar
+jinryuujrmcore.tooPowerful=A Técnica é Poderosa de mais
+jinryuujrmcore.Changesomestats=Mudar alguns stats
+jinryuujrmcore.Owned=Possui
+jinryuujrmcore.Voice=Voz
+jinryuujrmcore.AuraColor=Cor da aura
+
+jinryuujrmcore.Learned=Aprendido
+jinryuujrmcore.Selfmade=Criado
+jinryuujrmcore.Slow=lento
+jinryuujrmcore.Average=Médio
+jinryuujrmcore.Fast=Rápido
+jinryuujrmcore.VeryFast=Muito rápido
+jinryuujrmcore.AlignmentBased=Baseado no alinhamento
+jinryuujrmcore.white=Branco
+jinryuujrmcore.blue=Azul
+jinryuujrmcore.purple=Roxo
+jinryuujrmcore.red=Vermelho
+jinryuujrmcore.black=Preto
+jinryuujrmcore.green=Verde
+jinryuujrmcore.yellow=Amarelo
+jinryuujrmcore.orange=Laranj
+
+jinryuujrmcore.brown=Marrom
+jinryuujrmcore.cyan=Ciano
+jinryuujrmcore.silver=Cinza claro
+jinryuujrmcore.gray=Cinza
+jinryuujrmcore.pink=Rosa
+jinryuujrmcore.lime=Verde limão
+jinryuujrmcore.lightBlue=Azul claro
+
+jinryuujrmcore.BodysuitColor=Cor
+
+jinryuujrmcore.Vanity=Item Visual
+
+
+
+
+
+
+
+
+
+
+
+
+jinryuujrmcore.GroupManager=Administração do grupo
+jinryuujrmcore.ServerConfig=Config do server
+jinryuujrmcore.Calendar=Calendário e dias
+jinryuujrmcore.Family=Administração da familia
+
+
+jinryuujrmcore.BarberMenu=Menu de Cabelereiro
+jinryuujrmcore.NoHairToEdit=Essa raça não possui Cabelo
+jinryuujrmcore.BarberSnC.line1=Você pode modificar seu Cabelo quando quiser com este item.
+
+item.ItemBarberSnC.name=Tesouras e Pente
+
+entity.jinryuufamilyc.Child.name=uma criança
+
+jinryuujrmcore.ExtraSlots=Espaços extras
+jinryuujrmcore.WeightSlot=Espaço do peso
+jinryuujrmcore.trainingweightworn=Peso atual
+jinryuujrmcore.weightreduction=Redução dos status
+jinryuujrmcore.trainingweight=Treinamento de peso
+jinryuujrmcore.trainingweightno=Peso necessário para receber de; um treinador como Kami-Sama
+
+jinryuujrmcore.Start=Começar
+jinryuujrmcore.shadowdummy=Clone das sombras
+jinryuujrmcore.concentration=Concentração
+jinryuujrmcore.shadowdummyDesc=O clone das sombras é um clone que é forte como o seu dono porém só o dono pode usa-lo para treinar.
+jinryuujrmcore.concentrationDesc=O minijogo de concentração tem limite de TP por dia (no jogo)./nClique nas bolas azuis para pontuar./nBolas vermelhas vão diminuir sua pontuação./nBolas negras vão tirar pontos e vida./nO jogo acaba se sua pontuação ou vida zerar./nPontuação será convertida em TP.
+jinryuujrmcore.Change=Mudar
+jinryuujrmcore.BPswap=Poder de batalha
+jinryuujrmcore.BPswapDesc=Você pode mudar o calculo do Poder de Batalha para Normal e Alto./nNormal indica seu poder de batalha mais preciso, usado para comparações entre jogadores. E /nAlto é só por diversão e tem escalas imprecisas.
+jinryuujrmcore.BPHigh=Alta
+jinryuujrmcore.BPNormal=Normal
+jinryuujrmcore.msnshare=Compartilhar missão
+
+entity.jinryuujrmcore.TrainingShadowDummy.name=Clone das sombras
+jinryuujrmcore.Training=Treinamento
+jinryuujrmcore.TrainingDesc=Treinamento
+jinryuujrmcore.MediSkillCategory=Categoria de meditação
+jinryuujrmcore.Active=Ativo
+jinryuujrmcore.Passive=Passivo
+jinryuujrmcore.Rate=Frequencia
+jinryuujrmcore.CltSettings=Configurações do cliente
+jinryuujrmcore.CltSettingsDesc=Configurações do cliente pode mudar o gameplay mas a maioria das coisas são visuais
+
+jinryuujrmcore.BodySlot=Espaço do corpo
+jinryuujrmcore.HeadSlot=Espaço da cabeça
+
+
+jinryuujrmcore.restart=Reiniciar
+jinryuujrmcore.missionSys.Protect=Para proteger
+jinryuujrmcore.missionSys.Myself=Para mim mesmo
+jinryuujrmcore.missionSys.Evil=Para o mal
+
+jinryuujrmcore.missionObjType.completed=Completado
+jinryuujrmcore.missionObjType.defeated=Derrotado
+jinryuujrmcore.missionObjType.nothinh=Sem objetivos
+jinryuujrmcore.missionObjType.kill=Matar %1$s %2$s
+jinryuujrmcore.missionObjType.killsame=Matar %1$s %2$s
+jinryuujrmcore.missionObjType.item=Coletar %1$s %2$s
+jinryuujrmcore.missionObjType.biome=Vá para o bioma %1$s %2$s
+jinryuujrmcore.missionObjType.dim=Vá para a dimensão %1$s %2$s
+jinryuujrmcore.missionObjType.biome2=Esteja no bioma %1$s %2$s
+jinryuujrmcore.missionObjType.dim2=Esteja na dimensão %1$s %2$s
+jinryuujrmcore.missionObjType.state=Ascenda para o estado %1$s %2$s
+jinryuujrmcore.missionObjType.talk=Fale com %1$s %2$s
+jinryuujrmcore.missionObjType.lvl=Alcance o nivel %1$s %2$s
+jinryuujrmcore.missionObjType.anywilldo=(qualquer um fará)
+
+jinryuujrmcore.missionRepeat.wait=Você pode refazer depois de %4$sd %3$s:%2$s:%1$s
+jinryuujrmcore.missionRepeat.not=Esta história não é repetitivel
+jinryuujrmcore.missionUnlock=Complete pelo menos uma vez as seguintes histórias para jogar:
+
+tile.BlockBarrier.name=Bloco de barreira
+tile.BlockBorder.name=bloco de borda
+
+
+tile.stoneSingleSlab.name=Degrau de Pedra Colorida Cinza
+tile.BlockColoredStone.black.name=Pedra Colorida Preta
+tile.BlockColoredStone.red.name=Pedra Colorida Vermelha
+tile.BlockColoredStone.green.name=Pedra Colorida Verde
+tile.BlockColoredStone.brown.name=Pedra Colorida Marrom
+tile.BlockColoredStone.blue.name=Pedra Colorida Azul
+tile.BlockColoredStone.purple.name=Pedra Colorida Roxo
+tile.BlockColoredStone.cyan.name=Pedra Colorida Ciano
+tile.BlockColoredStone.silver.name=Pedra Colorida Prateada
+tile.BlockColoredStone.gray.name=Pedra Colorida Cinza
+tile.BlockColoredStone.pink.name=Pedra Colorida Rosa
+tile.BlockColoredStone.lime.name=Pedra Colorida Lima
+tile.BlockColoredStone.yellow.name=Pedra Colorida Amarela
+tile.BlockColoredStone.lightBlue.name=Pedra Colorida Azul Clara
+tile.BlockColoredStone.magenta.name=Pedra Colorida Magenta
+tile.BlockColoredStone.orange.name=Pedra Colorida Laranja
+tile.BlockColoredStone.white.name=Pedra Colorida Branca
+tile.BlockFence.name=Cerca Branca Inquebrável
+tile.BlockStairs.name=Escada Branca Inquebrável
+
+tile.stoneSingleSlab2.name=Degrau de Pedra Colorida Cinza 2
+tile.BlockColoredStone2.black.name=Pedra Colorida Preta 2
+tile.BlockColoredStone2.red.name=Pedra Colorida Vermelha 2
+tile.BlockColoredStone2.green.name=Pedra Colorida Verde 2
+tile.BlockColoredStone2.brown.name=Pedra Colorida Marrom 2
+tile.BlockColoredStone2.blue.name=Pedra Colorida Azul 2
+tile.BlockColoredStone2.purple.name=Pedra Colorida Roxa 2
+tile.BlockColoredStone2.cyan.name=Pedra Colorida Ciano 2
+tile.BlockColoredStone2.silver.name=Pedra Colorida Prateada 2
+tile.BlockColoredStone2.gray.name=Pedra Colorida Cinza 2
+tile.BlockColoredStone2.pink.name=Pedra Colorida Rosa 2
+tile.BlockColoredStone2.lime.name=Pedra Colorida Lima 2
+tile.BlockColoredStone2.yellow.name=Pedra Colorida Amarela 2
+tile.BlockColoredStone2.lightBlue.name=Pedra Colorida Azul Clara 2
+tile.BlockColoredStone2.magenta.name=Pedra Colorida Magenta 2
+tile.BlockColoredStone2.orange.name=Pedra Colorida Laranja 2
+tile.BlockColoredStone2.white.name=Pedra Colorida Branca 2
+tile.BlockFence2.name=Cerca Branca Inquebrável 2
+tile.BlockStairs2.name=Escada Branca Inquebrável 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jinryuujrmcore.help_main=Selecione um modo
+jinryuujrmcore.help_main1_1=Aqui você pode ler sobre curtos
+jinryuujrmcore.help_main1_2=Guias para DBC e Naruto C
+jinryuujrmcore.help_main2_1=Aqui você pode ver alguns craftings
+jinryuujrmcore.help_main2_2=Nem todos foram adicionados
+jinryuujrmcore.help_main2_3=ainda. Encontre mais no nosso site.
+
+jinryuujrmcore.Guides=Guias
+jinryuujrmcore.Receipts=Craftings
+jinryuujrmcore.help_core=Core
+jinryuujrmcore.help_nc=Naruto C
+jinryuujrmcore.help_dbc=Dragon Block C
+
+jinryuujrmcore.Back2=voltar para selecionar
+jinryuujrmcore.Exit=Sair
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jinryuujrmcore.SETTON=ON
+jinryuujrmcore.SETTOFF=OFF
+jinryuujrmcore.SETT3D=3D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jinryuujrmcore.Save=Salvar
+
+
+jinryuujrmcore.descvanityColorable1=Items vanity 
+jinryuujrmcore.descvanityColorable2=cercando-o com tinta na crafting table
+
+
+jinryuujrmcore.help_guide_1_title=Controles Básicos
+
+
+
+jinryuujrmcore.help_guide_2_title=Slots Extra
+
+
+
+jinryuujrmcore.help_guide_3_title=Percentagem de Poder
+
+
+
+jinryuujrmcore.help_guide_4_title=Upando stats e habilidades
+
+
+
+jinryuujrmcore.help_guide_5_title=Habilidades 
+
+
+
+jinryuujrmcore.help_guide_6_title=Menu de Ação
+
+
+
+jinryuujrmcore.help_guide_7_title=Formas
+
+
+
+jinryuujrmcore.help_guide_8_title=Movimento
+
+
+
+jinryuujrmcore.help_guide_9_title=Construções e Mestres
+
+
+
+jinryuujrmcore.help_guide_10_title=Safe Zone
+
+
+
+jinryuujrmcore.help_guide_11_title=Dragon Blocks
+
+
+
+jinryuujrmcore.help_guide_12_title=Dimensões e Spacepod
+
+
+
+jinryuujrmcore.help_guide_13_title=Formas aprendíveis
+

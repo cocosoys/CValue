@@ -1,0 +1,1143 @@
+﻿itemGroup.DragonBlockC=Dragon Block C
+
+jinryuudragonblockc.DBCServerConfigurations=DBC options de serveur
+jinryuudragonblockc.PlanetVegeta=Planète Vegeta
+jinryuudragonblockc.flyneedsskilllevel=Voler a besoin du niveau de compétence
+jinryuudragonblockc.DBSpawn=DB spawn
+jinryuudragonblockc.SagaSystem=Système de saga
+jinryuudragonblockc.DeathSystem=Système de mort
+jinryuudragonblockc.Explosions=Explosions
+jinryuudragonblockc.NPCBuildingSpawnCheck=PNJ/Zone d'apparition
+jinryuudragonblockc.KamiOutlookSafeZone=Safe Zones
+jinryuudragonblockc.DeathPenalty=Pénalité de mort
+jinryuudragonblockc.Earthrate=Fréquence de la Terre
+jinryuudragonblockc.Namekrate=Fréquence de Namek
+
+jinryuudragonblockc.TName=Nom
+jinryuudragonblockc.TAcquired=Obtenu
+jinryuudragonblockc.TOwner=Propriétaire
+jinryuudragonblockc.TType=Type
+jinryuudragonblockc.TSpeed=Vitesse
+jinryuudragonblockc.TDamage=Dégâts
+jinryuudragonblockc.TEffect=Effet
+jinryuudragonblockc.TEnergyCost=Coût d'énergie
+jinryuudragonblockc.TCasttime=Temps de lancement
+jinryuudragonblockc.TCooldown=Temps de recharge
+jinryuudragonblockc.TColor=Couleur
+jinryuudragonblockc.TDensity=Densité
+jinryuudragonblockc.TIncantation=Invocation
+jinryuudragonblockc.TFire=Feu
+jinryuudragonblockc.TMove=Mouvement
+jinryuudragonblockc.TExp=Exp
+jinryuudragonblockc.TLvl=NIV
+jinryuudragonblockc.TUpg=Points d'amélioration
+jinryuudragonblockc.TStats=Compétences techniques
+jinryuudragonblockc.Wave=Vague
+jinryuudragonblockc.Blast=Explosion
+jinryuudragonblockc.Disk=Disque
+jinryuudragonblockc.Laser=Laser
+jinryuudragonblockc.Spiral=Spirale
+jinryuudragonblockc.BigBlast=Large explosion
+jinryuudragonblockc.Barrage=Barrage
+jinryuudragonblockc.DefensiveKiai=Kiai défensif
+jinryuudragonblockc.OffensiveKiai=Kiai offensif
+jinryuudragonblockc.maxDmgDesc=La barre est pleine quand elle est bleue.Rouge quand surchargée.
+jinryuudragonblockc.potDmg=Dégâts potentiel de base
+
+jinryuudragonblockc.SpeedInc=Augmenter Vitesse
+jinryuudragonblockc.DamageInc=Augmenter Dégâts
+jinryuudragonblockc.CostRed=Réduire Coût d'énergie
+jinryuudragonblockc.CastRed=Réduire Temps de lancement
+jinryuudragonblockc.CoolRed=Réduire Temps de recharge
+jinryuudragonblockc.DensityInc=Augmenter Densité
+jinryuudragonblockc.SizeInc=Augmenter Taille
+
+
+entity.jinryuudragonblockc.KiFakeMoon.name=Boule de Ki
+
+entity.jinryuudragonblockc.Namekian01.name=Namekien 
+entity.jinryuudragonblockc.Namekian03.name=Namekien 
+entity.jinryuudragonblockc.Saiyan01.name=Saiyan 
+entity.jinryuudragonblockc.Saiyan02.name=Saiyan 
+entity.jinryuudragonblockc.Saibaiman.name=Saibaman 
+entity.jinryuudragonblockc.Raditz.name=Raditz 
+entity.jinryuudragonblockc.Nappa.name=Nappa 
+entity.jinryuudragonblockc.Vegeta.name=Végéta 
+entity.jinryuudragonblockc.Goku.name=Goku
+
+entity.jinryuudragonblockc.Kiwi.name=Cui 
+entity.jinryuudragonblockc.Dodoria.name=Dodoria 
+entity.jinryuudragonblockc.Zarbon.name=Zarbon 
+entity.jinryuudragonblockc.Zarbon2.name=Zarbon deuxième forme
+entity.jinryuudragonblockc.Guldo.name=Guldo 
+entity.jinryuudragonblockc.Recoome.name=Recoome 
+entity.jinryuudragonblockc.Barta.name=Burter 
+entity.jinryuudragonblockc.Jeice.name=Jeice 
+entity.jinryuudragonblockc.Ginyu.name=Ginyu 
+entity.jinryuudragonblockc.FreezaSoldier1.name=Soldat de Freezer 
+entity.jinryuudragonblockc.FreezaSoldier2.name=Soldat de Freezer 
+entity.jinryuudragonblockc.FreezaSoldier3.name=Soldat de Freezer 
+entity.jinryuudragonblockc.Freeza1.name=Freezer 
+entity.jinryuudragonblockc.Freeza2.name=Freezer 
+entity.jinryuudragonblockc.Freeza3.name=Freezer 
+entity.jinryuudragonblockc.Freeza4.name=Freezer 
+entity.jinryuudragonblockc.Freeza5.name=Freezer 
+entity.jinryuudragonblockc.Freeza6.name=Freezer 
+entity.jinryuudragonblockc.Freeza7.name=Freezer doré
+
+entity.jinryuudragonblockc.KingCold.name=Roi Cold 
+entity.jinryuudragonblockc.MechaFreeza.name=Mécha Freezer 
+entity.jinryuudragonblockc.Cell1.name=Cell
+entity.jinryuudragonblockc.Cell2.name=Cell
+entity.jinryuudragonblockc.Cell3.name=Cell
+entity.jinryuudragonblockc.Cell4.name=Cell
+
+entity.jinryuudragonblockc.Cyborg16.name=C-16 
+entity.jinryuudragonblockc.Cyborg17.name=C-17 
+entity.jinryuudragonblockc.Cyborg18.name=C-18 
+entity.jinryuudragonblockc.Cyborg19.name=C-19 
+entity.jinryuudragonblockc.Cyborg20.name=C-20 
+
+entity.jinryuudragonblockc.Puipui.name=Puipui
+entity.jinryuudragonblockc.Yakon.name=Yakon
+entity.jinryuudragonblockc.Darbura.name=Dabra
+entity.jinryuudragonblockc.BuuFat.name=Gros Boo
+entity.jinryuudragonblockc.BuuSuper.name=Super Boo
+entity.jinryuudragonblockc.Beerus.name=Beerus
+
+entity.jinryuudragonblockc.enma.name=Roi Enma 
+entity.jinryuudragonblockc.kami.name=Dieu
+entity.jinryuudragonblockc.northkaio.name=Maître Kaio
+entity.jinryuudragonblockc.karin.name=Korin
+entity.jinryuudragonblockc.roshi.name=Muten Roshi
+entity.jinryuudragonblockc.cellmaster.name=Maître Cell
+entity.jinryuudragonblockc.Freezamaster.name=Lord Freezer
+entity.jinryuudragonblockc.gokumaster.name=Maître Goku
+entity.jinryuudragonblockc.masterbabidi.name=Maître Babidi
+entity.jinryuudragonblockc.masterpiccolo.name=Maître Piccolo
+entity.jinryuudragonblockc.mastervegeta.name=Maître Végéta
+entity.jinryuudragonblockc.gohanmaster.name=Maître Gohan
+entity.jinryuudragonblockc.trunksfuturemaster.name=Maître Trunks (Future)
+entity.jinryuudragonblockc.jin.name=Jin
+
+entity.jinryuudragonblockc.EntityDino01.name=Dinosaure Rex
+entity.jinryuudragonblockc.EntityDino02.name=Dinosaure Runner
+entity.jinryuudragonblockc.EntityDino03.name=Dinosaure Trike
+entity.jinryuudragonblockc.Kintoun.name=Nuage magique
+entity.jinryuudragonblockc.KintounBlack.name=Nuage magique noir
+entity.jinryuudragonblockc.SpacePod.name=Capsule saiyan 
+entity.jinryuudragonblockc.Dragon.name=Shenron
+entity.jinryuudragonblockc.Dragon2.name=Shenron
+entity.jinryuudragonblockc.Dragonp.name=Porunga 
+entity.jinryuudragonblockc.Dragonp2.name=Porunga 
+
+entity.jinryuudragonblockc.hell01.name=Ogre rouge
+entity.jinryuudragonblockc.hell02.name=Ogre bleu
+
+dbc.itemki.line1=prononciation: 'kee' 
+dbc.itemki.line2=C'est le Ki, une énergie puissante 
+dbc.itemki.line3=utilisée pour plusieurs techniques de DBC 
+
+dbc.itemDRadar.line1=Un radar pour Dragon Block, seulement 
+dbc.itemDRadar.line2=des Dragon Blocks qui ne sont pas 
+dbc.itemDRadar.line3=en pierre peuvent être détectés. 
+
+dbc.itemKiAtt.line1=Coût : 
+dbc.itemKiAtt.line2=Dégâts: 
+dbc.itemKiAtt.line2.2=Moitié de cœur 
+dbc.itemKiAtt.line3=Explose sur le sol 
+dbc.itemKiAtt.line4=Attaque basique de ki 
+
+dbc.itemSaiySaga.line1=Objet de la Saga des Saiyans
+dbc.itemSaiySagaRad.line1=Raditz est arrivé ! 
+dbc.itemSaiySagaRad.d.line1=Raditz: Deux autres saiyans vont venir et détruire cette planète ! 
+dbc.itemSaiySagaVeg.line1=Nappa: Vegeta, que dit le détecteur sur son niveau de puissance ?
+dbc.itemSaiySagaVeg.line1=Nappa: Vegeta, que dit le détecteur sur son niveau de puissance ?
+dbc.itemSaiySagaVeg.line2=Vegeta: C'est plus de 9000 unités!!!
+dbc.itemSaiySagaVeg.d.line1=Vegeta: Guerrier de seconde zone... Vous entendrez encore parler de moi !! 
+dbc.itemSaiySagaVeg.d.line2=Nappa: NOON !
+
+dbc.itemFreeSaga.line1=Objet de la Saga de Freezer 
+dbc.itemFreeSagaCui.line1=Cui: Je ne vous laisserez pas vous mettre sur la route du Seigneur Freezer ! 
+dbc.itemFreeSagaDod.line1=Dodoria: Que crois-tu faire, peureux ? 
+dbc.itemFreeSagaZar.line1=Zarbon: Personne ne nous fait passer pour des nuls ! Vous m'entendez ? Personne ! 
+
+dbc.itemFreeSagaGin.1.line1=Je suis Recoome ! 
+dbc.itemFreeSagaGin.2.line1=Je suis Burter ! 
+dbc.itemFreeSagaGin.3.line1=Je suis Jeice ! 
+dbc.itemFreeSagaGin.4.line1=Je suis Guldo ! 
+dbc.itemFreeSagaGin.5.line1=Capitaine Ginyu ! Ensemble nous formons... Le Commando Ginyu !
+dbc.itemFreeSagaGin.6.line1=Ensemble nous formons... Le Commando Ginyu ! 
+dbc.itemFreeSagaGin.d.1.line1=Recoome: Oh mes chocolats.... 
+dbc.itemFreeSagaGin.d.5.line1=Ginyu: Impossible... À part le Seigneur Freezer, je suis le plus fort de l'univers ! 
+
+dbc.itemFreeSagaFre.1.line1=Freezer: Vous ne vous en sortirez pas vivants, vermines ! 
+dbc.itemFreeSagaFre.2.line1=Freezer: Vous mourrez de mes propres mains !
+dbc.itemFreeSagaFre.d.1.line1=Freezer: Sale.... J'aurais dû me transformer plutôt ! 
+dbc.itemFreeSagaFre.d.2.line1=Freezer: C'est impossible ! Comment ?... 
+dbc.itemFreeSagaFre.d.3.line1=Freezer: Pourquoi ? Comment ? En quelques secondes j'aurai pu me transformer...
+dbc.itemFreeSagaFre.d.4.line1=Freezer: Maintenant vous ne verrez pas l'étendue de mon pouvoir .... 
+dbc.itemFreeSagaFre.d.5.line1=Freezer: C'est pas juste ! Pourquoi n'avez vous pas attendus que je finisse ma transformation ? 
+dbc.itemFreeSagaFre.d.6.line1=Freezer: Mais....Comment ? 
+
+dbc.MainSaga.14.1=Mécha Freezer: Soldats, tuez les terriens ! 
+dbc.MainSaga.14.2=Roi Cold: Vous ne voulez pas attendre, %1$s ?
+dbc.MainSaga.15.1=Mécha Freezer : Je vais vous tuez pour ce que vous avez fait ! 
+dbc.MainSaga.19.1=C-20 : Nous sommes les cyborgs de l’armée du Ruban Rouge détruite il y a longtemps ! 
+dbc.MainSaga.19.2=C-20: Nous sommes ici pour notre revanche ! 
+dbc.MainSaga.22.1=C-17: Maintenant que le Dr. Géro est enfin mort, personne ne peux nous arrêter ! 
+dbc.MainSaga.22.2=C-18: Je veux me battre toute seule . 
+dbc.MainSaga.22.3=C-17: Ok, pendant ce temps je vais chercher une voiture avec C-16 . 
+dbc.MainSaga.26.1=Cell: J’espère que vous me distrairez mieux que la dernière fois ... 
+dbc.MainSaga.26.2=Cell : Vous ne pouvez pas m’échapper ! 
+
+dbc.MainSaga.25.1=C17: Qu’est-il arrivé à C-18 ? Personne ne peux nous battre ! 
+dbc.MainSaga.25.2=C-16: C-17 échappe-toi ! Je ne peux pas permettre à Cell de s’échapper ! 
+dbc.MainSaga.25.3=C-17: A qui croyez vous donner des ordres ? Je suis C-17 ! 
+dbc.MainSaga.29.1=Cell : Je ne peux qu'espérer que vous puissiez mieux me distraire. 
+dbc.MainSaga.29.2=Cell: Inutile de se cacher, vous ne pouvez m’échapper ! 
+dbc.MainSaga.17.1= Bien sûr, je le ferai .
+dbc.MainSaga.17.2=C’est terrible ! Quelque chose de plus 
+dbc.MainSaga.17.3=terrifiant que Freezer viendra dans le futur
+dbc.MainSaga.17.4=proche. Pourrez-vous faire quelque chose pour moi ?
+dbc.MainSaga.d.Cold=Roi Cold: Ne me tuez PAAAAS !! 
+dbc.MainSaga.d.Freeza=Mécha Freezer: Impossible .... 
+
+dbc.MainSaga.17.b=Bien sûr, je le ferai .
+dbc.MainSaga.17.m=C'est terrible . Quelque chose de plus terrifiant que Freezer va venir dans le futur proche . Pourrez-vous faire quelque chose pour moi ? 
+
+dbc.MainSaga.d.c20=C-20 : Vous ne me laissez pas le choix ... Je dois activer C-17 et C-18 ! Vous rirez moins.. 
+dbc.MainSaga.d.c19=C-19: Je ne veux pas mourir !!! 
+dbc.MainSaga.d.c19.resp=%1$s: Entendre ça d’un cyborg… Quelle ironie ! 
+dbc.MainSaga.d.c18=C-18 : NON ! Éloignez-vous, monstre ! AAAAAH ! 
+dbc.MainSaga.22.cell1=Cell: Ne t’inquiete pas C-18, tu feras partie de moi ! 
+dbc.MainSaga.22.cell2=Cell: Je t’utiliserai bien comme il le faut, crois moi C-17 .
+dbc.MainSaga.23.cell0=Cell : Personne ne se mettra sur mon chemin pour devenir parfait … PERSONNE ! 
+dbc.MainSaga.23.cell1=Cell: Plus qu'un pour devenir parfait ... 
+dbc.MainSaga.23.cell2=Cell: Enfin … Je suis parfait !
+dbc.MainSaga.23.cell3=Cell: Je vous laisse la vie, cette fois. La prochaine fois, j’espère vous voir plus fort ! 
+dbc.MainSaga.d.c17=C-17: Que … Qui êtes-vous ?! Je vais vous tu-- AAAAH ! 
+dbc.MainSaga.d.c16=C-16: Désolé … Je voulais protéger la nature que j’aime . 
+dbc.MainSaga.d.cell1=Cell: Vous croyez pouvoir me tuer si facilement ? 
+dbc.MainSaga.d.cell2=Cell: ça ne marchera pas sur moi … 
+dbc.MainSaga.d.cell3=Cell: Mais je devrai être parfait ! ... Comment avez-vous pu ... Non ... Je suis PARFAIT!!!! 
+dbc.MainSaga.d.cell4=Cell: Je .... suis ..... parfait ........ !
+
+dbc.MainSaga.30.m=Qui êtes-vous? Vous pensez pouvoir m'arrêter?? AHAH bonne blague.
+dbc.MainSaga.30.b=...
+dbc.MainSaga.31.1=Pui-Pui: Personne sur Terre ne peux me tenir tête...
+dbc.MainSaga.31.d=Pui-Pui: Ce n'est pas..... possible!
+dbc.MainSaga.32.1=Yakon: GRAAGHH!
+dbc.MainSaga.32.d=Yakon: NNGRAAA!
+dbc.MainSaga.33.1=Dabra: Vous êtes allés loin, mais vous n'irez pas plus loin.
+dbc.MainSaga.33.d=Dabra: Vous êtes formidables, mais pas assez.
+dbc.MainSaga.34.1=Boo: Boo! Boo! Boo va vous transformez en chocolat!
+dbc.MainSaga.34.d=Babidi: Viens maintenant Boo, laisse ce faible, nous avons du travail à faire!
+dbc.MainSaga.36.1=Boo: Cette fois, Boo ne vous laissera pas en vie!
+dbc.MainSaga.36.d=Boo: Maintenant Boo énervé! Boo tuez vous!
+dbc.MainSaga.38.1=Boo: Vous... Boo se rappelle de vous! Vous êtes un de ceux que Boo a battu avant!
+dbc.MainSaga.38.2=Boo: Vous en voulez plus huh? Bien mais ce sera la dernière fois!
+dbc.MainSaga.38.d=Boo: GRAAHHHH!
+
+dbc.sidesagas.101.talkok=Pas de problème
+dbc.sidesagas.101.talk=Merci à vous d'avoir arrêter la menace Saibaiman.
+
+dbc.sagasystem.freeza=Saga de Freezer
+dbc.sagasystem.saiyan=Saga des Saiyans
+dbc.sagasystem.android=Saga des Cyborgs
+dbc.sagasystem.buu=Saga Boo
+dbc.sagasystem.credits=Crédits
+dbc.sagasystem.0.title=Bienvenue à Dragon Block C
+dbc.sagasystem.0.desc=Ceci est une histoire alternative basée sur l'Univers de Dragon Ball. Il y a des parties qui ressemblent à l'histoire originelle mais c'est une histoire complètement différente car c'est votre histoire!/n/nVous sentez une énergie maléfique! Êtes vous préparez pour ça?
+dbc.sagasystem.0.obj=Appuyer sur Start pour commencer la saga principale
+dbc.sagasystem.1.title=Quoi? Des saiyans? Ça se mange?
+dbc.sagasystem.1.desc=Tuer des Saibaimen pour avoir plus d'informations. Ils se trouvent dans un biome rocheux.
+dbc.sagasystem.1.obj=Tuer 6 Saibaimen.
+dbc.sagasystem.2.title=L'arrivée de Raditz
+dbc.sagasystem.2.desc=Une fois arrivé sur Terre, Raditz cherche son frère, qui a était envoyé ici bébé.
+dbc.sagasystem.2.obj=Tuer Raditz.
+dbc.sagasystem.3.title=Puissants saiyans
+dbc.sagasystem.3.desc=Raditz vous a dit que deux autres saiyans arriveront, plus forts qu'il l'était.
+dbc.sagasystem.3.obj=Tuer encore 12 Saibaimen.
+dbc.sagasystem.4.title=Vegeta et Nappa
+dbc.sagasystem.4.desc=Ils sont arrivés et veulent éradiquer la Terre. Ne les laissez pas faire!
+dbc.sagasystem.4.obj=Tuez-les!
+dbc.sagasystem.5.title=Vegeta s'est enfuit
+dbc.sagasystem.5.desc=Voyager sur Namek, si vous voulez un plus grand défi.... Vous le trouverez là-bas >)
+dbc.sagasystem.5.obj=Aller sur Namek avec une capsule spatiale
+dbc.sagasystem.6.title=Qui est Freezer?
+dbc.sagasystem.6.desc=Des soldats sont partout sur Namek! D'où viennent-t'ils et pourquoi?
+dbc.sagasystem.6.obj=Tuer 12 soldats de Freezer.
+dbc.sagasystem.7.title=Nouveau danger!
+dbc.sagasystem.7.desc='Qu'est ce que? Plus fort que moi? Impossible! Il n'y a pas de plus fort!'
+dbc.sagasystem.7.obj=Affronter Cui!
+dbc.sagasystem.8.title=Dodoria vous a trouvez!
+dbc.sagasystem.8.desc='Si vous osez, je suis là! Je suis le plus puissant.'
+dbc.sagasystem.8.obj=Affrontez Dodoria!
+dbc.sagasystem.9.title=Zarbon fait quelque chose!
+dbc.sagasystem.9.desc=On dirait que Zarbon doit se battre,ou être tué par Freezer...Bien,il sera de toute façon tuer s'il se met sur votre chemin.
+dbc.sagasystem.9.obj=Affrontez Zarbon!
+dbc.sagasystem.10.title=Le Commando Ginyu
+dbc.sagasystem.10.desc='Je suis Recoome!','Je suis Burter!','Je suis Jeice!','Guldo!','Capitaine Ginyu!'...Ensemble nous formons...Le Commando Ginyu! NANI?!
+dbc.sagasystem.10.obj=Battez le Commando Ginyu
+dbc.sagasystem.11.title=Il ne l'oubliera pas!
+dbc.sagasystem.11.desc='Vous avez détruits mes plans,ma puissance,mon vœu! Maintenant comment aimeriez vous être tués?!'
+dbc.sagasystem.11.obj=Affronter Freezer!
+dbc.sagasystem.12.title=Retourner sur Terre
+dbc.sagasystem.12.desc=Le combat est fini.Retourner sur Terre pour s'assurer que tout va bien.
+dbc.sagasystem.12.obj=Être sur Terre
+dbc.sagasystem.13.title=Freezer n'est pas mort?
+dbc.sagasystem.13.desc=Vous sentez la présence un grand Ki se dirigeant sur la Terre...Ça ne peux pas...C'est lui!
+dbc.sagasystem.13.obj=Cherchez un biome plaine.
+dbc.sagasystem.14.title=Freezer est de retour!
+dbc.sagasystem.14.desc=Affrontez les et ne laissez pas la Terre tomber entre leurs mains!
+dbc.sagasystem.14.obj=Tuez les hommes du Roi Cold.
+dbc.sagasystem.15.title=Le Roi Cold est immense...
+dbc.sagasystem.15.desc=Freezer est plus puissant qu'avant et maintenant,il est ici avec son père?
+dbc.sagasystem.15.obj=Tuer-les!
+dbc.sagasystem.16.title=Stade Super Saiyan
+dbc.sagasystem.16.desc=L'habilité de devenir un Super Saiyan était par le passé comme une légende,et n'a pas était réussi depuis 1000 ans.
+dbc.sagasystem.16.obj=Atteindre le Stade Super Saiyan.
+dbc.sagasystem.17.title=Mauvais présage
+dbc.sagasystem.17.desc=Dieu a l'air de vouloir vous dire quelque chose de très important.
+dbc.sagasystem.17.obj=Parler avec Dieu
+dbc.sagasystem.18.title=Quelque chose ne va pas!
+dbc.sagasystem.18.desc=Qu'est ce que ça pourrait-être,de quoi a peur Kami? Espérons que ce n'est pas aussi grave qu'il le dit.
+dbc.sagasystem.18.obj=Trouver un biome rocheux
+dbc.sagasystem.19.title=Des androids?
+dbc.sagasystem.19.desc='D'abord un alien,maintenant des androids. Bien. Que se passe-t-il dans ce monde...?'
+dbc.sagasystem.19.obj=Affronter les androids.
+dbc.sagasystem.20.title=Plus d'androids?
+dbc.sagasystem.20.desc=Ce C-20 s'est enfui.Il nous a dit quelque chose à propos d'androids C-17 et C-18.Il a dit qu'ils sont beaucoup plus fort qu'il était.
+dbc.sagasystem.20.obj=Aller dans la Chambre de l'Esprit et du Temps.
+dbc.sagasystem.21.title=Nouveaux androids
+dbc.sagasystem.21.desc=Selon Dieu,les androids sont dans un biome des plaines.
+dbc.sagasystem.21.obj=Trouver un biome des plaines.
+dbc.sagasystem.22.title=Dr Gero était C-20
+dbc.sagasystem.22.desc=On dirait que ces androids ont été activés et un d'entre eux veux se battre. Combattez les androids.
+dbc.sagasystem.22.obj=Affronter C-18
+dbc.sagasystem.23.title=Cell le Bio-Android
+dbc.sagasystem.23.desc=Qu'est ce que c'est? Ça ne ressemble pas à un android,mais ça à l'air fort.
+dbc.sagasystem.23.obj=Affronter Cell
+dbc.sagasystem.24.title=Affronter Cell
+dbc.sagasystem.24.desc=Cell fait une pause le temps que vous devenez plus puissant. Où sont les autres androids?
+dbc.sagasystem.24.obj=Trouver un biome rocheux
+dbc.sagasystem.25.title=C-16 veux protéger C-17?
+dbc.sagasystem.25.desc=On dirait que C-16 est plus fort que C-17.Hmm...Quel est son but?
+dbc.sagasystem.25.obj=Affronter C-17 et C-16
+dbc.sagasystem.26.title=Cell encore
+dbc.sagasystem.26.desc=On dirait que Cell a finalement réussi à absorber C-17...Eh bien ça n'a pas l'air bon pour nous.
+dbc.sagasystem.26.obj=Affronter Cell
+dbc.sagasystem.27.title=Atteindre le Super Saiyan
+dbc.sagasystem.27.desc=Atteindre un stade au dessus de Super Saiyan pour affronter Cell à sa pleine puissance.
+dbc.sagasystem.27.obj=Atteindre un nouveau Stade de Super Saiyan
+dbc.sagasystem.28.title=Cell attend
+dbc.sagasystem.28.desc='Je ne laisserai pas Cell faire ce qu'il veut! Il mourra de ma main!' 
+dbc.sagasystem.28.obj=Trouver un biome des plaines
+dbc.sagasystem.29.title=Combat final
+dbc.sagasystem.29.desc=Affronter Cell à sa pleine puissance et sauvez la Terre.
+dbc.sagasystem.29.obj=Tuer au moins Cell
+dbc.sagasystem.30.title=Nouvelle menace
+dbc.sagasystem.30.desc=Maître Kaio vous préviens de trouble urgent! Il vous signale qu'il y a un sorcier maléfique qui essai de ranimer le plus puissant méchant que l'univers ai connu: Boo. Arrêter le!Vous pouvez trouver son vaisseau dans un biome plaine. 
+dbc.sagasystem.30.obj=Trouver le vaisseau de Babidi dans une plaine
+dbc.sagasystem.31.title=Première mission de Babidi
+dbc.sagasystem.31.desc=Pui-Pui est là pour vous affronter! Occupez vous de lui!
+dbc.sagasystem.31.obj=Battre Pui-Pui
+dbc.sagasystem.32.title=Yakon
+dbc.sagasystem.32.desc=Babidi a libérer son monstre: Yakon. Ne le laissez pas vous approchez! (Yakon donne l'effet Cécité pour qu'il fasse noir)
+dbc.sagasystem.32.obj=Battre Yakon
+dbc.sagasystem.33.title=Le Roi des Démon
+dbc.sagasystem.33.desc=Babidi a envoyé son bras droit,Dabra,pour vous affrontez.Il est plus puissant que d'autres.
+dbc.sagasystem.33.obj=Battre Dabra
+dbc.sagasystem.34.title=Surprise
+dbc.sagasystem.34.desc=Dabra a utiliser votre combat comme une chance pour absorber votre énergie pour Boo!C'était assez pour le ranimer et il n'est....pas ce à quoi vous vous attendiez.Cette créature est vraiment Boo?C'est juste un gros alien rose!Attendez!Il a tué Dabra et l'a transformé en chocolat!Il est clairement plus fort que ce que à quoi vous pensiez!
+dbc.sagasystem.34.obj=Affronter Gros Boo
+dbc.sagasystem.35.title=Plus de puissance
+dbc.sagasystem.35.desc=Il y a peut-être un nouveau stade que vous pouvez atteindre....au dessus d'un Super Saiyan ou Super Saiyan deux
+dbc.sagasystem.35.obj=Atteindre le Super Saiyan 3
+dbc.sagasystem.36.title=Encore
+dbc.sagasystem.36.desc=Boo vous a vaincu,mais il n'était pas capable de vous tuez.Vous devez rapidement le retrouver et l'arrêter!Vous avez besoin de plus de puissance.
+dbc.sagasystem.36.obj=Affronter Gros Boo encore
+dbc.sagasystem.37.title=Trouver la source de la force!
+dbc.sagasystem.37.desc=Boo a tué Babidi et a l'air d'avoir commencé une vie paisible.Tout a l'air d'avoir le mieux tourner sans que vous n'ayez rien fait.Malheureusement il y a une grande force dans la direction où il est allé.C'est le moment d'enquêter.
+dbc.sagasystem.37.obj=Trouver une plaine
+dbc.sagasystem.38.title=Super 
+dbc.sagasystem.38.desc=Boo est devenu plus mince et beaucoup plus puissant. Vous êtes prêt à un superbe combat.
+dbc.sagasystem.38.obj=Affronter Super Boo
+dbc.sagasystem.39.title=La fin
+dbc.sagasystem.39.desc=Merci d'avoir joué à Dragon Block C!/n Je voudrais prendre un moment pour remercier tous ceux qui ont aidés à développer ce mod à ce point,et ceux qui l'aideront toujours à grandir.(De rien,c'était amusant de traduire)/nVous pouvez rejouez la saga que vous souhaitez./nAvec le temps qui passe,le contenu grandit aussi!
+dbc.sagasystem.39.obj=Jin Ryuu
+
+dbc.sagasystem.all.ak=déjà mort.
+dbc.sagasystem.all.none=aucun
+dbc.sagasystem.all.one=un
+dbc.sagasystem.all.tk=d'eux est mort.
+
+dbc.sagasystem.Protect=Pour protéger 
+dbc.sagasystem.Myself=Pour moi 
+dbc.sagasystem.Evil=Pour le bien du mal
+
+dbc.sidesagas.100.story=Invasion Saibaiman
+dbc.sidesagas.100.title=Connaître l'ennemi
+dbc.sidesagas.100.desc=Raditz avait sur lui quelques graines de Saibaiman qui sont tombés et éclos quelques jours plus tard,tuer les avant qu'il ne soit trop tard.
+dbc.sidesagas.100.obj=Tuer 30 Saibaimen
+dbc.sidesagas.101.title=Rapporter à Dieu.
+dbc.sidesagas.101.desc=Les Saibaiman ont été repoussés.
+dbc.sidesagas.101.obj=Parler à Dieu pour finir la mission
+
+
+dbc.entitymasters.insafezone=Vous êtes dans la Safe Zone de %s!
+dbc.entitymasters.nofightinsafe=Combattre n'est pas autorisé dans les Safe Zones!
+dbc.entitymasters.leftsafe=Vous avez quitter la Safe Zone!
+
+dbc.entity.death.youllregretthis=Tu vas regretter ça!...
+dbc.packets.notenoughtp=Pas assez de points d'entrainement!
+
+dbc.timechamber.waitillenter=Vous devez attendre %s avant de retourner dans la Chambre de l'Esprit et du Temps!
+dbc.timechamber.waitillenter.min=min
+dbc.timechamber.waitillenter.sec=sec
+dbc.timechamber.mustwaitaday=Vous devez attendre un jour Minecraft(20 minutes) avant de retourner dans la Chambre de l'Esprit et du Temps.
+
+dbc.worldgen.buildings.beenfound=%s a été trouvé!
+dbc.clienttick.increltouseki=Pour utiliser du Ki,augmenter avec la touche %s !
+
+dbc.com.loc.coords=Coordonnées XYZ
+dbc.com.loc.kami=Tour de Korin et Palais de Dieu: 80 220 60
+dbc.com.loc.kame=Maison de Muten Roshi
+dbc.com.loc.kamenotexp=Maison de Muten Roshi non découverte! Vous pouvez la trouver dans un Biome Océan
+dbc.com.loc.cell=Arène de Cell
+dbc.com.loc.cellnotexp=Arène de Cell non découverte! Vous pouvez la trouver dans un Biome Plaines
+dbc.com.loc.goku=Maison de Goku
+dbc.com.loc.gokunotexp=Maison de Goku non découverte!Vous pouvez la trouver dans un Biome Plaines
+dbc.com.loc.babidi=Vaisseau de Babidi
+dbc.com.loc.babidinotexp=Vaisseau de Babidi non découvert!Vous pouvez le trouver dans un Biome Plaines
+dbc.com.loc.freeza=Vaisseau de Freezer 
+dbc.com.loc.freezanotexp=Vaisseau de Freezer non découvert!Vous pouvez le trouver dans un Biome Namek
+
+
+
+dbc.itemSenzu.line1=Un Senzu remplira votre barre d'endurance et votre ki.
+dbc.ItemDinoMeat.line1=La viande de dinosaure vous donnera 500 calories et 10 % de votre Ki.
+dbc.HTC.toolong=Vous êtes restez dans la Chambre de l’Esprit et du Temps trop longtemps.
+dbc.HTC.how=Vous obtiendrez de l'ExpJrmc si vous avez les PB en dessous de
+dbc.HTC.how.2=, les PE en dessous de
+dbc.HTC.how.3=et que vous bougez.
+dbc.HTC.how2=Vous obtiendrez de l'ExpJrmc jusqu’à ce que vous atteigniez
+dbc.HTC.how2.2=PB ou
+dbc.HTC.how2.3=PE,si vous bougez.
+
+jinryuudragonblockc.KABigBang=Big Bang Attack
+jinryuudragonblockc.KABlast=Kikoha
+jinryuudragonblockc.KABurningAtt=Attaque Brûlante
+jinryuudragonblockc.KADeathBeam=Rayon de la mort
+jinryuudragonblockc.KADodon=Dodompa
+jinryuudragonblockc.KAEnergyDisk=Kienzan
+jinryuudragonblockc.KAFinalFlash=Final Flash
+jinryuudragonblockc.KAFingerLeser=Tir laser
+jinryuudragonblockc.KAGalicGun=Canon Garric
+jinryuudragonblockc.KAHame=Kamehameha
+jinryuudragonblockc.KAHame10x=Kamehameha x 10
+jinryuudragonblockc.KAMakanko=Makankosappo
+jinryuudragonblockc.KAMasenko=Masenko
+jinryuudragonblockc.KAPlanetDest=Supernova
+jinryuudragonblockc.KASpiritbomb=Bombe Spirituelle
+jinryuudragonblockc.KTKaioken=Kaio-Ken
+jinryuudragonblockc.KAFakeMoon=Boule de Ki
+
+dbc.moreevil.line1=Vous devenez maléfique!
+jinryuudragonblockc.StrainRemoved=Les blessures ont étaient guéries!
+
+jinryuudragonblockc.Concentration=Concentration
+jinryuudragonblockc.Jump=Saut
+jinryuudragonblockc.Dash=Esquive
+jinryuudragonblockc.Fly=Vol
+jinryuudragonblockc.Endurance=Endurance
+jinryuudragonblockc.Endurance=Endurance
+jinryuudragonblockc.PotentialUnlock=Potentiel éveillé
+jinryuudragonblockc.NamekRegeneration=Régénération Namek
+jinryuudragonblockc.Meditation=Méditation
+jinryuudragonblockc.Kaioken=Kaioken
+jinryuudragonblockc.KiSense=Détection de Ki
+jinryuudragonblockc.GodForm=Forme divine
+jinryuudragonblockc.KiProtection=Protection de ki
+jinryuudragonblockc.KiFist=Poing de ki
+jinryuudragonblockc.KiBoost=Boost de ki
+jinryuudragonblockc.DefensePenetration=Pénétration de la défense
+jinryuudragonblockc.KiInfuse=Infusion de Ki
+jinryuudragonblockc.HealSelf=Se soigner
+jinryuudragonblockc.GodKi=Ki divin
+jinryuudragonblockc.FriendlyFist=Poing amical
+
+jinryuudragonblockc.JumpDesc=La compétence Saut vous permet de sauter plus haut et donne une protection contre les dégâts de chute si la chute est de 100 blocs ou moins.
+jinryuudragonblockc.DashDesc=La compétence élan vous permet de courir plus vite et d'esquiver à gauche,en arrière ou a droite en pressant la touche 
+
+jinryuudragonblockc.EnduranceDesc=La compétence Endurance vous donne un pourcentage additionnel basé sur la réduction des dégâts reçus.
+jinryuudragonblockc.PotentialUnlockDesc=La compétence Potentiel libéré vous permet de libérer l'énergie au dessus de 50%,chaque niveaux donne accès à 5% de plus d'énergie.
+jinryuudragonblockc.NamekRegenerationDesc=La compétence Régénération Namekienne est seulement utilisable par les Namekiens.Elle vous permet d'avoir un plus haut pourcentage de régénération que les autres races.
+
+
+
+
+
+
+
+jinryuudragonblockc.KiBoostDesc=La compétence Boost de Ki donne du Ki en plus au Ki Max.
+
+
+
+jinryuudragonblockc.Single=Seul
+jinryuudragonblockc.Explosive=Explosif
+jinryuudragonblockc.AOE=Zone d'effet
+
+jinryuudragonblockc.HiddenPotential=Potentiel humain
+jinryuudragonblockc.SuperForm=Forme super
+jinryuudragonblockc.PowerBoost=Boost de force
+jinryuudragonblockc.Transformations=Transformations
+jinryuudragonblockc.HiddenPotentialDesc=Compétence raciale pour Humains. Ils reçoivent un bonus de force.
+jinryuudragonblockc.SuperFormDesc=Compétence raciale pour Saiyan et Demi-Saiyans. Débloquent de nombreuses formes pour eux.
+jinryuudragonblockc.PowerBoostDesc=Compétence raciale pour Namekiens. Ils reçoivent un bonus de force.
+jinryuudragonblockc.TransformationsDesc=Compétence raciale pour Démons du givre. Ils peuvent débloquaient de nouvelles formes et améliorer les limites de leur Points de Puissance,une des fonctions d'un Démon du givre est qu'il reçoit un bonus de force à 100% de son énergie s'il a des Points de Puissances.
+
+jinryuudragonblockc.Fusion=Fusion
+
+jinryuudragonblockc.playersFused=%1$s et %2$s sont désormais %3$s grâce à la Danse de la Fusion!
+jinryuudragonblockc.playersFuseFaild=Fusion ratée pour %1$s et %2$s!
+jinryuudragonblockc.fusedspectator=Vous êtes spectateur! Seul le joueur qui contrôle peux agir.
+jinryuudragonblockc.cantupgradef=Vous ne pouvez pas apprendre ou améliorer en étant fusionnés!
+
+jinryuudragonblockc.majinGet=Se cibler.
+jinryuudragonblockc.majinLoose=Nettoyer
+
+jinryuudragonblockc.PURitual=Rituel du Vieux Kaïo
+jinryuudragonblockc.OldKaiUnlock=Potentiel Libéré
+jinryuudragonblockc.OldKaiUnlockDesc=La compétence Potentiel Libéré débloque la forme Mystic. Accessible dans le menu Action.
+jinryuudragonblockc.UltraInstinct=Ultra Instinct
+jinryuudragonblockc.UltraInstinctDesc=La compétence Ultra Instinct débloque la possibilité d'accéder au state d'Ultra Instinct. Atteindre ce state est rare même parmis les Dieux et dur à maîtriser. Accessible dans le menu Action.
+
+
+
+dbc.skill.jump.name=Sauter
+dbc.skill.dash.name=Esquiver
+dbc.skill.fly.name=Voler
+dbc.skill.over.name=Potentiel éveillé
+dbc.skill.endu.name=Endurance
+
+dbc.saagui.abilities=Capacités 
+dbc.saagui.sagasystem=Système de Saga
+dbc.saagui.trainingpoints=Points d'entraînements
+dbc.saagui.body=Corps 
+dbc.saagui.maxki=Esprit
+dbc.saagui.chargeki=Vitesse de Charge 
+dbc.saagui.dash=Accélération
+dbc.saagui.punch=Frapper/Coup de poing
+dbc.saagui.jump=Saut 
+dbc.saagui.fly=Vol 
+dbc.saagui.ascending=Se transformer
+dbc.saagui.attackpower=Pouvoir d’attaque 
+dbc.saagui.selecthair=Choisir cheveux 
+dbc.saagui.forgetattacks=Oublier les techniques apprises
+dbc.saagui.next=Suivant 
+dbc.saagui.back=Arrière 
+dbc.saagui.accept=Accepte 
+dbc.saagui.Black=Noir 
+dbc.saagui.White=Blanc 
+dbc.saagui.Purple=Violet 
+dbc.saagui.Red=Rouge 
+dbc.saagui.Brown=Marron 
+dbc.saagui.Orange=Orange 
+dbc.saagui.Green=Vert 
+dbc.saagui.Cyan=Cyan 
+dbc.saagui.Blue=Bleu 
+dbc.saagui.curexp=Expérience DBC actuel : 
+dbc.saagui.exptp=5 DBC Exp 
+dbc.saagui.newskill=Tu as appris une nouvelle technique ! 
+
+jinryuudragonblockc.Earth=Terre
+jinryuudragonblockc.Namek=Namek
+jinryuudragonblockc.OtherWorld=Autre Monde
+jinryuudragonblockc.Vegeta=Végéta
+jinryuudragonblockc.TimeChamber=Chambre de l'Esprit et du Temps
+
+dbc.wishgui.diamonds=Diamants 
+dbc.wishgui.chip=Processeurs Gen 1 
+dbc.wishgui.warcryst=Crystal Warenai 
+dbc.wishgui.senzu=Senzu 
+dbc.wishgui.kshard=Tesson de Katchin 
+dbc.wishgui.younger2=2 Année MC plus jeune 
+dbc.wishgui.younger6=6 Année MC plus jeune 
+jinryuudragonblockc.wishrevive=Ranimer un joueur
+jinryuudragonblockc.wishreviveS=Ranimer %1$s
+jinryuudragonblockc.wishreviventp=Ranimer et amener ici
+jinryuudragonblockc.wishreviventpS=Ranimer %1$s et l'amener ici
+jinryuudragonblockc.wishreviveall=Ranimer tous les %1$s joueurs
+jinryuudragonblockc.wishtptoplanet=Téléporter à une planète
+jinryuudragonblockc.wishyoung=Je veux être jeune
+jinryuudragonblockc.wishchild=Je veux être un enfant
+jinryuudragonblockc.wishold=Je veux être vieux
+jinryuudragonblockc.reviveoffered=On vous offre l'occasion de revivre en se téléportant à %2$s à %3$s par %1$s. Pour accepter faites /dbc accept
+jinryuudragonblockc.selectplayer=Choisir le joueur à ranimer.
+jinryuudragonblockc.reviveaccepted=%1$s a accepté(e) de revivre en se téléportant à %2$s à %3$s.
+jinryuudragonblockc.wishkicolor=Changer la couleur de l'aura
+
+jinryuudragonblockc.DodgeSwoop=Esquive/Feinte
+jinryuudragonblockc.error=ERREUR
+
+
+dbc.talkgui.kintoun=Obtenir un Nuage Magique
+dbc.talkgui.kintounblack=Obtenir un Nuage Magique noir
+dbc.talkgui.learnki=Apprendre des attaques Ki 
+
+
+dbc.talkgui.reincarnate=Réincarner
+dbc.talkgui.stay=Rester dans l'Autre-monde
+dbc.talkgui.revfree=Ranimer
+
+
+
+
+
+
+jinryuudragonblockc.canrevivenow=Aller voir le Roi Yemma pour se ranimer!
+jinryuudragonblockc.reincarnated=Vous avez été réincarner!
+
+
+
+
+
+
+
+jinryuudragonblockc.AuraColor=Couleur de l'aura
+
+
+
+
+item.record.DBC4.name=Sans limites
+item.record.DBC5.name=Contre les vagues
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbc.talkgui.line0000=Dieu
+
+
+
+
+dbc.talkgui.line0010=Maître Kaio
+
+
+
+
+dbc.talkgui.karin.00=Korin
+dbc.talkgui.karin0=Bonjour! Je suis content de vous voir. Une fois par jour,je peux vous donner un Senzu,si vous en avez besoin.
+dbc.talkgui.karin1=Vous devriez purifier votre cœur plus. Si vous continuez comme ça,vous deviendriez mauvais et ce n'est pas ce que nous voulons,n'est ce pas?
+dbc.talkgui.karin2=Vous devriez partir maintenant. Vous n'êtes pas bienvenue ici!
+
+dbc.talkgui.line0000=Dieu
+dbc.talkgui.line0001=Dis donc, ton cœur n'est pas aussi 
+dbc.talkgui.line0002=pur que je le pensais... 
+dbc.talkgui.line0003=Mais je te l'apprendrais quand même. 
+dbc.talkgui.line0004=Nous somme ravis de voir que tu es vivant ! 
+dbc.talkgui.line0005=Si tu veux apprendre des 
+dbc.talkgui.line0006=attaques Ki, je peux t'en apprendre. 
+dbc.talkgui.line0007=Je n'aime pas les gens de ton genre, mais 
+dbc.talkgui.line0008=Je suis le seul qui puisse t'apprendre ceci 
+dbc.talkgui.line0009=Je pourrais t'apprendre des attaques Ki,si tu veux. 
+
+dbc.talkgui.line0010=Maître Kaio
+dbc.talkgui.line0011=Tu ne semble pas être si pur, 
+dbc.talkgui.line0012=mais tu est très puissant!
+dbc.talkgui.line0013=Alors, je vais t'apprendre mes techniques. 
+dbc.talkgui.line0014=Ah, te voilà, je t'attendais ! 
+dbc.talkgui.line0015=Mes techniques seront les plus fortes ! 
+dbc.talkgui.line0016=... Si tu reste pur ! 
+dbc.talkgui.line0017=Comment est-tu arrivé ici ? Des mauvais
+dbc.talkgui.line0018=comme vous ne sont pas autoriser à venir sur ma 
+dbc.talkgui.line0019=planète. Je ne vous apprendrais rien du tout !! 
+
+dbc.talkgui.karin.00=Korin
+dbc.talkgui.karin.01=Bonjour! Je suis content de vous voir.
+dbc.talkgui.karin.02=Une fois par jour,je peux vous donner un Senzu,
+dbc.talkgui.karin.03=si vous en avez besoin.
+dbc.talkgui.karin.04=Vous devriez purifier votre cœur plus.
+dbc.talkgui.karin.05=Si vous continuez comme ça,
+dbc.talkgui.karin.06=vous deviendriez mauvais et ce n'est pas ce que nous voulons,n'est ce pas?
+dbc.talkgui.karin.07=Vous devriez partir maintenant.
+dbc.talkgui.karin.08=Vous n'êtes pas bienvenue ici!
+
+dbc.talkgui.karin.senzu=Demander des Senzu
+dbc.talkgui.karin.nosenzu=Plus de Senzu,attendez jusqu'à demain.
+
+
+
+dbc.talkgui.difftonormal=Difficulté à normal
+dbc.talkgui.no=Non
+dbc.talkgui.confirm=Confirmer
+
+
+
+dbc.talkgui.cost=Coût
+dbc.talkgui.mind=Mental
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dbc.talkgui.skills=Apprendre des compétences
+dbc.talkgui.learntechs=Apprendre des techniques Ki
+dbc.talkgui.giveweights=Demander des poids
+
+dbc.talkgui.weightamount=Poids d'entraînement
+dbc.talkgui.giveweightsdesc=Comment cela pèsera? Le max est 5000. Et 1 poids d'entraînement pèse environ 100kg. C'est seulement gratuit temporairement!
+
+tile.ArtGravDevBlock.name=Machine de gravité (1000G max)
+jinryuudragonblockc.Gravity=Gravité
+jinryuudragonblockc.SetGravity=Régler la gravité
+jinryuudragonblockc.OutOfFuel=Plus de carburant
+jinryuudragonblockc.ArtGravDevDesc=Cette machine peux générer jusqu'à 1000G
+
+tile.BlockWildMedMoss.name=Mousse médicale sauvage
+tile.BlockCropMedMoss.name=Mousse médicale
+item.ItemMedMoss.name=Mousse médicale
+
+item.bodysuit0.name=Uniforme #1
+item.bodysuit1.name=Uniforme #2
+item.bodysuit2.name=Uniforme #3
+item.bodysuit3.name=Uniforme #4
+item.bodysuit4.name=Uniforme #5
+item.bodysuit5.name=Uniforme #6
+item.bodysuit6.name=Uniforme #7
+item.bodysuit7.name=Uniforme #8
+
+item.DnomaidSword.name=Épée en Dnomaid
+item.DlogSword.name=Épée en Dlog
+item.LehnoriSword.name=Épée en Lehnori
+item.DnomaidAxe.name=Hache en Dnomaid
+item.DlogAxe.name=Hache en Dlog
+item.LehnoriAxe.name=Hache en Lehnori
+item.DnomaidPick.name=Pioche en Dnomaid
+item.DlogPick.name=Pioche en Dlog
+item.LehnoriPick.name=Pioche en Lehnori
+item.DlogIngot.name=Lingot de Dlog
+item.LehnoriIngot.name=Lingot de Lehnori
+item.DnomaidIngot.name=Lingot de Dnomaid
+item.JJay.name=JJay
+item.LehnoriHelmet.name=Casque en Lehnori
+item.LehnoriChest.name=Plastron en Lehnori
+item.LehnoriPants.name=Pantalon en Lehnori
+item.LehnoriBoots.name=Bottes en Lehnori
+item.DlogHelmet.name=Casque en Dlog
+item.DlogChest.name=Plastron en Dlog
+item.DlogPants.name=Pantalon en Dlog
+item.DlogBoots.name=Bottes en Dlog
+item.DnomaidHelmet.name=Casque en Dnomaid
+item.DnomaidChest.name=Plastron en Dnomaid
+item.DnomaidPants.name=Pantalon en Dnomaid
+item.DnomaidBoots.name=Bottes en Dnomaid
+
+tile.Dnomaidore.name=Minerai de Dnomaid
+tile.Dlogore.name=Minerai de Dlog
+tile.Lehnoriore.name=Minerai de Lehnori
+tile.JJayore.name=Minerai de JJay
+tile.Dnomaidblock.name=Bloc de Dnomaid
+tile.Dlogblock.name=Bloc de Dlog
+tile.Lehnoriblock.name=Bloc de Lehnori
+tile.JJayblock.name=Bloc de JJay
+
+tile.BlockTCFloor.name=Sol de la Chambre de l’Esprit et du Temps 
+tile.BlockTCPort.name=Portail de la Chambre de l’Esprit et du Temps 
+
+tile.SpacePod01Block.name=Capsule spatiale
+
+item.SpacePod01Item.name=Capsule spatiale
+
+tile.SaibaiHatched.name=Saibaiman éclot
+
+item.ItemDragonRadar.name=Radar aux Dragon Blocks
+
+tile.BlockNamekDragonBallStone.name=Dragon Block namekien en pierre 
+item.ItemNamekDragonBlock.name=Dragon Block namekien 
+
+tile.BlockDragonBallStone.name=Dragon Block en Pierre 
+
+item.ItemDragonBlock.name=Dragon Block 
+
+tile.BlockOreWrenai.name=Minerai Warenai
+tile.BlockNamekGrass.name=Herbe namekienne
+tile.BlockNamekLog.name=Bois Ajisa 
+tile.BlockNamekDirt.name=Terre légère 
+tile.BlockNamekLeaves.name=Feuilles Ajis 
+tile.BlockKiFire.name=Energie Ki 
+tile.BlockNamekStone.name=Pierre murale basique 
+tile.BlockAlienStone.name=Roche sale 
+tile.BlockAlienCobbleStone.name=Pierre sale 
+tile.BlockHealingPods.name=Liquide médical
+tile.BlockHealingPodDoor.name=Porte de Capsule médicale
+
+item.ItemWarenai.name=Cristal Warenai 
+item.ItemSenzu.name=Senzu 
+item.ItemKatana.name=Katana 
+item.ItemKatchin.name=Tesson en Katchin 
+item.ItemDinoMeat.name=Viande de dinosaure
+item.ItemDinoMeatCooked.name=Viande de dinosaure cuite
+
+tile.BlockNamekSapling.name=Arbuste Ajisa 
+
+item.ItemBraveSword.name=Épée Brave 
+item.ItemZSword.name=Z Sword 
+item.ItemKatanaHandle.name=Poignée de Katana 
+item.ItemBraveSwordHandle.name=Poignée de l'Épée Brave 
+item.ItemZSwordHandle.name=Poignée de la Z Sword 
+item.ItemKatanaSwordBlade.name=Lame de Katana 
+item.ItemBraveSwordBlade.name=Lame de l'Épée Brave 
+item.ItemZSwordBlade.name=Lame de la Z Sword 
+
+item.ItemAlienTechChipTier1.name=Processeur tech Gen 1 
+item.ItemChipTier2.name=Processeur tech Gen 2 
+item.ItemChipTier3.name=Processeur tech Gen 3 
+
+item.KintounItem.name=Nuage magique
+item.KintounBlackItem.name=Nuage magique noir
+
+
+item.YellowScoutera.name=Détecteur jaune Gen 2 
+item.RedScoutera.name=Détecteur rouge Gen 2 
+item.PurpleScoutera.name=Détecteur violet Gen 2 
+item.BlueScoutera.name=Détecteur bleu Gen 2 
+item.GreenScoutera.name=Détecteur vert Gen 2 
+item.PinkScoutera.name=Détecteur rose Gen 2 
+item.YellowScouterb.name=Détecteur jaune Gen 3 
+item.RedScouterb.name=Détecteur rouge Gen 3 
+item.PurpleScouterb.name=Détecteur violet Gen 3 
+item.BlueScouterb.name=Détecteur bleu Gen 3 
+item.GreenScouterb.name=Détecteur vert Gen 3 
+item.PinkScouterb.name=Détecteur rose Gen 3 
+
+item.YellowScouter.name=Détecteur jaune Gen 1 
+item.BattleArmorChest00.name=Torse de Tenue de combat 
+item.BattleArmorLegs00.name=Bas de Tenue de combat 
+item.BattleArmorBoots00.name=Bottes de Tenue de combat 
+
+item.RedScouter.name=Détecteur rouge Gen 1 
+item.BattleArmorChest01.name=Torse de Tenue de combat 
+item.BattleArmorLegs01.name=Bas de Tenue de combat 
+item.BattleArmorBoots01.name=Bottes de Tenue de combat 
+
+item.PurpleScouter.name=Détecteur violet Gen 1 
+item.BattleArmorChest02.name=Torse de Tenue de combat 
+item.BattleArmorLegs02.name=Bas de Tenue de combat 
+item.BattleArmorBoots02.name=Bottes de Tenue de combat 
+
+item.BlueScouter.name=Détecteur bleu Gen 1 
+item.BattleArmorChest03.name=Torse de Tenu de combat 
+item.BattleArmorLegs03.name=Bas de Tenue de combat 
+item.BattleArmorBoots03.name=Bottes de Tenue de combat 
+
+item.GreenScouter.name=Détecteur vert Gen 1 
+item.BattleArmorChest04.name=Torse de Tenue de combat 
+item.BattleArmorLegs04.name=Bas de Tenue de combat 
+item.BattleArmorBoots04.name=Bottes de Tenue de combat
+
+item.PinkScouter.name=Détecteur rose Gen 1 
+item.BattleArmorChest05.name=Torse de Tenue de combat
+item.BattleArmorLegs05.name=Bas de Tenue de combat
+item.BattleArmorBoots05.name=Bottes de Tenue de combat 
+
+item.BattleArmorChest06.name=Plastron de Tenue de combat
+item.BattleArmorLegs06.name=Pantalon de Tenue de combat
+item.BattleArmorBoots06.name=Bottes de Tenue de combat
+item.BattleArmorChest07.name=Plastron de Tenue de combat
+item.BattleArmorBoots07.name=Bottes de Tenue de combat
+item.BattleArmorChest08.name=Plastron de Tenue de combat
+item.BattleArmorBoots08.name=Bottes de Tenue de combat
+item.BattleArmorChest09.name=Plastron de Tenue de combat
+item.BattleArmorLegs09.name=Pantalon de Tenue de combat
+item.BattleArmorBoots09.name=Bottes de Tenue de combat
+item.Coat.name=Veste bleue
+item.Coat2.name=Veste verte
+
+item.GiFighterTorso1.name=Gi de l'école des tortues avec T-shirt
+item.GiFighterLeg1.name=Pantalon de l'école des tortues 
+item.GiFighterBoots1.name=Chaussures bleues
+item.GiNamekTorso0.name=Haut namekien 
+item.GiNamekLeg0.name=Pantalon namekien 
+item.GiNamekBoots0.name=Chaussures namekienne
+item.GiFutureTorso0.name=Veste du Future 
+item.GiFutureLeg0.name=Pantalon du Future 
+item.GiFutureBoots0.name=Chaussures du Future
+item.GiFighterTorso2.name=Haut du Gi bleu
+item.GiFighterLeg2.name=Pantalon du Gi bleu
+item.GiFighterBoots2.name=Bottes blanches
+
+item.KameTorso1.name=Débardeur du Gi de l'école des tortues
+item.KameBoots1.name=Chaussures noires avec chaussettes blanches
+item.GiFighterTorso3.name=Turtle School Gi
+
+item.c19Head.name=Casque de C-19
+item.c20Head.name=Casque de C-20
+item.c16Chest.name=Plastron de C-16
+item.c17Chest.name=Plastron de C-17
+item.c18Chest.name=Plastron de C-18
+item.c19Chest.name=Plastron de C-19
+item.c20Chest.name=Plastron de C-20
+item.darburaChest.name=Plastron de Dabra
+item.majinbuufatChest.name=Plastron de Boo
+item.majinbuuChest.name=Plastron de SuperBoo
+item.c16Leg.name=Pantalon de C-16
+item.c17Leg.name=Pantalon de C-17
+item.c18Leg.name=Pantalon de C-18
+item.c19Leg.name=Pantalon de C-19
+item.c20Leg.name=Pantalon de C-20
+item.darburaLeg.name=Pantalon de Dabra
+item.majinbuufatLeg.name=Pantalon de Boo
+item.majinbuuLeg.name=Pantalon de SuperBoo
+item.c16Boots.name=Bottes de C-16
+item.c17Boots.name=Bottes de C-17
+item.c18Boots.name=Bottes de C-18
+item.c19Boots.name=Bottes de C-19
+item.c20Boots.name=Bottes de C-20
+item.darburaBoots.name=Bottes de Dabra
+item.majinbuufatBoots.name=Bottes de Boo
+item.majinbuuBoots.name=Bottes de SuperBoo
+
+item.tienHead.name=Couvre-chef de Tien
+item.chichiHead.name=Couvre-chef de ChiChi
+item.genblueHead.name=Couvre-chef du Général Bleu
+item.highschoolHead.name=Couvre-chef de lycéen
+item.karingaHead.name=Couvre-chef de la Tribu Karinga
+item.pilafHead.name=Couvre-chef de l'Empereur Pilaf
+item.saiyamanHead.name=Couvre-chef de Great Saiyaman
+item.supkaiHead.name=Couvre-chef de Neptune
+item.tienChest.name=Plastron de Tien
+item.chichiChest.name=Plastron de ChiChi
+item.genblueChest.name=Plastron du Général Bleu
+item.highschoolChest.name=Plastron de lycéen
+item.karingaChest.name=Plastron de la Tribu Karinga
+item.pilafChest.name=Plastron de l'Empereur Pilaf
+item.saiyamanChest.name=Plastron de Great Saiyaman
+item.supkaiChest.name=Plastron de Neptune
+item.blackChest.name=Plastron de Black Goku
+item.fusiondChest.name=Plastron de Fusion Méta
+item.tienLeg.name=Pantalon de Tien
+item.chichiLeg.name=Pantalon de ChiChi
+item.genblueLeg.name=Pantalon du Général Bleu
+item.highschoolLeg.name=Pantalon de lycéen
+item.karingaLeg.name=Pantalon de la Tribu Karinga
+item.pilafLeg.name=Pantalon de l'Empereur Pilaf
+item.saiyamanLeg.name=Pantalon de Great Saiyaman
+item.supkaiLeg.name=Pantalon de Neptune
+item.blackLeg.name=Pantalon de Black Goku
+item.fusiondLeg.name=Pantalon de Fusion Méta
+item.tienBoots.name=Bottes de Tien
+item.chichiBoots.name=Bottes de Chichi
+item.genblueBoots.name=Bottes du Général Bleu
+item.highschoolBoots.name=Bottes de lycéen
+item.karingaBoots.name=Bottes de la Tribu Karinga
+item.pilafBoots.name=Bottes de l'empereur Pilaf
+item.saiyamanBoots.name=Bottes de Great Saiyaman
+item.supkaiBoots.name=Bottes de Neptune
+item.blackBoots.name=Bottes de Black Goku
+item.fusiondBoots.name=Bottes de Fusion Méta
+
+item.brolyChest.name=Plastron de Broly
+item.demonclanChest.name=Plastron du Clan des démons
+item.herculesChest.name=Plastron de Mr.Satan
+item.kingkaiChest.name=Plastron de Maître Kaio
+item.lordslugChest.name=Plastron de Lord Slug
+item.mrpopoChest.name=Plastron de Mr.Popo
+item.orintempChest.name=Plastron du Temple d'Orin-Ji
+item.uubChest.name=Plastron de Uub
+item.videl2Chest.name=Plastron de Videl #2
+item.videl3Chest.name=Plastron de Videl #3
+item.videlChest.name=Plastron de Videl #1
+item.yamchaChest.name=Plastron de Yamcha
+item.brolyLeg.name=Bas de Broly
+item.demonclanLeg.name=Bas du Clan des démons
+item.herculesLeg.name=Bas de Mr.Satan
+item.kingkaiLeg.name=Bas de Maître Kaio
+item.lordslugLeg.name=Bas de Lord Slug
+item.mrpopoLeg.name=Bas de Mr.Popo
+item.orintempLeg.name=Bas du Temple d'Orin-Ji
+item.uubLeg.name=Bas de Uub
+item.videl2Leg.name=Bas de Videl #2
+item.videl3Leg.name=Bas de Videl #3
+item.videlLeg.name=Bas de Videl #1
+item.yamchaLeg.name=Bas de Yamcha
+item.brolyBoots.name=Bottes de Broly
+item.demonclanBoots.name=Bottes du Clan des démons
+item.herculesBoots.name=Bottes de Mr.Satan
+item.kingkaiBoots.name=Bottes de Maître Kaio
+item.lordslugBoots.name=Bottes de Lord Slug
+item.mrpopoBoots.name=Bottes de Mr.Popo
+item.orintempBoots.name=Bottes du Temple d'Orin-Ji
+item.uubBoots.name=Bottes de Uub
+item.videl2Boots.name=Bottes de Videl #2
+item.videl3Boots.name=Bottes de Videl #3
+item.videlBoots.name=Bottes de Videl #1
+item.yamchaBoots.name=Bottes de Yamcha
+item.supkaiblackLeg.name=Pantalon de Zamasu fusionné
+item.supkaiblackChest.name=Plastron de Zamasu fusionné
+item.supkaiblackBoots.name=Bottes de Zamasu fusionné
+
+item.tracksuitLeg.name=Pantalon de jogging
+item.tracksuitChest.name=Plastron de jogging
+item.tracksuitBoots.name=Bottes de jogging
+
+item.gokugtgiChest.name=Plastron de Goku GT
+item.gokugtgiLeg.name=Bas de Goku GT
+item.gokugtgiBoots.name=Bottes de Goku GT
+item.gokusChest.name=Plastron de Goku Super
+item.gokusLeg.name=Bas de Goku Super
+item.gokusBoots.name=Bottes de Goku Super
+item.cabbaChest.name=Plastron de Cabba
+item.cabbaLeg.name=Bas de Cabba
+item.cabbaBoots.name=Bottes de Cabba
+item.hitChest.name=Plastron de Hit
+item.hitLeg.name=Bas de Hit
+item.hitBoots.name=Bottes de Hit
+item.pridetrooperChest.name=Plastron de Pride Trooper
+item.pridetrooperLeg.name=Bas de Pride Trooper
+item.pridetrooperBoots.name=Bottes de Pride Trooper
+item.cauliflaChest.name=Plastron de Caulifla
+item.cauliflaBoots.name=Bottes de Caulifla
+item.cauliflaLeg.name=Bas de Caulifla
+item.kaleChest.name=Plastron de Kale
+item.kaleLeg.name=Bas de Kale
+item.kaleBoots.name=Bottes de Kale
+item.vegetasChest.name=Plastron de Vegeta Super
+item.vegetasLeg.name=Bas de Vegeta Super
+item.vegetasBoots.name=Bottes de Vegeta Super
+item.whisBoots.name=Bottes de Whis
+item.whisChest.name=Plastron de Whis
+item.whisLeg.name=Bas de Whis
+
+item.c18sBoots.name=Bottes de C-18 Super
+item.c18sChest.name=Plastron de C-18 Super
+item.c18sLeg.name=Bas de C-18 Super
+item.superc17Boots.name=Bottes de C-17 Super
+item.superc17Chest.name=Plastron de C-17 Super
+item.superc17Leg.name=Bas de C-17 Super
+item.c18-2Boots.name=Bottes de C-18 #2
+item.c18-2Chest.name=Plastron de C-18 #2
+item.c18-2Leg.name=Bas de C-18 #2
+item.tienbBoots.name=Bottes de Tien Boo
+item.tienbChest.name=Plastron de Tien Boo
+item.tienbLeg.name=Bas de Tien Boo
+item.tiensBoots.name=Bottes de Super
+item.tiensChest.name=Plastron de Tien Super
+item.tiensLeg.name=Bas de Tien Super
+item.panBoots.name=Bottes de Pan GT
+item.panChest.name=Plastron de Pan GT
+item.panLeg.name=Bas de Pan GT
+item.c17sBoots.name=Bottes de C-17 Super
+item.c17sChest.name=Plastron de C-17 Super
+item.c17sLeg.name=Bas de C-17 Super
+
+item.ItemWarenaiFabric.name=Fabrique en Warenai
+item.ItemPP.name=Bâton magique
+item.ItemSmallClub.name=Petit club
+item.ItemJanembaEssence.name=Essence de Janemba
+item.ItemEvilSpear.name=Lance maléfique
+item.ItemDimensionSword.name=Épée dimension
+
+item.ItemWeightShell.name=Carapace poids
+item.ItemWeightShirt.name=T-shirt poids
+item.ItemWeightHandLeg.name=Poids bras et jambes
+item.ItemWeightCape.name=Cape poids
+item.ItemSaibaiSeed.name=Graine de Saibaimen
+
+item.ItemBucketMedLiq.name=Seau de liquide médical
+
+item.Sakura_Stick.name=Bâton en sakura
+tile.Sakura_Block.name=Pierre en sakura
+item.Sakura_Pickaxe.name=Pioche en sakura
+item.Sakura_Sword.name=épée en sakura
+item.Sakura_Axe.name=Hache en sakura
+item.Sakura_Shovel.name=Pelle en sakura
+item.Sakura_Hoe.name=Houe en sakura
+tile.Sapling.Sakura.name=Arbuste de sakura
+tile.Sapling.Mahagony.name=Arbuste d'acajou
+tile.Log.Sakura.name=Bois de sakura
+tile.Log.Mahagony.name=Bois d'acajou
+tile.Leaf.Mahagony.name=Feuillage d'acajou
+tile.Leaf.Sakura.name=Feuillage de sakura
+tile.Planks.Mahagony.name=Planche d'acajou
+tile.Planks.Sakura.name=Planche de sakura
+item.Mahagony_Stick.name=Bâton en acajou
+item.Mahagony_Pickaxe.name=Pioche en acajou
+item.Mahagony_Sword.name=Épée en acajou
+item.Mahagony_Axe.name=Hache en acajou
+item.Mahagony_Shovel.name=Pelle en acajou
+item.Mahagony_Hoe.name=Houe en acajou
+tile.SakuraFence.name=Barrière en sakura
+tile.MahagonyFence.name=Barrière en acajou
+item.Sakura_Branch.name=Branche de sakura
+item.Mahagony_Branch.name=Branche d'acajou
+item.Sakura_Hammer.name=Marteau en sakura
+tile.Slab.Sakura.name=Dalle de sakura
+tile.Slab.Mahagony.name=Dalle d'acajou
+tile.MahagonyStairs.name=Escaliers d'acajou
+tile.SakuraStairs.name=Escaliers en sakura
+tile.SakuraPaperWall.White.name=Papier peint en sakura blanc
+tile.SakuraPaperWall.Lime.name=Papier peint en sakura vert clair
+tile.SakuraPaperWall.Magenta.name=Papier peint en sakura magenta
+tile.SakuraPaperWall.Gray.name=Papier peint en sakura gris
+tile.SakuraPaperWall.Green.name=Papier peint en sakura vert
+tile.SakuraPaperWall.Red.name=Papier peint en sakura rouge
+tile.SakuraPaperWall.Black.name=Papier peint en sakura noir
+tile.SakuraPaperWall.Brown.name=Papier peint en sakura marron
+tile.SakuraPaperWall.Pink.name=Papier peint en sakura rose
+tile.SakuraPaperWall.Cyan.name=Papier peint en sakura cyan
+tile.SakuraPaperWall.Purple.name=Papier peint en sakura violet
+tile.SakuraPaperWall.Blue.name=Papier peint en sakura bleu
+tile.SakuraPaperWall.Yellow.name=Papier peint en sakura jaune
+tile.SakuraPaperWall.Orange.name=Papier peint en sakura orange
+tile.SakuraPaperWall.Light_Gray.name=Papier peint en sakura gris clair
+tile.SakuraPaperWall.Light_Blue.name=Papier peint en sakura bleu clair
+tile.MahagonyPaperWall.White.name=Papier peint en acajou blanc
+tile.MahagonyPaperWall.Lime.name=Papier peint en acajou vert clair
+tile.MahagonyPaperWall.Magenta.name=Papier peint en acajou magenta
+tile.MahagonyPaperWall.Gray.name=Papier peint en acajou gris
+tile.MahagonyPaperWall.Green.name=Papier peint en acajou vert
+tile.MahagonyPaperWall.Red.name=Papier peint en acajou rouge
+tile.MahagonyPaperWall.Black.name=Papier peint en acajou noir
+tile.MahagonyPaperWall.Brown.name=Papier peint en acajou marron
+tile.MahagonyPaperWall.Pink.name=Papier peint en acajou rose
+tile.MahagonyPaperWall.Cyan.name=Papier peint en acajou cyan
+tile.MahagonyPaperWall.Purple.name=Papier peint en acajou violet
+tile.MahagonyPaperWall.Blue.name=Papier peint en acajou bleu
+tile.MahagonyPaperWall.Yellow.name=Papier peint en acajou jaune
+tile.MahagonyPaperWall.Orange.name=Papier peint en acajou orange
+tile.MahagonyPaperWall.Light_Gray.name=Papier peint en acajou gris clair
+tile.MahagonyPaperWall.Light_Blue.name=Papier peint en acajou bleu clair
